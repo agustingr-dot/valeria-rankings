@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 import numpy as np
 import pandas as pd
 
-DIAS_ANIO, MIN_OBS_VOL, DECISIONES_GUARDADAS = 252, 40, 12
+DIAS_ANIO, MIN_OBS_VOL, DECISIONES_GUARDADAS = 252, 40, 37   # 3 años + la próxima
 
 
 def mes_completo(px):
@@ -112,7 +112,7 @@ def main(cfg_path="universos.json", out_path="rankings.json"):
     cfg = json.load(open(cfg_path, encoding="utf-8"))
     base = cfg.get("moneda", "EUR")
     par = cfg.get("parametros", {})
-    desde = (pd.Timestamp.today() - pd.DateOffset(years=3)).strftime("%Y-%m-%d")
+    desde = (pd.Timestamp.today() - pd.DateOffset(years=5)).strftime("%Y-%m-%d")
     salida = {"generado": datetime.now(timezone.utc).isoformat(timespec="seconds"),
               "moneda": base, "metodologia": "Portfolio Visualizer: rentabilidad t-12 a t-1, vol 3m hasta t-1",
               "estrategias": {}}

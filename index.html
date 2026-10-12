@@ -9,127 +9,137 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="theme-color" content="#EBEFF2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0F161C" media="(prefers-color-scheme: dark)">
-<link rel="apple-touch-icon" href="icon-180.png">
-<link rel="icon" href="icon-180.png">
+<link rel="apple-touch-icon" href="icon-180.png?v=2">
+<link rel="icon" href="icon-180.png?v=2">
 <link rel="manifest" href="manifest.json">
 <title>Ranking ValerIA</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;600;800&family=IBM+Plex+Mono:wght@400;600&display=swap">
 <style>
-*,*::before,*::after{box-sizing:border-box}
-html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);-webkit-text-size-adjust:100%}
-body{margin:0}
-/* Tablero de clasificación mensual: dos estrategias en paralelo, numerales grandes de puesto */
+/* Tablero mensual compacto: una estrategia a la vista, el ganador marcado en verde */
 :root{
   --bg:#EBEFF2; --surface:#F7F9FA; --ink:#121B24; --muted:#56687A; --line:#CBD5DC;
-  --oro:#8E5308; --oro-fondo:#F5E6CA; --sube:#1C6A57; --baja:#9B3A31;
+  --gana:#17694F; --gana-fondo:#DCF1E5; --sube:#1C6A57; --baja:#9B3A31;
+  --acento:#8E5308; --acento-fondo:#F5E6CA;
   --display:"Chivo","Helvetica Neue",Arial,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#0F161C; --surface:#172129; --ink:#E4ECF1; --muted:#8FA2B0; --line:#2B3844;
-  --oro:#E3A53D; --oro-fondo:#33260F; --sube:#5BBBA0; --baja:#E57E73; color-scheme:dark}}
+  --gana:#6FCBA6; --gana-fondo:#16352A; --sube:#5BBBA0; --baja:#E57E73;
+  --acento:#E3A53D; --acento-fondo:#33260F; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0F161C; --surface:#172129; --ink:#E4ECF1; --muted:#8FA2B0; --line:#2B3844;
-  --oro:#E3A53D; --oro-fondo:#33260F; --sube:#5BBBA0; --baja:#E57E73; color-scheme:dark}
+  --gana:#6FCBA6; --gana-fondo:#16352A; --sube:#5BBBA0; --baja:#E57E73;
+  --acento:#E3A53D; --acento-fondo:#33260F; color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);-webkit-text-size-adjust:100%}
 html,body{background:var(--bg);color:var(--ink)}
-body{font-family:var(--display);font-size:15px;line-height:1.45}
-.wrap{max-width:1040px;margin:0 auto;padding-inline:20px;padding-block:28px 40px;display:grid;gap:22px}
-.eyebrow,.lbl{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0}
-h1{font-size:clamp(26px,4vw,36px);font-weight:800;margin:4px 0 6px;letter-spacing:-.01em;text-wrap:balance}
-.formula{font-family:var(--mono);font-size:13px;color:var(--muted);margin:0}
-.aviso{border:1px solid var(--oro);background:var(--oro-fondo);padding:10px 14px;font-size:14px}
-.barra{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center}
-.seg{display:inline-flex;border:1px solid var(--ink)}
-.seg button{font:600 14px var(--display);padding:9px 16px;border:0;background:transparent;color:var(--ink);cursor:pointer}
-.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
-.seg button:focus-visible,.btn:focus-visible,.link:focus-visible,summary:focus-visible{outline:2px solid var(--oro);outline-offset:2px}
-.contexto{margin:0;color:var(--muted);font-size:14px;flex:1 1 280px;min-width:0}
-.paneles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:18px}
-.panel{background:var(--surface);border:1px solid var(--line);padding:18px 18px 14px;display:grid;gap:12px;align-content:start;min-width:0}
-.cab{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px}
-.cab h2{margin:0;font-size:20px;font-weight:800}
+body{margin:0;font-family:var(--display);font-size:15px;line-height:1.45}
+.wrap{max-width:760px;margin:0 auto;padding-inline:16px;padding-block:14px 32px;display:grid;gap:12px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0}
+h1{font-size:24px;font-weight:800;margin:2px 0 2px;letter-spacing:-.01em}
+.formula{font-family:var(--mono);font-size:12px;color:var(--muted);margin:0}
+.aviso{border:1px solid var(--acento);background:var(--acento-fondo);padding:8px 12px;font-size:13.5px}
+
+/* controles */
+.seg{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid var(--ink)}
+.seg button,.seg select{font:600 14px var(--display);padding:9px 6px;border:0;background:transparent;color:var(--ink);cursor:pointer;min-width:0;text-align:center}
+.seg > * + *{border-left:1px solid var(--ink)}
+.seg button[aria-pressed="true"],.seg select.activo{background:var(--ink);color:var(--bg)}
+.seg select{appearance:none;-webkit-appearance:none;text-align-last:center;padding-right:20px;
+  background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,transparent 50%);
+  background-position:right 10px top 50%,right 5px top 50%;background-size:5px 5px,5px 5px;background-repeat:no-repeat}
+.seg select option{color:#121B24;background:#fff}
+.vistas{grid-template-columns:1.25fr 1fr 1.1fr;grid-auto-flow:row}
+button:focus-visible,select:focus-visible,summary:focus-visible,.btn:focus-visible{outline:2px solid var(--gana);outline-offset:2px}
+
+/* panel */
+.panel{background:var(--surface);border:1px solid var(--line);padding:14px 14px 10px;display:grid;gap:10px;min-width:0}
+.cab{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.cab h2{margin:0;font-size:18px;font-weight:800}
 .cab .n{font-family:var(--mono);font-size:12px;color:var(--muted)}
 .chip{margin-left:auto;font-family:var(--mono);font-size:12px;padding:3px 8px;border:1px solid var(--line);white-space:nowrap}
-.chip.rota{border-color:var(--oro);color:var(--oro)}
-.cuando{margin:0;font-size:13px;color:var(--muted)}
+.chip.rota{border-color:var(--acento);color:var(--acento)}
 .top{list-style:none;margin:0;padding:0;display:grid;gap:6px}
-.top li{display:grid;grid-template-columns:52px 1fr auto 64px;align-items:center;gap:12px;padding:10px 12px;border:1px solid var(--line);min-width:0}
-.top li.p1{background:var(--oro-fondo);border-color:var(--oro)}
-.rk{font-family:var(--mono);font-weight:600;font-size:34px;line-height:1;color:var(--muted);font-variant-numeric:tabular-nums}
-.p1 .rk{color:var(--oro)}
+.top li{display:grid;grid-template-columns:40px 1fr auto 52px;align-items:center;gap:10px;padding:9px 10px;border:1px solid var(--line);min-width:0}
+.top li.p1{background:var(--gana-fondo);border-color:var(--gana)}
+.rk{font-family:var(--mono);font-weight:600;font-size:28px;line-height:1;color:var(--muted);font-variant-numeric:tabular-nums}
+.p1 .rk{color:var(--gana)}
 .nom{min-width:0}
 .nom b{display:block;font-size:16px;font-weight:600;overflow-wrap:anywhere}
-.nom small{font-family:var(--mono);font-size:12px;color:var(--muted)}
-.sc{font-family:var(--mono);font-size:18px;font-weight:600;font-variant-numeric:tabular-nums;text-align:right}
+.nom small{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+.sc{font-family:var(--mono);font-size:17px;font-weight:600;font-variant-numeric:tabular-nums;text-align:right}
 .sc small{display:block;font-size:10px;font-weight:400;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
 .mv{font-family:var(--mono);font-size:14px;font-weight:600;text-align:right;white-space:nowrap}
 .mv.up{color:var(--sube)} .mv.down{color:var(--baja)} .mv.eq,.mv.new{color:var(--muted)}
 .mv.new{font-size:11px;text-transform:uppercase;letter-spacing:.08em}
-details{border-top:1px solid var(--line);padding-top:8px}
+.info{margin:0;font-size:13px;color:var(--muted)}
+.vacio{color:var(--muted);font-size:14px;margin:0}
+details{border-top:1px solid var(--line);padding-top:6px}
 summary{cursor:pointer;font-size:13px;color:var(--muted)}
 .tabla{overflow-x:auto;margin-top:8px}
 table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums}
 th,td{padding:5px 8px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
 th:nth-child(2),td:nth-child(2){text-align:left}
 th{font-weight:400;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
-.vacio{color:var(--muted);font-size:14px;margin:0}
-.carga{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;border:1px dashed var(--line);padding:14px 16px}
-.carga.drag{border-color:var(--oro);background:var(--oro-fondo)}
-.btn{font:600 14px var(--display);padding:9px 16px;background:var(--ink);color:var(--bg);border:0;cursor:pointer}
+tr.g td{color:var(--gana);font-weight:600}
+
+/* pie */
+.pie-datos{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline}
+.frescura{margin:0;font-family:var(--mono);font-size:11.5px;color:var(--muted);min-width:0}
 .link{font:13px var(--display);background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer;padding:0}
+.carga{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;border:1px dashed var(--line);padding:14px 16px;margin-top:10px}
+.carga.drag{border-color:var(--gana);background:var(--gana-fondo)}
+.btn{font:600 14px var(--display);padding:9px 16px;background:var(--ink);color:var(--bg);border:0;cursor:pointer}
 .estado{flex-basis:100%;margin:0;font-size:13px;color:var(--muted)}
-.pie-datos{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;margin-top:-6px}
-.frescura{margin:0;font-family:var(--mono);font-size:12px;color:var(--muted);min-width:0}
-.manual{border-top:0;padding-top:0}
-.manual > summary{margin-bottom:10px}
 .estado.err{color:var(--baja)}
 footer{font-size:12.5px;color:var(--muted);max-width:70ch}
-@media (max-width:480px){.top li{grid-template-columns:38px 1fr auto 46px;gap:8px;padding:9px}.rk{font-size:26px}.sc{font-size:16px}}
+@media (max-width:380px){.top li{grid-template-columns:32px 1fr auto 44px;gap:8px}.rk{font-size:24px}.seg button,.seg select{font-size:13px}}
 </style>
 </head>
 <body>
-
 <main class="wrap">
   <header>
     <p class="eyebrow">ValerIA · rotación momentum</p>
     <h1>Ranking del mes</h1>
-    <p class="formula">score = rentabilidad 11 meses ÷ volatilidad 3 meses · metodología Portfolio Visualizer</p>
+    <p class="formula">score = rentabilidad 11 meses ÷ volatilidad 3 meses</p>
   </header>
 
   <div id="aviso" class="aviso" hidden></div>
 
-  <section class="barra" aria-label="Vista">
-    <div class="seg">
-      <button id="v-proxima" type="button" aria-pressed="true">Próxima rotación</button>
-      <button id="v-cerrado" type="button" aria-pressed="false">Último mes cerrado</button>
-    </div>
-    <p id="contexto" class="contexto"></p>
-  </section>
+  <div class="seg" role="group" aria-label="Estrategia">
+    <button id="e-sectorial" type="button" aria-pressed="true">Sectorial</button>
+    <button id="e-acciones" type="button" aria-pressed="false">Acciones</button>
+  </div>
 
-  <section id="paneles" class="paneles" aria-live="polite"></section>
+  <div class="seg vistas" role="group" aria-label="Mes del ranking">
+    <button id="v-proxima" type="button" aria-pressed="true">Próxima rotación</button>
+    <button id="v-ultimo" type="button" aria-pressed="false">Último mes</button>
+    <select id="v-mes" aria-label="Elegir un mes del histórico"></select>
+  </div>
+
+  <section id="panel" aria-live="polite"></section>
 
   <div class="pie-datos"><p id="frescura" class="frescura"></p>
     <button id="recargar" type="button" class="link">Actualizar</button></div>
 
-  <details id="manual" class="manual">
+  <details id="manual">
     <summary>Carga manual de CSV (solo si falla la actualización automática)</summary>
-  <section id="carga" class="carga">
-    <label for="fichero" class="btn">Cargar CSV</label>
-    <input id="fichero" type="file" accept=".csv,.txt" multiple hidden>
-    <span>o arrastra aquí <code>precios_10y.csv</code> y <code>precios_acciones.csv</code></span>
-    <button id="olvidar" type="button" class="link" hidden>Olvidar datos guardados</button>
-    <p id="estado" class="estado"></p>
-  </section>
+    <section id="carga" class="carga">
+      <label for="fichero" class="btn">Cargar CSV</label>
+      <input id="fichero" type="file" accept=".csv,.txt" multiple hidden>
+      <span>o arrastra aquí <code>precios_10y.csv</code> y <code>precios_acciones.csv</code></span>
+      <p id="estado" class="estado"></p>
+    </section>
   </details>
 
   <footer>
     Se actualiza sola tras cada cierre de mes: GitHub Actions descarga las cotizaciones de Yahoo Finance,
     las pasa a euros, calcula los rankings con el mismo motor que el Excel y publica esta página.
     La señal de cada decisión usa cierres hasta el final del mes anterior, así que la próxima rotación ya
-    se conoce un mes antes de ejecutarse. Las flechas comparan el puesto con el ranking de la decisión
-    anterior. Herramienta de cálculo, no recomendación de inversión.
+    se conoce un mes antes de ejecutarse. Herramienta de cálculo, no recomendación de inversión.
   </footer>
 </main>
 
@@ -300,32 +310,36 @@ function conMovimiento(actual, previo) {
 }
 
 
-const MESES = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
-const nomMes = (k) => { const [a, m] = k.split("-").map(Number); return `${MESES[m - 1]} ${a}`; };
-const soloMes = (k) => MESES[+k.split("-")[1] - 1];
-const fFecha = (d) => `${d.getUTCDate()} ${MESES[d.getUTCMonth()].slice(0, 3)} ${d.getUTCFullYear()}`;
+const MES3 = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
+const fMes = (k) => { const [a, m] = k.split("-").map(Number); return `${MES3[m - 1]}-${a}`; };
+const fDia = (d) => `${String(d.getUTCDate()).padStart(2, "0")}-${MES3[d.getUTCMonth()]}-${d.getUTCFullYear()}`;
 const fNum = (x, d = 2) => x == null ? "—" : x.toLocaleString("es-ES", { minimumFractionDigits: d, maximumFractionDigits: d });
 const fPct = (x) => x == null ? "—" : fNum(x * 100, 1) + "%";
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
 const TITULO = { sectorial: "Sectorial", acciones: "Acciones" };
 const CLAVE_LOCAL = { sectorial: "valeria-csv-sectorial", acciones: "valeria-csv-acciones" };
+const CLAVE_JSON = "valeria-rankings-json";
+const CLAVE_ESTR = "valeria-estrategia";
 const COMPRA = { XLP: "SXLP.L", XLV: "SXLV.L", QQQ: "CNDX.L", XLE: "SXLE.L", VNQ: "XRES.L", XLU: "SXLU.L", GLD: "SGLD.L" };
 const SECTOR = { XLP: "Consumo básico", XLV: "Salud", QQQ: "Tecnología", XLE: "Energía", VNQ: "Inmobiliario", XLU: "Utilities", GLD: "Oro" };
-
-// Estado: origen "db" (automático), "csv" (manual) o null.
-const estado = { vista: "proxima", sectorial: null, acciones: null, db: "cargando" };
 
 function leerLocal(k) { try { return localStorage.getItem(k); } catch { return null; } }
 function guardarLocal(k, v) { try { localStorage.setItem(k, v); return true; } catch { return false; } }
 
-/* Ambos orígenes se normalizan a la misma forma:
-   {titulo, esperados, activos, ultimoDato, avisos, generado, ejemplo, origen,
+// vista: "proxima" (última decisión), "ultimo" (la anterior) o "mes" (estado.mes = "AAAA-MM")
+const estado = {
+  estrategia: leerLocal(CLAVE_ESTR) === "acciones" ? "acciones" : "sectorial",
+  vista: "proxima", mes: null, sectorial: null, acciones: null, carga: "cargando",
+};
+
+/* Los dos orígenes se normalizan a la misma forma:
+   {titulo, esperados, activos, ultimoDato, avisos, generado, origen,
     decisiones: [{mesSenal, fechaSenal, mesDecision, mesCartera, ranking: [{id, titulo, sub, pos, score, mom, vol}]}]} */
-function desdeDb(d) {
+function desdeJson(d) {
   return {
     titulo: d.titulo, esperados: d.esperados, activos: d.activos, ultimoDato: d.ultimoDato,
-    avisos: d.avisos || [], generado: d.generado, ejemplo: !!d.ejemplo, origen: "db",
+    avisos: d.avisos || [], generado: d.generado, origen: "web",
     decisiones: (d.decisiones || []).map((x) => ({
       ...x, fechaSenal: parseFecha(x.fechaSenal),
       ranking: x.ranking.map((r) => ({
@@ -347,7 +361,7 @@ function desdeCsv(texto, tipo, nombre) {
   };
   return {
     titulo: TITULO[tipo], esperados: null, activos: datos.activos.length, origen: "csv", archivo: nombre,
-    ultimoDato: datos.filas[datos.filas.length - 1].fecha.toISOString().slice(0, 10), avisos: [], ejemplo: false,
+    ultimoDato: datos.filas[datos.filas.length - 1].fecha.toISOString().slice(0, 10), avisos: [],
     decisiones: dec.map((x) => ({ ...x, ranking: x.ranking.map((r) => ({ ...r, id: r.nombre, ...et(r.nombre) })) })),
   };
 }
@@ -355,6 +369,13 @@ function desdeCsv(texto, tipo, nombre) {
 function mesAnteriorAHoy() {
   const h = new Date();
   return claveMes(new Date(Date.UTC(h.getUTCFullYear(), h.getUTCMonth() - 1, 1)));
+}
+
+function indiceSel(e) {
+  const n = e.decisiones.length;
+  if (estado.vista === "ultimo") return Math.max(0, n - 2);
+  if (estado.vista === "mes") { const i = e.decisiones.findIndex((d) => d.mesDecision === estado.mes); if (i >= 0) return i; }
+  return n - 1;
 }
 
 function movimiento(sel, prev) {
@@ -365,16 +386,16 @@ function movimiento(sel, prev) {
   });
 }
 
-function panel(tipo) {
-  const e = estado[tipo];
-  if (!e || e.decisiones.length < 2) {
-    const txt = estado.db === "cargando" ? "Cargando el ranking…"
+function panel() {
+  const tipo = estado.estrategia, e = estado[tipo];
+  if (!e || !e.decisiones.length) {
+    const txt = estado.carga === "cargando" ? "Cargando el ranking…"
       : "No hay ranking de esta estrategia. Comprueba que la acción de GitHub haya generado rankings.json.";
-    return `<article class="panel"><div class="cab"><h2>${TITULO[tipo]}</h2></div><p class="vacio">${txt}</p></article>`;
+    return `<article class="panel"><p class="vacio">${txt}</p></article>`;
   }
-  const n = e.decisiones.length;
-  const iSel = estado.vista === "proxima" ? n - 1 : n - 2;
-  const sel = e.decisiones[iSel], prev = e.decisiones[iSel - 1];
+  const n = e.decisiones.length, i = indiceSel(e);
+  const sel = e.decisiones[i], prev = e.decisiones[i - 1];
+  const esProxima = i === n - 1;
   const filas = prev ? movimiento(sel, prev) : sel.ranking.map((r) => ({ ...r, delta: null, posPrevia: null }));
   const gan = filas[0], ganPrev = prev?.ranking[0];
   const rota = ganPrev && ganPrev.id !== gan.id;
@@ -382,10 +403,10 @@ function panel(tipo) {
   const chip = !ganPrev ? "" : rota
     ? `<span class="chip rota" title="Cambia el activo en cartera">Rota: ${esc(ganPrev.titulo)} → ${esc(gan.titulo)}</span>`
     : `<span class="chip" title="El primero no cambia">Mantener ${esc(gan.titulo)}</span>`;
-  const cuando = estado.vista === "proxima"
-    ? `Señal con cierres hasta el ${fFecha(sel.fechaSenal)} · se ejecuta al cierre de ${soloMes(sel.mesDecision)} · cartera de ${nomMes(sel.mesCartera)}`
-    : `Decidido al cierre de ${nomMes(sel.mesDecision)} con datos hasta el ${fFecha(sel.fechaSenal)} · cartera de ${nomMes(sel.mesCartera)}`;
-  const contra = prev ? ` Flechas frente a la decisión de ${nomMes(prev.mesDecision)}.` : "";
+  const info = (esProxima
+      ? `Señal con cierres hasta el ${fDia(sel.fechaSenal)} para ejecutar al cierre de ${fMes(sel.mesDecision)}.`
+      : `Señal con cierres hasta el ${fDia(sel.fechaSenal)}, ejecutada al cierre de ${fMes(sel.mesDecision)} (cartera de ${fMes(sel.mesCartera)}).`)
+    + (prev ? ` Flechas sobre el cierre de ${fMes(prev.mesDecision)}.` : "");
 
   const mov = (r) => r.delta == null ? `<span class="mv new" title="Sin puesto el mes anterior">nuevo</span>`
     : r.delta > 0 ? `<span class="mv up" title="Sube ${r.delta} desde el ${r.posPrevia}º">▲ ${r.delta}</span>`
@@ -398,52 +419,64 @@ function panel(tipo) {
       <span class="sc">${fNum(r.score)}<small>score</small></span>
       ${mov(r)}
     </li>`).join("");
-  const tabla = filas.map((r) => `<tr><td>${r.pos}</td><td>${esc(r.titulo)}</td>
+  const tabla = filas.map((r) => `<tr${r.pos === 1 ? ' class="g"' : ""}><td>${r.pos}</td><td>${esc(r.titulo)}</td>
     <td>${fPct(r.mom)}</td><td>${fPct(r.vol)}</td><td>${fNum(r.score)}</td><td>${r.posPrevia ?? "—"}</td></tr>`).join("");
 
   return `<article class="panel">
-    <div class="cab"><h2>${esc(e.titulo || TITULO[tipo])}</h2><span class="n">${filas.length} activos</span>${chip}</div>
-    <p class="cuando">${cuando}.${contra}</p>
+    <div class="cab"><h2>Cierre ${fMes(sel.mesDecision)}</h2><span class="n">${filas.length} activos</span>${chip}</div>
     <ol class="top">${top}</ol>
+    <p class="info">${info}</p>
     <details><summary>Ranking completo</summary><div class="tabla"><table>
       <thead><tr><th>#</th><th>Activo</th><th>Rent. 11m</th><th>Vol. 3m</th><th>Score</th><th>Antes</th></tr></thead>
       <tbody>${tabla}</tbody></table></div></details>
   </article>`;
 }
 
+function rellenarMeses() {
+  const sel = document.getElementById("v-mes"), e = estado[estado.estrategia];
+  const decs = e ? e.decisiones : [];
+  const n = decs.length;
+  const opciones = [`<option value="">Mes</option>`];
+  for (let i = n - 1; i >= Math.max(0, n - 37); i--) {
+    const k = decs[i].mesDecision;
+    const extra = i === n - 1 ? " · próxima" : i === n - 2 ? " · último" : "";
+    opciones.push(`<option value="${k}">${fMes(k)}${extra}</option>`);
+  }
+  sel.innerHTML = opciones.join("");
+  const activo = estado.vista === "mes" && decs.some((d) => d.mesDecision === estado.mes);
+  sel.value = activo ? estado.mes : "";
+  sel.classList.toggle("activo", activo);
+  if (activo) sel.options[sel.selectedIndex].text = fMes(estado.mes);
+}
+
 function pintar() {
+  for (const t of ["sectorial", "acciones"])
+    document.getElementById("e-" + t).setAttribute("aria-pressed", estado.estrategia === t);
   document.getElementById("v-proxima").setAttribute("aria-pressed", estado.vista === "proxima");
-  document.getElementById("v-cerrado").setAttribute("aria-pressed", estado.vista === "cerrado");
-  document.getElementById("contexto").textContent = estado.vista === "proxima"
-    ? "La decisión que toca en el próximo cierre de mes. Ya está fijada con datos cerrados."
-    : "La decisión tomada en el último cierre: lo que debería estar en cartera ahora.";
-  document.getElementById("paneles").innerHTML = panel("sectorial") + panel("acciones");
+  document.getElementById("v-ultimo").setAttribute("aria-pressed", estado.vista === "ultimo");
+  rellenarMeses();
+  document.getElementById("panel").innerHTML = panel();
 
   const avisos = [], fresc = [];
-  if (["sectorial", "acciones"].some((t) => estado[t]?.ejemplo))
-    avisos.push("<b>Datos de ejemplo simulados.</b> No son rankings reales.");
-  if (estado.db === "sin-acceso")
-    avisos.push("No se han podido descargar los rankings. Comprueba la conexión o usa la carga manual.");
-  if (estado.db === "offline")
-    avisos.push("Sin conexión: se muestran los últimos rankings descargados en este dispositivo.");
-  for (const t of ["sectorial", "acciones"]) {
-    const e = estado[t];
-    if (!e || e.ejemplo || !e.decisiones.length) continue;
+  if (estado.carga === "sin-acceso") avisos.push("No se han podido descargar los rankings. Comprueba la conexión o usa la carga manual.");
+  if (estado.carga === "offline") avisos.push("Sin conexión: se muestran los últimos rankings descargados en este dispositivo.");
+  const t = estado.estrategia, e = estado[t];
+  if (e && e.decisiones.length) {
     const ult = e.decisiones[e.decisiones.length - 1].mesSenal;
     if (ult < mesAnteriorAHoy())
-      avisos.push(`${TITULO[t]}: falta el cierre de ${nomMes(mesAnteriorAHoy())}. Revisa que la acción de GitHub se haya ejecutado.`);
+      avisos.push(`Falta el cierre de ${fMes(mesAnteriorAHoy())}. Revisa que la acción de GitHub se haya ejecutado.`);
     if (e.esperados && e.activos < e.esperados)
-      avisos.push(`${TITULO[t]}: el ranking usa ${e.activos} de ${e.esperados} activos. Completa la lista en universos.json.`);
-    e.avisos.forEach((a) => avisos.push(`${TITULO[t]}: ${esc(a)}`));
+      avisos.push(`El ranking usa ${e.activos} de ${e.esperados} activos. Revisa universos.json.`);
+    e.avisos.forEach((a) => avisos.push(esc(a)));
     const g = e.generado ? new Date(e.generado) : null;
-    fresc.push(e.origen === "db"
-      ? `${TITULO[t]}: calculado el ${g ? fFecha(g) : "—"} · último precio ${e.ultimoDato}`
-      : `${TITULO[t]}: CSV manual ${e.archivo || ""} · último precio ${e.ultimoDato}`);
+    fresc.push(e.origen === "web"
+      ? `Calculado el ${g ? fDia(g) : "—"} · último precio ${e.ultimoDato}`
+      : `CSV manual ${e.archivo || ""} · último precio ${e.ultimoDato}`);
   }
   const av = document.getElementById("aviso");
   av.innerHTML = avisos.join("<br>");
   av.hidden = !avisos.length;
-  document.getElementById("frescura").textContent = fresc.join("   ·   ");
+  document.getElementById("frescura").textContent = fresc.join("");
 }
 
 function msg(t, err) { const p = document.getElementById("estado"); p.textContent = t; p.className = "estado" + (err ? " err" : ""); }
@@ -463,10 +496,51 @@ async function procesar(files) {
   pintar();
 }
 
+function cargarRespaldoLocal() {
+  for (const t of ["sectorial", "acciones"]) {
+    if (estado[t]) continue;
+    try { const g = JSON.parse(leerLocal(CLAVE_LOCAL[t]) || "null"); if (g) estado[t] = desdeCsv(g.txt, t, g.nombre); } catch {}
+  }
+}
+
+async function cargarDatos() {
+  estado.carga = "cargando"; pintar();
+  let texto = null;
+  try {
+    const r = await fetch("rankings.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    texto = await r.text();
+    guardarLocal(CLAVE_JSON, texto);
+    estado.carga = "ok";
+  } catch {
+    texto = leerLocal(CLAVE_JSON);              // sin conexión: últimos datos de este dispositivo
+    estado.carga = texto ? "offline" : "sin-acceso";
+  }
+  if (texto) {
+    try {
+      const j = JSON.parse(texto);
+      for (const t of ["sectorial", "acciones"])
+        if (j.estrategias?.[t]) estado[t] = desdeJson({ ...j.estrategias[t], generado: j.generado });
+    } catch { estado.carga = "sin-acceso"; }
+  }
+  if (!estado.sectorial || !estado.acciones) cargarRespaldoLocal();
+  pintar();
+}
+
+for (const t of ["sectorial", "acciones"])
+  document.getElementById("e-" + t).onclick = () => { estado.estrategia = t; guardarLocal(CLAVE_ESTR, t); pintar(); };
 document.getElementById("v-proxima").onclick = () => { estado.vista = "proxima"; pintar(); };
-document.getElementById("v-cerrado").onclick = () => { estado.vista = "cerrado"; pintar(); };
+document.getElementById("v-ultimo").onclick = () => { estado.vista = "ultimo"; pintar(); };
+document.getElementById("v-mes").onchange = (ev) => {
+  const v = ev.target.value;
+  const decs = estado[estado.estrategia]?.decisiones || [], n = decs.length;
+  if (!v || (n && v === decs[n - 1].mesDecision)) estado.vista = "proxima";
+  else if (n > 1 && v === decs[n - 2].mesDecision) estado.vista = "ultimo";
+  else { estado.vista = "mes"; estado.mes = v; }
+  pintar();
+};
+document.getElementById("recargar").onclick = () => cargarDatos();
 document.getElementById("fichero").onchange = (e) => { procesar([...e.target.files]); e.target.value = ""; };
-document.getElementById("olvidar").hidden = true;
 const zona = document.getElementById("carga");
 ["dragenter", "dragover"].forEach((t) => document.addEventListener(t, (e) => { e.preventDefault(); zona.classList.add("drag"); }));
 ["dragleave", "drop"].forEach((t) => document.addEventListener(t, (e) => { e.preventDefault(); if (t === "drop" || !e.relatedTarget) zona.classList.remove("drag"); }));
@@ -475,41 +549,7 @@ document.addEventListener("drop", (e) => {
   if (f.length) { document.getElementById("manual").open = true; procesar(f); }
 });
 
-function cargarRespaldoLocal() {
-  for (const t of ["sectorial", "acciones"]) {
-    if (estado[t]) continue;
-    try { const g = JSON.parse(leerLocal(CLAVE_LOCAL[t]) || "null"); if (g) estado[t] = desdeCsv(g.txt, t, g.nombre); } catch {}
-  }
-}
-
-const CLAVE_JSON = "valeria-rankings-json";
-
-async function cargarDatos() {
-  estado.db = "cargando"; pintar();
-  let texto = null;
-  try {
-    const r = await fetch("rankings.json?t=" + Date.now(), { cache: "no-store" });
-    if (!r.ok) throw new Error("HTTP " + r.status);
-    texto = await r.text();
-    guardarLocal(CLAVE_JSON, texto);
-    estado.db = "ok";
-  } catch {
-    texto = leerLocal(CLAVE_JSON);              // sin conexión: últimos datos de este dispositivo
-    estado.db = texto ? "offline" : "sin-acceso";
-  }
-  if (texto) {
-    try {
-      const j = JSON.parse(texto);
-      for (const t of ["sectorial", "acciones"])
-        if (j.estrategias?.[t]) estado[t] = desdeDb({ ...j.estrategias[t], generado: j.generado });
-    } catch { estado.db = "sin-acceso"; }
-  }
-  if (!estado.sectorial || !estado.acciones) cargarRespaldoLocal();
-  pintar();
-}
-document.getElementById("recargar").onclick = () => cargarDatos();
 cargarDatos();
 </script>
-
 </body>
 </html>
