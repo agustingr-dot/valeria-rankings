@@ -136,7 +136,8 @@ def main(cfg_path="universos.json", out_path="rankings.json"):
             "activos": len(px.columns),
             "ultimoDato": px.index.max().strftime("%Y-%m-%d"),
             "mesIncompleto": not mes_completo(px),
-            "avisos": avisos + notas,
+            "avisos": avisos,
+            "notas": notas,
             "decisiones": dec[-DECISIONES_GUARDADAS:],
         }
         print(f"{clave}: {len(px.columns)} activos, ultima señal {dec[-1]['mesSenal']}, "
