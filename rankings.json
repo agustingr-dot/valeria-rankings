@@ -1,0 +1,4624 @@
+{
+ "generado": "2026-10-12T09:41:53+00:00",
+ "moneda": "EUR",
+ "metodologia": "Portfolio Visualizer: rentabilidad t-12 a t-1, vol 3m hasta t-1",
+ "fuente": "precios del Mac (precios_10y.csv y precios_acciones.csv) hasta el 30-sep-2026",
+ "estrategias": {
+  "sectorial": {
+   "titulo": "Sectorial",
+   "esperados": 7,
+   "activos": 7,
+   "ultimoDato": "2026-09-30",
+   "mesIncompleto": false,
+   "avisos": [],
+   "decisiones": [
+    {
+     "mesSenal": "2025-10",
+     "fechaSenal": "2025-10-31",
+     "mesDecision": "2025-11",
+     "mesCartera": "2025-12",
+     "ranking": [
+      {
+       "senal": "GLD",
+       "pos": 1,
+       "score": 1.560261,
+       "mom": 0.368171,
+       "vol": 0.235968,
+       "nombre": "Oro",
+       "compra": "SGLD.L"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 2,
+       "score": 0.874621,
+       "mom": 0.13253,
+       "vol": 0.151528,
+       "nombre": "Tecnología",
+       "compra": "CNDX.L"
+      },
+      {
+       "senal": "XLU",
+       "pos": 3,
+       "score": 0.065772,
+       "mom": 0.009488,
+       "vol": 0.144253,
+       "nombre": "Utilities",
+       "compra": "SXLU.L"
+      },
+      {
+       "senal": "XLV",
+       "pos": 4,
+       "score": -0.597432,
+       "mom": -0.090842,
+       "vol": 0.152054,
+       "nombre": "Salud",
+       "compra": "SXLV.L"
+      },
+      {
+       "senal": "XLE",
+       "pos": 5,
+       "score": -0.759698,
+       "mom": -0.129924,
+       "vol": 0.171021,
+       "nombre": "Energía",
+       "compra": "SXLE.L"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 6,
+       "score": -0.904385,
+       "mom": -0.137639,
+       "vol": 0.152191,
+       "nombre": "Inmobiliario",
+       "compra": "XRES.L"
+      },
+      {
+       "senal": "XLP",
+       "pos": 7,
+       "score": -1.133986,
+       "mom": -0.140866,
+       "vol": 0.124222,
+       "nombre": "Consumo básico",
+       "compra": "SXLP.L"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2025-11",
+     "fechaSenal": "2025-11-28",
+     "mesDecision": "2025-12",
+     "mesCartera": "2026-01",
+     "ranking": [
+      {
+       "senal": "GLD",
+       "pos": 1,
+       "score": 1.78294,
+       "mom": 0.437098,
+       "vol": 0.245156,
+       "nombre": "Oro",
+       "compra": "SGLD.L"
+      },
+      {
+       "senal": "XLU",
+       "pos": 2,
+       "score": 0.704275,
+       "mom": 0.096633,
+       "vol": 0.137209,
+       "nombre": "Utilities",
+       "compra": "SXLU.L"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 3,
+       "score": 0.520186,
+       "mom": 0.09075,
+       "vol": 0.174457,
+       "nombre": "Tecnología",
+       "compra": "CNDX.L"
+      },
+      {
+       "senal": "XLV",
+       "pos": 4,
+       "score": 0.289216,
+       "mom": 0.041681,
+       "vol": 0.144118,
+       "nombre": "Salud",
+       "compra": "SXLV.L"
+      },
+      {
+       "senal": "XLE",
+       "pos": 5,
+       "score": -0.173027,
+       "mom": -0.029376,
+       "vol": 0.169775,
+       "nombre": "Energía",
+       "compra": "SXLE.L"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 6,
+       "score": -0.372146,
+       "mom": -0.052605,
+       "vol": 0.141355,
+       "nombre": "Inmobiliario",
+       "compra": "XRES.L"
+      },
+      {
+       "senal": "XLP",
+       "pos": 7,
+       "score": -0.667268,
+       "mom": -0.076898,
+       "vol": 0.115243,
+       "nombre": "Consumo básico",
+       "compra": "SXLP.L"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2025-12",
+     "fechaSenal": "2025-12-31",
+     "mesDecision": "2026-01",
+     "mesCartera": "2026-02",
+     "ranking": [
+      {
+       "senal": "GLD",
+       "pos": 1,
+       "score": 1.418901,
+       "mom": 0.356612,
+       "vol": 0.25133,
+       "nombre": "Oro",
+       "compra": "SGLD.L"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 2,
+       "score": 0.262915,
+       "mom": 0.046297,
+       "vol": 0.17609,
+       "nombre": "Tecnología",
+       "compra": "CNDX.L"
+      },
+      {
+       "senal": "XLU",
+       "pos": 3,
+       "score": -0.015778,
+       "mom": -0.00197,
+       "vol": 0.124837,
+       "nombre": "Utilities",
+       "compra": "SXLU.L"
+      },
+      {
+       "senal": "XLV",
+       "pos": 4,
+       "score": -0.352849,
+       "mom": -0.050724,
+       "vol": 0.143757,
+       "nombre": "Salud",
+       "compra": "SXLV.L"
+      },
+      {
+       "senal": "XLE",
+       "pos": 5,
+       "score": -0.38783,
+       "mom": -0.066781,
+       "vol": 0.172191,
+       "nombre": "Energía",
+       "compra": "SXLE.L"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 6,
+       "score": -0.828049,
+       "mom": -0.10103,
+       "vol": 0.12201,
+       "nombre": "Inmobiliario",
+       "compra": "XRES.L"
+      },
+      {
+       "senal": "XLP",
+       "pos": 7,
+       "score": -0.930425,
+       "mom": -0.105711,
+       "vol": 0.113616,
+       "nombre": "Consumo básico",
+       "compra": "SXLP.L"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-01",
+     "fechaSenal": "2026-01-30",
+     "mesDecision": "2026-02",
+     "mesCartera": "2026-03",
+     "ranking": [
+      {
+       "senal": "GLD",
+       "pos": 1,
+       "score": 1.602852,
+       "mom": 0.46825,
+       "vol": 0.292136,
+       "nombre": "Oro",
+       "compra": "SGLD.L"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 2,
+       "score": 0.411611,
+       "mom": 0.068508,
+       "vol": 0.166439,
+       "nombre": "Tecnología",
+       "compra": "CNDX.L"
+      },
+      {
+       "senal": "XLE",
+       "pos": 3,
+       "score": 0.036008,
+       "mom": 0.007266,
+       "vol": 0.201777,
+       "nombre": "Energía",
+       "compra": "SXLE.L"
+      },
+      {
+       "senal": "XLU",
+       "pos": 4,
+       "score": -0.18934,
+       "mom": -0.02433,
+       "vol": 0.128497,
+       "nombre": "Utilities",
+       "compra": "SXLU.L"
+      },
+      {
+       "senal": "XLV",
+       "pos": 5,
+       "score": -0.546502,
+       "mom": -0.081492,
+       "vol": 0.149115,
+       "nombre": "Salud",
+       "compra": "SXLV.L"
+      },
+      {
+       "senal": "XLP",
+       "pos": 6,
+       "score": -0.824548,
+       "mom": -0.10291,
+       "vol": 0.124808,
+       "nombre": "Consumo básico",
+       "compra": "SXLP.L"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 7,
+       "score": -1.022166,
+       "mom": -0.126892,
+       "vol": 0.124141,
+       "nombre": "Inmobiliario",
+       "compra": "XRES.L"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-02",
+     "fechaSenal": "2026-02-27",
+     "mesDecision": "2026-03",
+     "mesCartera": "2026-04",
+     "ranking": [
+      {
+       "senal": "GLD",
+       "pos": 1,
+       "score": 1.512805,
+       "mom": 0.539601,
+       "vol": 0.356689,
+       "nombre": "Oro",
+       "compra": "SGLD.L"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 2,
+       "score": 1.175955,
+       "mom": 0.191895,
+       "vol": 0.163182,
+       "nombre": "Tecnología",
+       "compra": "CNDX.L"
+      },
+      {
+       "senal": "XLU",
+       "pos": 3,
+       "score": 0.849181,
+       "mom": 0.133889,
+       "vol": 0.157669,
+       "nombre": "Utilities",
+       "compra": "SXLU.L"
+      },
+      {
+       "senal": "XLE",
+       "pos": 4,
+       "score": 0.556526,
+       "mom": 0.125393,
+       "vol": 0.225313,
+       "nombre": "Energía",
+       "compra": "SXLE.L"
+      },
+      {
+       "senal": "XLP",
+       "pos": 5,
+       "score": 0.226179,
+       "mom": 0.032829,
+       "vol": 0.145146,
+       "nombre": "Consumo básico",
+       "compra": "SXLP.L"
+      },
+      {
+       "senal": "XLV",
+       "pos": 6,
+       "score": 0.13474,
+       "mom": 0.01992,
+       "vol": 0.147842,
+       "nombre": "Salud",
+       "compra": "SXLV.L"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 7,
+       "score": -0.022862,
+       "mom": -0.002907,
+       "vol": 0.127143,
+       "nombre": "Inmobiliario",
+       "compra": "XRES.L"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-03",
+     "fechaSenal": "2026-03-31",
+     "mesDecision": "2026-04",
+     "mesCartera": "2026-05",
+     "ranking": [
+      {
+       "senal": "XLE",
+       "pos": 1,
+       "score": 2.543052,
+       "mom": 0.561153,
+       "vol": 0.220661,
+       "nombre": "Energía",
+       "compra": "SXLE.L"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 2,
+       "score": 1.039246,
+       "mom": 0.212261,
+       "vol": 0.204245,
+       "nombre": "Tecnología",
+       "compra": "CNDX.L"
+      },
+      {
+       "senal": "XLU",
+       "pos": 3,
+       "score": 0.997072,
+       "mom": 0.188961,
+       "vol": 0.189516,
+       "nombre": "Utilities",
+       "compra": "SXLU.L"
+      },
+      {
+       "senal": "GLD",
+       "pos": 4,
+       "score": 0.988967,
+       "mom": 0.407755,
+       "vol": 0.412304,
+       "nombre": "Oro",
+       "compra": "SGLD.L"
+      },
+      {
+       "senal": "XLV",
+       "pos": 5,
+       "score": 0.321418,
+       "mom": 0.055767,
+       "vol": 0.173502,
+       "nombre": "Salud",
+       "compra": "SXLV.L"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 6,
+       "score": 0.223449,
+       "mom": 0.037679,
+       "vol": 0.168623,
+       "nombre": "Inmobiliario",
+       "compra": "XRES.L"
+      },
+      {
+       "senal": "XLP",
+       "pos": 7,
+       "score": 0.132906,
+       "mom": 0.023183,
+       "vol": 0.174429,
+       "nombre": "Consumo básico",
+       "compra": "SXLP.L"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-04",
+     "fechaSenal": "2026-04-30",
+     "mesDecision": "2026-05",
+     "mesCartera": "2026-06",
+     "ranking": [
+      {
+       "senal": "XLE",
+       "pos": 1,
+       "score": 1.826974,
+       "mom": 0.47065,
+       "vol": 0.257612,
+       "nombre": "Energía",
+       "compra": "SXLE.L"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 2,
+       "score": 1.232988,
+       "mom": 0.258658,
+       "vol": 0.209782,
+       "nombre": "Tecnología",
+       "compra": "CNDX.L"
+      },
+      {
+       "senal": "GLD",
+       "pos": 3,
+       "score": 1.037956,
+       "mom": 0.358872,
+       "vol": 0.345748,
+       "nombre": "Oro",
+       "compra": "SGLD.L"
+      },
+      {
+       "senal": "XLU",
+       "pos": 4,
+       "score": 0.726952,
+       "mom": 0.145508,
+       "vol": 0.200162,
+       "nombre": "Utilities",
+       "compra": "SXLU.L"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 5,
+       "score": 0.557131,
+       "mom": 0.091974,
+       "vol": 0.165085,
+       "nombre": "Inmobiliario",
+       "compra": "XRES.L"
+      },
+      {
+       "senal": "XLV",
+       "pos": 6,
+       "score": 0.522873,
+       "mom": 0.090909,
+       "vol": 0.173864,
+       "nombre": "Salud",
+       "compra": "SXLV.L"
+      },
+      {
+       "senal": "XLP",
+       "pos": 7,
+       "score": 0.102606,
+       "mom": 0.018594,
+       "vol": 0.181218,
+       "nombre": "Consumo básico",
+       "compra": "SXLP.L"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-05",
+     "fechaSenal": "2026-05-29",
+     "mesDecision": "2026-06",
+     "mesCartera": "2026-07",
+     "ranking": [
+      {
+       "senal": "QQQ",
+       "pos": 1,
+       "score": 1.770098,
+       "mom": 0.351962,
+       "vol": 0.198838,
+       "nombre": "Tecnología",
+       "compra": "CNDX.L"
+      },
+      {
+       "senal": "GLD",
+       "pos": 2,
+       "score": 1.356812,
+       "mom": 0.377131,
+       "vol": 0.277954,
+       "nombre": "Oro",
+       "compra": "SGLD.L"
+      },
+      {
+       "senal": "XLE",
+       "pos": 3,
+       "score": 1.340033,
+       "mom": 0.367701,
+       "vol": 0.274397,
+       "nombre": "Energía",
+       "compra": "SXLE.L"
+      },
+      {
+       "senal": "XLV",
+       "pos": 4,
+       "score": 0.765879,
+       "mom": 0.130517,
+       "vol": 0.170415,
+       "nombre": "Salud",
+       "compra": "SXLV.L"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 5,
+       "score": 0.682205,
+       "mom": 0.113505,
+       "vol": 0.166379,
+       "nombre": "Inmobiliario",
+       "compra": "XRES.L"
+      },
+      {
+       "senal": "XLU",
+       "pos": 6,
+       "score": 0.623079,
+       "mom": 0.118284,
+       "vol": 0.189838,
+       "nombre": "Utilities",
+       "compra": "SXLU.L"
+      },
+      {
+       "senal": "XLP",
+       "pos": 7,
+       "score": 0.298374,
+       "mom": 0.051799,
+       "vol": 0.173605,
+       "nombre": "Consumo básico",
+       "compra": "SXLP.L"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-06",
+     "fechaSenal": "2026-06-30",
+     "mesDecision": "2026-07",
+     "mesCartera": "2026-08",
+     "ranking": [
+      {
+       "senal": "XLV",
+       "pos": 1,
+       "score": 1.321545,
+       "mom": 0.238477,
+       "vol": 0.180453,
+       "nombre": "Salud",
+       "compra": "SXLV.L"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 2,
+       "score": 1.294089,
+       "mom": 0.310455,
+       "vol": 0.239903,
+       "nombre": "Tecnología",
+       "compra": "CNDX.L"
+      },
+      {
+       "senal": "XLE",
+       "pos": 3,
+       "score": 0.916357,
+       "mom": 0.256735,
+       "vol": 0.280169,
+       "nombre": "Energía",
+       "compra": "SXLE.L"
+      },
+      {
+       "senal": "GLD",
+       "pos": 4,
+       "score": 0.858977,
+       "mom": 0.216714,
+       "vol": 0.252294,
+       "nombre": "Oro",
+       "compra": "SGLD.L"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 5,
+       "score": 0.75239,
+       "mom": 0.124396,
+       "vol": 0.165335,
+       "nombre": "Inmobiliario",
+       "compra": "XRES.L"
+      },
+      {
+       "senal": "XLU",
+       "pos": 6,
+       "score": 0.502282,
+       "mom": 0.088694,
+       "vol": 0.176583,
+       "nombre": "Utilities",
+       "compra": "SXLU.L"
+      },
+      {
+       "senal": "XLP",
+       "pos": 7,
+       "score": 0.4079,
+       "mom": 0.070802,
+       "vol": 0.173576,
+       "nombre": "Consumo básico",
+       "compra": "SXLP.L"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-07",
+     "fechaSenal": "2026-07-31",
+     "mesDecision": "2026-08",
+     "mesCartera": "2026-09",
+     "ranking": [
+      {
+       "senal": "XLE",
+       "pos": 1,
+       "score": 1.480721,
+       "mom": 0.377313,
+       "vol": 0.254817,
+       "nombre": "Energía",
+       "compra": "SXLE.L"
+      },
+      {
+       "senal": "XLV",
+       "pos": 2,
+       "score": 1.120797,
+       "mom": 0.219947,
+       "vol": 0.196241,
+       "nombre": "Salud",
+       "compra": "SXLV.L"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 3,
+       "score": 0.897736,
+       "mom": 0.228584,
+       "vol": 0.254622,
+       "nombre": "Tecnología",
+       "compra": "CNDX.L"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 4,
+       "score": 0.775425,
+       "mom": 0.129572,
+       "vol": 0.167098,
+       "nombre": "Inmobiliario",
+       "compra": "XRES.L"
+      },
+      {
+       "senal": "GLD",
+       "pos": 5,
+       "score": 0.760675,
+       "mom": 0.184127,
+       "vol": 0.242058,
+       "nombre": "Oro",
+       "compra": "SGLD.L"
+      },
+      {
+       "senal": "XLU",
+       "pos": 6,
+       "score": 0.54833,
+       "mom": 0.096109,
+       "vol": 0.175276,
+       "nombre": "Utilities",
+       "compra": "SXLU.L"
+      },
+      {
+       "senal": "XLP",
+       "pos": 7,
+       "score": 0.518066,
+       "mom": 0.0969,
+       "vol": 0.187042,
+       "nombre": "Consumo básico",
+       "compra": "SXLP.L"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-08",
+     "fechaSenal": "2026-08-31",
+     "mesDecision": "2026-09",
+     "mesCartera": "2026-10",
+     "ranking": [
+      {
+       "senal": "XLE",
+       "pos": 1,
+       "score": 2.066877,
+       "mom": 0.481955,
+       "vol": 0.23318,
+       "nombre": "Energía",
+       "compra": "SXLE.L"
+      },
+      {
+       "senal": "XLV",
+       "pos": 2,
+       "score": 1.228298,
+       "mom": 0.256394,
+       "vol": 0.208739,
+       "nombre": "Salud",
+       "compra": "SXLV.L"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 3,
+       "score": 0.820104,
+       "mom": 0.212956,
+       "vol": 0.25967,
+       "nombre": "Tecnología",
+       "compra": "CNDX.L"
+      },
+      {
+       "senal": "XLP",
+       "pos": 4,
+       "score": 0.64295,
+       "mom": 0.12043,
+       "vol": 0.187309,
+       "nombre": "Consumo básico",
+       "compra": "SXLP.L"
+      },
+      {
+       "senal": "GLD",
+       "pos": 5,
+       "score": 0.607557,
+       "mom": 0.163084,
+       "vol": 0.268425,
+       "nombre": "Oro",
+       "compra": "SGLD.L"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 6,
+       "score": 0.597955,
+       "mom": 0.098744,
+       "vol": 0.165136,
+       "nombre": "Inmobiliario",
+       "compra": "XRES.L"
+      },
+      {
+       "senal": "XLU",
+       "pos": 7,
+       "score": 0.005794,
+       "mom": 0.000975,
+       "vol": 0.168319,
+       "nombre": "Utilities",
+       "compra": "SXLU.L"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-09",
+     "fechaSenal": "2026-09-30",
+     "mesDecision": "2026-10",
+     "mesCartera": "2026-11",
+     "ranking": [
+      {
+       "senal": "XLE",
+       "pos": 1,
+       "score": 2.120268,
+       "mom": 0.464778,
+       "vol": 0.219207,
+       "nombre": "Energía",
+       "compra": "SXLE.L"
+      },
+      {
+       "senal": "XLV",
+       "pos": 2,
+       "score": 1.119519,
+       "mom": 0.211313,
+       "vol": 0.188753,
+       "nombre": "Salud",
+       "compra": "SXLV.L"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 3,
+       "score": 1.027615,
+       "mom": 0.205632,
+       "vol": 0.200106,
+       "nombre": "Tecnología",
+       "compra": "CNDX.L"
+      },
+      {
+       "senal": "XLP",
+       "pos": 4,
+       "score": 0.630515,
+       "mom": 0.107805,
+       "vol": 0.17098,
+       "nombre": "Consumo básico",
+       "compra": "SXLP.L"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 5,
+       "score": 0.469384,
+       "mom": 0.064367,
+       "vol": 0.13713,
+       "nombre": "Inmobiliario",
+       "compra": "XRES.L"
+      },
+      {
+       "senal": "GLD",
+       "pos": 6,
+       "score": 0.220671,
+       "mom": 0.055685,
+       "vol": 0.252345,
+       "nombre": "Oro",
+       "compra": "SGLD.L"
+      },
+      {
+       "senal": "XLU",
+       "pos": 7,
+       "score": -0.450203,
+       "mom": -0.070855,
+       "vol": 0.157384,
+       "nombre": "Utilities",
+       "compra": "SXLU.L"
+      }
+     ]
+    }
+   ]
+  },
+  "acciones": {
+   "titulo": "Acciones",
+   "esperados": 38,
+   "activos": 38,
+   "ultimoDato": "2026-09-30",
+   "mesIncompleto": false,
+   "avisos": [],
+   "decisiones": [
+    {
+     "mesSenal": "2025-10",
+     "fechaSenal": "2025-10-31",
+     "mesDecision": "2025-11",
+     "mesCartera": "2025-12",
+     "ranking": [
+      {
+       "senal": "PLTR",
+       "pos": 1,
+       "score": 3.882716,
+       "mom": 1.727835,
+       "vol": 0.445007,
+       "nombre": "Palantir"
+      },
+      {
+       "senal": "AVGO",
+       "pos": 2,
+       "score": 2.43454,
+       "mom": 1.102026,
+       "vol": 0.452663,
+       "nombre": "Broadcom"
+      },
+      {
+       "senal": "GOOG",
+       "pos": 3,
+       "score": 1.780056,
+       "mom": 0.515414,
+       "vol": 0.289549,
+       "nombre": "Alphabet"
+      },
+      {
+       "senal": "BABA",
+       "pos": 4,
+       "score": 1.577727,
+       "mom": 0.810608,
+       "vol": 0.513782,
+       "nombre": "Alibaba"
+      },
+      {
+       "senal": "GLD",
+       "pos": 5,
+       "score": 1.560261,
+       "mom": 0.368171,
+       "vol": 0.235968,
+       "nombre": "Oro"
+      },
+      {
+       "senal": "ZS",
+       "pos": 6,
+       "score": 1.359336,
+       "mom": 0.463067,
+       "vol": 0.340656,
+       "nombre": "Zscaler"
+      },
+      {
+       "senal": "LOGI",
+       "pos": 7,
+       "score": 1.335626,
+       "mom": 0.379987,
+       "vol": 0.284501,
+       "nombre": "Logitech"
+      },
+      {
+       "senal": "NVDA",
+       "pos": 8,
+       "score": 1.064458,
+       "mom": 0.337287,
+       "vol": 0.316863,
+       "nombre": "Nvidia"
+      },
+      {
+       "senal": "CRWD",
+       "pos": 9,
+       "score": 1.013218,
+       "mom": 0.43262,
+       "vol": 0.426977,
+       "nombre": "CrowdStrike"
+      },
+      {
+       "senal": "AMD",
+       "pos": 10,
+       "score": 1.012312,
+       "mom": 0.704176,
+       "vol": 0.695612,
+       "nombre": "AMD"
+      },
+      {
+       "senal": "IBM",
+       "pos": 11,
+       "score": 0.900172,
+       "mom": 0.258812,
+       "vol": 0.287513,
+       "nombre": "IBM"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 12,
+       "score": 0.874621,
+       "mom": 0.132529,
+       "vol": 0.151528,
+       "nombre": "Nasdaq-100"
+      },
+      {
+       "senal": "VRT",
+       "pos": 13,
+       "score": 0.762142,
+       "mom": 0.381464,
+       "vol": 0.500516,
+       "nombre": "Vertiv"
+      },
+      {
+       "senal": "CSCO",
+       "pos": 14,
+       "score": 0.72608,
+       "mom": 0.156115,
+       "vol": 0.215011,
+       "nombre": "Cisco"
+      },
+      {
+       "senal": "MSFT",
+       "pos": 15,
+       "score": 0.720513,
+       "mom": 0.122276,
+       "vol": 0.169707,
+       "nombre": "Microsoft"
+      },
+      {
+       "senal": "SMCI",
+       "pos": 16,
+       "score": 0.706292,
+       "mom": 0.45305,
+       "vol": 0.641449,
+       "nombre": "Super Micro Computer"
+      },
+      {
+       "senal": "LPL",
+       "pos": 17,
+       "score": 0.605275,
+       "mom": 0.352953,
+       "vol": 0.583128,
+       "nombre": "LG Display"
+      },
+      {
+       "senal": "NFLX",
+       "pos": 18,
+       "score": 0.501066,
+       "mom": 0.151614,
+       "vol": 0.302582,
+       "nombre": "Netflix"
+      },
+      {
+       "senal": "VLO",
+       "pos": 19,
+       "score": 0.489584,
+       "mom": 0.140664,
+       "vol": 0.287313,
+       "nombre": "Valero Energy"
+      },
+      {
+       "senal": "TSLA",
+       "pos": 20,
+       "score": 0.461337,
+       "mom": 0.207366,
+       "vol": 0.44949,
+       "nombre": "Tesla"
+      },
+      {
+       "senal": "DELL",
+       "pos": 21,
+       "score": 0.398001,
+       "mom": 0.180091,
+       "vol": 0.452487,
+       "nombre": "Dell Technologies"
+      },
+      {
+       "senal": "ORCL",
+       "pos": 22,
+       "score": 0.356101,
+       "mom": 0.30971,
+       "vol": 0.869725,
+       "nombre": "Oracle"
+      },
+      {
+       "senal": "BAC",
+       "pos": 23,
+       "score": 0.226902,
+       "mom": 0.051057,
+       "vol": 0.225019,
+       "nombre": "Bank of America"
+      },
+      {
+       "senal": "AMZN",
+       "pos": 24,
+       "score": 0.197072,
+       "mom": 0.072283,
+       "vol": 0.366784,
+       "nombre": "Amazon"
+      },
+      {
+       "senal": "PANW",
+       "pos": 25,
+       "score": 0.141172,
+       "mom": 0.036711,
+       "vol": 0.260045,
+       "nombre": "Palo Alto Networks"
+      },
+      {
+       "senal": "META",
+       "pos": 26,
+       "score": 0.107402,
+       "mom": 0.033667,
+       "vol": 0.313466,
+       "nombre": "Meta Platforms"
+      },
+      {
+       "senal": "SAP",
+       "pos": 27,
+       "score": 0.032589,
+       "mom": 0.007893,
+       "vol": 0.242193,
+       "nombre": "SAP"
+      },
+      {
+       "senal": "MDB",
+       "pos": 28,
+       "score": 0.021361,
+       "mom": 0.018429,
+       "vol": 0.862752,
+       "nombre": "MongoDB"
+      },
+      {
+       "senal": "LLY",
+       "pos": 29,
+       "score": -0.008522,
+       "mom": -0.003829,
+       "vol": 0.449364,
+       "nombre": "Eli Lilly"
+      },
+      {
+       "senal": "INTU",
+       "pos": 30,
+       "score": -0.175893,
+       "mom": -0.04423,
+       "vol": 0.25146,
+       "nombre": "Intuit"
+      },
+      {
+       "senal": "ROOT",
+       "pos": 31,
+       "score": -0.357145,
+       "mom": -0.263638,
+       "vol": 0.738183,
+       "nombre": "Root"
+      },
+      {
+       "senal": "RELX",
+       "pos": 32,
+       "score": -0.568646,
+       "mom": -0.128682,
+       "vol": 0.226296,
+       "nombre": "RELX"
+      },
+      {
+       "senal": "XLV",
+       "pos": 33,
+       "score": -0.597432,
+       "mom": -0.090842,
+       "vol": 0.152054,
+       "nombre": "Salud"
+      },
+      {
+       "senal": "NOW",
+       "pos": 34,
+       "score": -0.690995,
+       "mom": -0.200438,
+       "vol": 0.290072,
+       "nombre": "ServiceNow"
+      },
+      {
+       "senal": "XLE",
+       "pos": 35,
+       "score": -0.759698,
+       "mom": -0.129924,
+       "vol": 0.171021,
+       "nombre": "Energía"
+      },
+      {
+       "senal": "CRM",
+       "pos": 36,
+       "score": -0.828907,
+       "mom": -0.275331,
+       "vol": 0.332162,
+       "nombre": "Salesforce"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 37,
+       "score": -0.904383,
+       "mom": -0.137639,
+       "vol": 0.152191,
+       "nombre": "Inmobiliario"
+      },
+      {
+       "senal": "XLP",
+       "pos": 38,
+       "score": -1.133987,
+       "mom": -0.140866,
+       "vol": 0.124222,
+       "nombre": "Consumo básico"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2025-11",
+     "fechaSenal": "2025-11-28",
+     "mesDecision": "2025-12",
+     "mesCartera": "2026-01",
+     "ranking": [
+      {
+       "senal": "PLTR",
+       "pos": 1,
+       "score": 2.016105,
+       "mom": 0.998088,
+       "vol": 0.495058,
+       "nombre": "Palantir"
+      },
+      {
+       "senal": "GLD",
+       "pos": 2,
+       "score": 1.78294,
+       "mom": 0.437098,
+       "vol": 0.245156,
+       "nombre": "Oro"
+      },
+      {
+       "senal": "GOOG",
+       "pos": 3,
+       "score": 1.48401,
+       "mom": 0.512852,
+       "vol": 0.345585,
+       "nombre": "Alphabet"
+      },
+      {
+       "senal": "BABA",
+       "pos": 4,
+       "score": 1.325534,
+       "mom": 0.692392,
+       "vol": 0.522349,
+       "nombre": "Alibaba"
+      },
+      {
+       "senal": "AVGO",
+       "pos": 5,
+       "score": 1.100113,
+       "mom": 0.570319,
+       "vol": 0.518419,
+       "nombre": "Broadcom"
+      },
+      {
+       "senal": "VLO",
+       "pos": 6,
+       "score": 1.068781,
+       "mom": 0.33424,
+       "vol": 0.31273,
+       "nombre": "Valero Energy"
+      },
+      {
+       "senal": "IBM",
+       "pos": 7,
+       "score": 0.97285,
+       "mom": 0.291805,
+       "vol": 0.299949,
+       "nombre": "IBM"
+      },
+      {
+       "senal": "CSCO",
+       "pos": 8,
+       "score": 0.879718,
+       "mom": 0.195985,
+       "vol": 0.222782,
+       "nombre": "Cisco"
+      },
+      {
+       "senal": "MDB",
+       "pos": 9,
+       "score": 0.861363,
+       "mom": 0.280731,
+       "vol": 0.325915,
+       "nombre": "MongoDB"
+      },
+      {
+       "senal": "AMD",
+       "pos": 10,
+       "score": 0.813472,
+       "mom": 0.61557,
+       "vol": 0.75672,
+       "nombre": "AMD"
+      },
+      {
+       "senal": "LLY",
+       "pos": 11,
+       "score": 0.808762,
+       "mom": 0.259059,
+       "vol": 0.320315,
+       "nombre": "Eli Lilly"
+      },
+      {
+       "senal": "CRWD",
+       "pos": 12,
+       "score": 0.790435,
+       "mom": 0.334943,
+       "vol": 0.423745,
+       "nombre": "CrowdStrike"
+      },
+      {
+       "senal": "LOGI",
+       "pos": 13,
+       "score": 0.784777,
+       "mom": 0.245715,
+       "vol": 0.313102,
+       "nombre": "Logitech"
+      },
+      {
+       "senal": "VRT",
+       "pos": 14,
+       "score": 0.737179,
+       "mom": 0.421216,
+       "vol": 0.57139,
+       "nombre": "Vertiv"
+      },
+      {
+       "senal": "LPL",
+       "pos": 15,
+       "score": 0.658246,
+       "mom": 0.265282,
+       "vol": 0.403013,
+       "nombre": "LG Display"
+      },
+      {
+       "senal": "ZS",
+       "pos": 16,
+       "score": 0.56992,
+       "mom": 0.25059,
+       "vol": 0.439694,
+       "nombre": "Zscaler"
+      },
+      {
+       "senal": "BAC",
+       "pos": 17,
+       "score": 0.567049,
+       "mom": 0.114657,
+       "vol": 0.2022,
+       "nombre": "Bank of America"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 18,
+       "score": 0.520185,
+       "mom": 0.09075,
+       "vol": 0.174457,
+       "nombre": "Nasdaq-100"
+      },
+      {
+       "senal": "NVDA",
+       "pos": 19,
+       "score": 0.477779,
+       "mom": 0.182665,
+       "vol": 0.382322,
+       "nombre": "Nvidia"
+      },
+      {
+       "senal": "MSFT",
+       "pos": 20,
+       "score": 0.307851,
+       "mom": 0.054887,
+       "vol": 0.178291,
+       "nombre": "Microsoft"
+      },
+      {
+       "senal": "XLV",
+       "pos": 21,
+       "score": 0.289217,
+       "mom": 0.041681,
+       "vol": 0.144118,
+       "nombre": "Salud"
+      },
+      {
+       "senal": "NFLX",
+       "pos": 22,
+       "score": 0.248925,
+       "mom": 0.082769,
+       "vol": 0.332504,
+       "nombre": "Netflix"
+      },
+      {
+       "senal": "DELL",
+       "pos": 23,
+       "score": 0.112258,
+       "mom": 0.056954,
+       "vol": 0.507348,
+       "nombre": "Dell Technologies"
+      },
+      {
+       "senal": "ORCL",
+       "pos": 24,
+       "score": 0.109583,
+       "mom": 0.097996,
+       "vol": 0.894259,
+       "nombre": "Oracle"
+      },
+      {
+       "senal": "ROOT",
+       "pos": 25,
+       "score": -0.000453,
+       "mom": -0.000332,
+       "vol": 0.732401,
+       "nombre": "Root"
+      },
+      {
+       "senal": "SMCI",
+       "pos": 26,
+       "score": -0.005883,
+       "mom": -0.00372,
+       "vol": 0.63232,
+       "nombre": "Super Micro Computer"
+      },
+      {
+       "senal": "META",
+       "pos": 27,
+       "score": -0.015442,
+       "mom": -0.00492,
+       "vol": 0.31858,
+       "nombre": "Meta Platforms"
+      },
+      {
+       "senal": "TSLA",
+       "pos": 28,
+       "score": -0.087452,
+       "mom": -0.044417,
+       "vol": 0.507896,
+       "nombre": "Tesla"
+      },
+      {
+       "senal": "AMZN",
+       "pos": 29,
+       "score": -0.132158,
+       "mom": -0.046355,
+       "vol": 0.350755,
+       "nombre": "Amazon"
+      },
+      {
+       "senal": "XLE",
+       "pos": 30,
+       "score": -0.173027,
+       "mom": -0.029376,
+       "vol": 0.169775,
+       "nombre": "Energía"
+      },
+      {
+       "senal": "PANW",
+       "pos": 31,
+       "score": -0.228431,
+       "mom": -0.062627,
+       "vol": 0.274161,
+       "nombre": "Palo Alto Networks"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 32,
+       "score": -0.372146,
+       "mom": -0.052605,
+       "vol": 0.141355,
+       "nombre": "Inmobiliario"
+      },
+      {
+       "senal": "INTU",
+       "pos": 33,
+       "score": -0.384448,
+       "mom": -0.088962,
+       "vol": 0.231401,
+       "nombre": "Intuit"
+      },
+      {
+       "senal": "SAP",
+       "pos": 34,
+       "score": -0.453144,
+       "mom": -0.111193,
+       "vol": 0.245381,
+       "nombre": "SAP"
+      },
+      {
+       "senal": "XLP",
+       "pos": 35,
+       "score": -0.667268,
+       "mom": -0.076898,
+       "vol": 0.115243,
+       "nombre": "Consumo básico"
+      },
+      {
+       "senal": "RELX",
+       "pos": 36,
+       "score": -0.851994,
+       "mom": -0.193209,
+       "vol": 0.226773,
+       "nombre": "RELX"
+      },
+      {
+       "senal": "CRM",
+       "pos": 37,
+       "score": -1.132877,
+       "mom": -0.378367,
+       "vol": 0.333988,
+       "nombre": "Salesforce"
+      },
+      {
+       "senal": "NOW",
+       "pos": 38,
+       "score": -1.223941,
+       "mom": -0.312523,
+       "vol": 0.255342,
+       "nombre": "ServiceNow"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2025-12",
+     "fechaSenal": "2025-12-31",
+     "mesDecision": "2026-01",
+     "mesCartera": "2026-02",
+     "ranking": [
+      {
+       "senal": "PLTR",
+       "pos": 1,
+       "score": 1.790434,
+       "mom": 0.907174,
+       "vol": 0.506678,
+       "nombre": "Palantir"
+      },
+      {
+       "senal": "GLD",
+       "pos": 2,
+       "score": 1.418901,
+       "mom": 0.356612,
+       "vol": 0.25133,
+       "nombre": "Oro"
+      },
+      {
+       "senal": "GOOG",
+       "pos": 3,
+       "score": 1.189346,
+       "mom": 0.356123,
+       "vol": 0.299428,
+       "nombre": "Alphabet"
+      },
+      {
+       "senal": "NVDA",
+       "pos": 4,
+       "score": 1.045048,
+       "mom": 0.375134,
+       "vol": 0.358964,
+       "nombre": "Nvidia"
+      },
+      {
+       "senal": "BABA",
+       "pos": 5,
+       "score": 0.87337,
+       "mom": 0.334759,
+       "vol": 0.383296,
+       "nombre": "Alibaba"
+      },
+      {
+       "senal": "AMD",
+       "pos": 6,
+       "score": 0.83431,
+       "mom": 0.634743,
+       "vol": 0.7608,
+       "nombre": "AMD"
+      },
+      {
+       "senal": "AVGO",
+       "pos": 7,
+       "score": 0.772583,
+       "mom": 0.396908,
+       "vol": 0.513742,
+       "nombre": "Broadcom"
+      },
+      {
+       "senal": "MDB",
+       "pos": 8,
+       "score": 0.656429,
+       "mom": 0.359062,
+       "vol": 0.546993,
+       "nombre": "MongoDB"
+      },
+      {
+       "senal": "CSCO",
+       "pos": 9,
+       "score": 0.648785,
+       "mom": 0.146245,
+       "vol": 0.225414,
+       "nombre": "Cisco"
+      },
+      {
+       "senal": "LLY",
+       "pos": 10,
+       "score": 0.583183,
+       "mom": 0.181476,
+       "vol": 0.311181,
+       "nombre": "Eli Lilly"
+      },
+      {
+       "senal": "LPL",
+       "pos": 11,
+       "score": 0.49228,
+       "mom": 0.153617,
+       "vol": 0.312051,
+       "nombre": "LG Display"
+      },
+      {
+       "senal": "VRT",
+       "pos": 12,
+       "score": 0.407785,
+       "mom": 0.227106,
+       "vol": 0.556927,
+       "nombre": "Vertiv"
+      },
+      {
+       "senal": "BAC",
+       "pos": 13,
+       "score": 0.380927,
+       "mom": 0.07574,
+       "vol": 0.198832,
+       "nombre": "Bank of America"
+      },
+      {
+       "senal": "VLO",
+       "pos": 14,
+       "score": 0.351133,
+       "mom": 0.108389,
+       "vol": 0.308684,
+       "nombre": "Valero Energy"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 15,
+       "score": 0.262915,
+       "mom": 0.046297,
+       "vol": 0.17609,
+       "nombre": "Nasdaq-100"
+      },
+      {
+       "senal": "MSFT",
+       "pos": 16,
+       "score": 0.219614,
+       "mom": 0.038885,
+       "vol": 0.177059,
+       "nombre": "Microsoft"
+      },
+      {
+       "senal": "IBM",
+       "pos": 17,
+       "score": 0.195587,
+       "mom": 0.051791,
+       "vol": 0.264799,
+       "nombre": "IBM"
+      },
+      {
+       "senal": "DELL",
+       "pos": 18,
+       "score": 0.185641,
+       "mom": 0.090615,
+       "vol": 0.488119,
+       "nombre": "Dell Technologies"
+      },
+      {
+       "senal": "CRWD",
+       "pos": 19,
+       "score": 0.127712,
+       "mom": 0.042253,
+       "vol": 0.330844,
+       "nombre": "CrowdStrike"
+      },
+      {
+       "senal": "ORCL",
+       "pos": 20,
+       "score": 0.043363,
+       "mom": 0.021989,
+       "vol": 0.507081,
+       "nombre": "Oracle"
+      },
+      {
+       "senal": "TSLA",
+       "pos": 21,
+       "score": -0.034527,
+       "mom": -0.016219,
+       "vol": 0.469751,
+       "nombre": "Tesla"
+      },
+      {
+       "senal": "ZS",
+       "pos": 22,
+       "score": -0.041135,
+       "mom": -0.017365,
+       "vol": 0.422153,
+       "nombre": "Zscaler"
+      },
+      {
+       "senal": "INTU",
+       "pos": 23,
+       "score": -0.089438,
+       "mom": -0.020486,
+       "vol": 0.229049,
+       "nombre": "Intuit"
+      },
+      {
+       "senal": "SMCI",
+       "pos": 24,
+       "score": -0.145825,
+       "mom": -0.091646,
+       "vol": 0.628465,
+       "nombre": "Super Micro Computer"
+      },
+      {
+       "senal": "LOGI",
+       "pos": 25,
+       "score": -0.21796,
+       "mom": -0.07638,
+       "vol": 0.350432,
+       "nombre": "Logitech"
+      },
+      {
+       "senal": "XLV",
+       "pos": 26,
+       "score": -0.352849,
+       "mom": -0.050724,
+       "vol": 0.143757,
+       "nombre": "Salud"
+      },
+      {
+       "senal": "XLE",
+       "pos": 27,
+       "score": -0.38783,
+       "mom": -0.066781,
+       "vol": 0.172191,
+       "nombre": "Energía"
+      },
+      {
+       "senal": "PANW",
+       "pos": 28,
+       "score": -0.415155,
+       "mom": -0.115977,
+       "vol": 0.279358,
+       "nombre": "Palo Alto Networks"
+      },
+      {
+       "senal": "AMZN",
+       "pos": 29,
+       "score": -0.425254,
+       "mom": -0.140467,
+       "vol": 0.330312,
+       "nombre": "Amazon"
+      },
+      {
+       "senal": "NFLX",
+       "pos": 30,
+       "score": -0.437275,
+       "mom": -0.150405,
+       "vol": 0.343961,
+       "nombre": "Netflix"
+      },
+      {
+       "senal": "META",
+       "pos": 31,
+       "score": -0.459181,
+       "mom": -0.149607,
+       "vol": 0.325812,
+       "nombre": "Meta Platforms"
+      },
+      {
+       "senal": "ROOT",
+       "pos": 32,
+       "score": -0.503914,
+       "mom": -0.344315,
+       "vol": 0.683282,
+       "nombre": "Root"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 33,
+       "score": -0.828048,
+       "mom": -0.10103,
+       "vol": 0.12201,
+       "nombre": "Inmobiliario"
+      },
+      {
+       "senal": "XLP",
+       "pos": 34,
+       "score": -0.930425,
+       "mom": -0.105711,
+       "vol": 0.113616,
+       "nombre": "Consumo básico"
+      },
+      {
+       "senal": "CRM",
+       "pos": 35,
+       "score": -0.971398,
+       "mom": -0.309345,
+       "vol": 0.318453,
+       "nombre": "Salesforce"
+      },
+      {
+       "senal": "NOW",
+       "pos": 36,
+       "score": -1.036227,
+       "mom": -0.334309,
+       "vol": 0.322622,
+       "nombre": "ServiceNow"
+      },
+      {
+       "senal": "SAP",
+       "pos": 37,
+       "score": -1.048072,
+       "mom": -0.214162,
+       "vol": 0.204339,
+       "nombre": "SAP"
+      },
+      {
+       "senal": "RELX",
+       "pos": 38,
+       "score": -1.399877,
+       "mom": -0.271548,
+       "vol": 0.19398,
+       "nombre": "RELX"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-01",
+     "fechaSenal": "2026-01-30",
+     "mesDecision": "2026-02",
+     "mesCartera": "2026-03",
+     "ranking": [
+      {
+       "senal": "GOOG",
+       "pos": 1,
+       "score": 2.512019,
+       "mom": 0.714317,
+       "vol": 0.28436,
+       "nombre": "Alphabet"
+      },
+      {
+       "senal": "AMD",
+       "pos": 2,
+       "score": 2.015282,
+       "mom": 1.059453,
+       "vol": 0.52571,
+       "nombre": "AMD"
+      },
+      {
+       "senal": "GLD",
+       "pos": 3,
+       "score": 1.602852,
+       "mom": 0.46825,
+       "vol": 0.292136,
+       "nombre": "Oro"
+      },
+      {
+       "senal": "VRT",
+       "pos": 4,
+       "score": 1.273555,
+       "mom": 0.70193,
+       "vol": 0.551158,
+       "nombre": "Vertiv"
+      },
+      {
+       "senal": "NVDA",
+       "pos": 5,
+       "score": 0.998073,
+       "mom": 0.329554,
+       "vol": 0.33019,
+       "nombre": "Nvidia"
+      },
+      {
+       "senal": "PLTR",
+       "pos": 6,
+       "score": 0.986214,
+       "mom": 0.499632,
+       "vol": 0.506616,
+       "nombre": "Palantir"
+      },
+      {
+       "senal": "AVGO",
+       "pos": 7,
+       "score": 0.938773,
+       "mom": 0.456223,
+       "vol": 0.485978,
+       "nombre": "Broadcom"
+      },
+      {
+       "senal": "VLO",
+       "pos": 8,
+       "score": 0.675292,
+       "mom": 0.233555,
+       "vol": 0.345858,
+       "nombre": "Valero Energy"
+      },
+      {
+       "senal": "TSLA",
+       "pos": 9,
+       "score": 0.623146,
+       "mom": 0.276247,
+       "vol": 0.44331,
+       "nombre": "Tesla"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 10,
+       "score": 0.411611,
+       "mom": 0.068508,
+       "vol": 0.166439,
+       "nombre": "Nasdaq-100"
+      },
+      {
+       "senal": "CSCO",
+       "pos": 11,
+       "score": 0.395167,
+       "mom": 0.087084,
+       "vol": 0.220373,
+       "nombre": "Cisco"
+      },
+      {
+       "senal": "MDB",
+       "pos": 12,
+       "score": 0.322437,
+       "mom": 0.206258,
+       "vol": 0.639684,
+       "nombre": "MongoDB"
+      },
+      {
+       "senal": "BABA",
+       "pos": 13,
+       "score": 0.303788,
+       "mom": 0.130431,
+       "vol": 0.429349,
+       "nombre": "Alibaba"
+      },
+      {
+       "senal": "IBM",
+       "pos": 14,
+       "score": 0.261656,
+       "mom": 0.075575,
+       "vol": 0.288834,
+       "nombre": "IBM"
+      },
+      {
+       "senal": "LPL",
+       "pos": 15,
+       "score": 0.148279,
+       "mom": 0.051494,
+       "vol": 0.34728,
+       "nombre": "LG Display"
+      },
+      {
+       "senal": "BAC",
+       "pos": 16,
+       "score": 0.130138,
+       "mom": 0.025758,
+       "vol": 0.197927,
+       "nombre": "Bank of America"
+      },
+      {
+       "senal": "XLE",
+       "pos": 17,
+       "score": 0.036008,
+       "mom": 0.007266,
+       "vol": 0.201777,
+       "nombre": "Energía"
+      },
+      {
+       "senal": "DELL",
+       "pos": 18,
+       "score": -0.033988,
+       "mom": -0.014555,
+       "vol": 0.428236,
+       "nombre": "Dell Technologies"
+      },
+      {
+       "senal": "CRWD",
+       "pos": 19,
+       "score": -0.049708,
+       "mom": -0.015895,
+       "vol": 0.319755,
+       "nombre": "CrowdStrike"
+      },
+      {
+       "senal": "LLY",
+       "pos": 20,
+       "score": -0.051133,
+       "mom": -0.015703,
+       "vol": 0.3071,
+       "nombre": "Eli Lilly"
+      },
+      {
+       "senal": "AMZN",
+       "pos": 21,
+       "score": -0.060665,
+       "mom": -0.020682,
+       "vol": 0.340919,
+       "nombre": "Amazon"
+      },
+      {
+       "senal": "META",
+       "pos": 22,
+       "score": -0.185979,
+       "mom": -0.065526,
+       "vol": 0.352331,
+       "nombre": "Meta Platforms"
+      },
+      {
+       "senal": "MSFT",
+       "pos": 23,
+       "score": -0.19191,
+       "mom": -0.05334,
+       "vol": 0.277943,
+       "nombre": "Microsoft"
+      },
+      {
+       "senal": "ORCL",
+       "pos": 24,
+       "score": -0.262288,
+       "mom": -0.130277,
+       "vol": 0.496694,
+       "nombre": "Oracle"
+      },
+      {
+       "senal": "ZS",
+       "pos": 25,
+       "score": -0.2745,
+       "mom": -0.114525,
+       "vol": 0.417211,
+       "nombre": "Zscaler"
+      },
+      {
+       "senal": "XLV",
+       "pos": 26,
+       "score": -0.546501,
+       "mom": -0.081492,
+       "vol": 0.149115,
+       "nombre": "Salud"
+      },
+      {
+       "senal": "LOGI",
+       "pos": 27,
+       "score": -0.646204,
+       "mom": -0.235438,
+       "vol": 0.364339,
+       "nombre": "Logitech"
+      },
+      {
+       "senal": "PANW",
+       "pos": 28,
+       "score": -0.670092,
+       "mom": -0.192664,
+       "vol": 0.287518,
+       "nombre": "Palo Alto Networks"
+      },
+      {
+       "senal": "SMCI",
+       "pos": 29,
+       "score": -0.677914,
+       "mom": -0.390037,
+       "vol": 0.57535,
+       "nombre": "Super Micro Computer"
+      },
+      {
+       "senal": "XLP",
+       "pos": 30,
+       "score": -0.82455,
+       "mom": -0.10291,
+       "vol": 0.124808,
+       "nombre": "Consumo básico"
+      },
+      {
+       "senal": "INTU",
+       "pos": 31,
+       "score": -0.841758,
+       "mom": -0.289109,
+       "vol": 0.343458,
+       "nombre": "Intuit"
+      },
+      {
+       "senal": "ROOT",
+       "pos": 32,
+       "score": -0.884451,
+       "mom": -0.600689,
+       "vol": 0.679166,
+       "nombre": "Root"
+      },
+      {
+       "senal": "NFLX",
+       "pos": 33,
+       "score": -0.920201,
+       "mom": -0.260309,
+       "vol": 0.282883,
+       "nombre": "Netflix"
+      },
+      {
+       "senal": "SAP",
+       "pos": 34,
+       "score": -0.971663,
+       "mom": -0.359161,
+       "vol": 0.369635,
+       "nombre": "SAP"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 35,
+       "score": -1.022165,
+       "mom": -0.126892,
+       "vol": 0.124141,
+       "nombre": "Inmobiliario"
+      },
+      {
+       "senal": "CRM",
+       "pos": 36,
+       "score": -1.069163,
+       "mom": -0.37677,
+       "vol": 0.352397,
+       "nombre": "Salesforce"
+      },
+      {
+       "senal": "NOW",
+       "pos": 37,
+       "score": -1.160689,
+       "mom": -0.453346,
+       "vol": 0.390584,
+       "nombre": "ServiceNow"
+      },
+      {
+       "senal": "RELX",
+       "pos": 38,
+       "score": -1.388151,
+       "mom": -0.346819,
+       "vol": 0.249842,
+       "nombre": "RELX"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-02",
+     "fechaSenal": "2026-02-27",
+     "mesDecision": "2026-03",
+     "mesCartera": "2026-04",
+     "ranking": [
+      {
+       "senal": "GOOG",
+       "pos": 1,
+       "score": 3.529632,
+       "mom": 0.833074,
+       "vol": 0.236023,
+       "nombre": "Alphabet"
+      },
+      {
+       "senal": "VRT",
+       "pos": 2,
+       "score": 3.107976,
+       "mom": 2.240706,
+       "vol": 0.720953,
+       "nombre": "Vertiv"
+      },
+      {
+       "senal": "AVGO",
+       "pos": 3,
+       "score": 1.693935,
+       "mom": 0.760723,
+       "vol": 0.449086,
+       "nombre": "Broadcom"
+      },
+      {
+       "senal": "GLD",
+       "pos": 4,
+       "score": 1.512805,
+       "mom": 0.539601,
+       "vol": 0.356689,
+       "nombre": "Oro"
+      },
+      {
+       "senal": "NVDA",
+       "pos": 5,
+       "score": 1.441278,
+       "mom": 0.499546,
+       "vol": 0.346599,
+       "nombre": "Nvidia"
+      },
+      {
+       "senal": "AMD",
+       "pos": 6,
+       "score": 1.300316,
+       "mom": 0.787052,
+       "vol": 0.605277,
+       "nombre": "AMD"
+      },
+      {
+       "senal": "VLO",
+       "pos": 7,
+       "score": 1.270631,
+       "mom": 0.462715,
+       "vol": 0.364161,
+       "nombre": "Valero Energy"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 8,
+       "score": 1.175955,
+       "mom": 0.191895,
+       "vol": 0.163183,
+       "nombre": "Nasdaq-100"
+      },
+      {
+       "senal": "TSLA",
+       "pos": 9,
+       "score": 1.143933,
+       "mom": 0.424294,
+       "vol": 0.370908,
+       "nombre": "Tesla"
+      },
+      {
+       "senal": "LPL",
+       "pos": 10,
+       "score": 1.055333,
+       "mom": 0.492042,
+       "vol": 0.466243,
+       "nombre": "LG Display"
+      },
+      {
+       "senal": "MDB",
+       "pos": 11,
+       "score": 0.984832,
+       "mom": 0.717343,
+       "vol": 0.728391,
+       "nombre": "MongoDB"
+      },
+      {
+       "senal": "PLTR",
+       "pos": 12,
+       "score": 0.936401,
+       "mom": 0.490634,
+       "vol": 0.523957,
+       "nombre": "Palantir"
+      },
+      {
+       "senal": "DELL",
+       "pos": 13,
+       "score": 0.801952,
+       "mom": 0.517466,
+       "vol": 0.645258,
+       "nombre": "Dell Technologies"
+      },
+      {
+       "senal": "CSCO",
+       "pos": 14,
+       "score": 0.608774,
+       "mom": 0.209511,
+       "vol": 0.344153,
+       "nombre": "Cisco"
+      },
+      {
+       "senal": "XLE",
+       "pos": 15,
+       "score": 0.556526,
+       "mom": 0.125393,
+       "vol": 0.225314,
+       "nombre": "Energía"
+      },
+      {
+       "senal": "LLY",
+       "pos": 16,
+       "score": 0.444616,
+       "mom": 0.176721,
+       "vol": 0.397469,
+       "nombre": "Eli Lilly"
+      },
+      {
+       "senal": "BAC",
+       "pos": 17,
+       "score": 0.439295,
+       "mom": 0.113385,
+       "vol": 0.258106,
+       "nombre": "Bank of America"
+      },
+      {
+       "senal": "XLP",
+       "pos": 18,
+       "score": 0.226179,
+       "mom": 0.032829,
+       "vol": 0.145146,
+       "nombre": "Consumo básico"
+      },
+      {
+       "senal": "XLV",
+       "pos": 19,
+       "score": 0.13474,
+       "mom": 0.01992,
+       "vol": 0.147842,
+       "nombre": "Salud"
+      },
+      {
+       "senal": "META",
+       "pos": 20,
+       "score": 0.096522,
+       "mom": 0.033651,
+       "vol": 0.348634,
+       "nombre": "Meta Platforms"
+      },
+      {
+       "senal": "AMZN",
+       "pos": 21,
+       "score": 0.042465,
+       "mom": 0.012192,
+       "vol": 0.287095,
+       "nombre": "Amazon"
+      },
+      {
+       "senal": "BABA",
+       "pos": 22,
+       "score": 0.039449,
+       "mom": 0.016328,
+       "vol": 0.413908,
+       "nombre": "Alibaba"
+      },
+      {
+       "senal": "LOGI",
+       "pos": 23,
+       "score": 0.034506,
+       "mom": 0.013337,
+       "vol": 0.386494,
+       "nombre": "Logitech"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 24,
+       "score": -0.022862,
+       "mom": -0.002907,
+       "vol": 0.127144,
+       "nombre": "Inmobiliario"
+      },
+      {
+       "senal": "ORCL",
+       "pos": 25,
+       "score": -0.065743,
+       "mom": -0.036624,
+       "vol": 0.557087,
+       "nombre": "Oracle"
+      },
+      {
+       "senal": "CRWD",
+       "pos": 26,
+       "score": -0.069105,
+       "mom": -0.032496,
+       "vol": 0.47024,
+       "nombre": "CrowdStrike"
+      },
+      {
+       "senal": "MSFT",
+       "pos": 27,
+       "score": -0.105601,
+       "mom": -0.033225,
+       "vol": 0.314627,
+       "nombre": "Microsoft"
+      },
+      {
+       "senal": "NFLX",
+       "pos": 28,
+       "score": -0.126507,
+       "mom": -0.05358,
+       "vol": 0.423537,
+       "nombre": "Netflix"
+      },
+      {
+       "senal": "SMCI",
+       "pos": 29,
+       "score": -0.196214,
+       "mom": -0.132503,
+       "vol": 0.675297,
+       "nombre": "Super Micro Computer"
+      },
+      {
+       "senal": "IBM",
+       "pos": 30,
+       "score": -0.204129,
+       "mom": -0.092096,
+       "vol": 0.451165,
+       "nombre": "IBM"
+      },
+      {
+       "senal": "PANW",
+       "pos": 31,
+       "score": -0.571056,
+       "mom": -0.199681,
+       "vol": 0.34967,
+       "nombre": "Palo Alto Networks"
+      },
+      {
+       "senal": "ZS",
+       "pos": 32,
+       "score": -0.608255,
+       "mom": -0.320651,
+       "vol": 0.527164,
+       "nombre": "Zscaler"
+      },
+      {
+       "senal": "SAP",
+       "pos": 33,
+       "score": -0.734993,
+       "mom": -0.305308,
+       "vol": 0.415389,
+       "nombre": "SAP"
+      },
+      {
+       "senal": "NOW",
+       "pos": 34,
+       "score": -0.778794,
+       "mom": -0.377935,
+       "vol": 0.485283,
+       "nombre": "ServiceNow"
+      },
+      {
+       "senal": "RELX",
+       "pos": 35,
+       "score": -0.780184,
+       "mom": -0.357068,
+       "vol": 0.457672,
+       "nombre": "RELX"
+      },
+      {
+       "senal": "CRM",
+       "pos": 36,
+       "score": -0.810991,
+       "mom": -0.330014,
+       "vol": 0.406927,
+       "nombre": "Salesforce"
+      },
+      {
+       "senal": "INTU",
+       "pos": 37,
+       "score": -0.820732,
+       "mom": -0.384934,
+       "vol": 0.469013,
+       "nombre": "Intuit"
+      },
+      {
+       "senal": "ROOT",
+       "pos": 38,
+       "score": -1.101607,
+       "mom": -0.643463,
+       "vol": 0.584113,
+       "nombre": "Root"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-03",
+     "fechaSenal": "2026-03-31",
+     "mesDecision": "2026-04",
+     "mesCartera": "2026-05",
+     "ranking": [
+      {
+       "senal": "GOOG",
+       "pos": 1,
+       "score": 2.860412,
+       "mom": 0.778077,
+       "vol": 0.272016,
+       "nombre": "Alphabet"
+      },
+      {
+       "senal": "VLO",
+       "pos": 2,
+       "score": 2.752354,
+       "mom": 1.177389,
+       "vol": 0.427775,
+       "nombre": "Valero Energy"
+      },
+      {
+       "senal": "XLE",
+       "pos": 3,
+       "score": 2.54305,
+       "mom": 0.561153,
+       "vol": 0.220662,
+       "nombre": "Energía"
+      },
+      {
+       "senal": "VRT",
+       "pos": 4,
+       "score": 2.52141,
+       "mom": 1.920368,
+       "vol": 0.761625,
+       "nombre": "Vertiv"
+      },
+      {
+       "senal": "AMD",
+       "pos": 5,
+       "score": 1.632498,
+       "mom": 1.076777,
+       "vol": 0.659589,
+       "nombre": "AMD"
+      },
+      {
+       "senal": "NVDA",
+       "pos": 6,
+       "score": 1.569827,
+       "mom": 0.591666,
+       "vol": 0.376899,
+       "nombre": "Nvidia"
+      },
+      {
+       "senal": "AVGO",
+       "pos": 7,
+       "score": 1.468995,
+       "mom": 0.611118,
+       "vol": 0.416011,
+       "nombre": "Broadcom"
+      },
+      {
+       "senal": "DELL",
+       "pos": 8,
+       "score": 1.178258,
+       "mom": 0.799109,
+       "vol": 0.678212,
+       "nombre": "Dell Technologies"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 9,
+       "score": 1.039245,
+       "mom": 0.212261,
+       "vol": 0.204245,
+       "nombre": "Nasdaq-100"
+      },
+      {
+       "senal": "GLD",
+       "pos": 10,
+       "score": 0.988967,
+       "mom": 0.407755,
+       "vol": 0.412304,
+       "nombre": "Oro"
+      },
+      {
+       "senal": "CSCO",
+       "pos": 11,
+       "score": 0.979895,
+       "mom": 0.359099,
+       "vol": 0.366467,
+       "nombre": "Cisco"
+      },
+      {
+       "senal": "BAC",
+       "pos": 12,
+       "score": 0.869297,
+       "mom": 0.242196,
+       "vol": 0.278612,
+       "nombre": "Bank of America"
+      },
+      {
+       "senal": "TSLA",
+       "pos": 13,
+       "score": 0.821665,
+       "mom": 0.309382,
+       "vol": 0.37653,
+       "nombre": "Tesla"
+      },
+      {
+       "senal": "LOGI",
+       "pos": 14,
+       "score": 0.556083,
+       "mom": 0.218473,
+       "vol": 0.392878,
+       "nombre": "Logitech"
+      },
+      {
+       "senal": "MDB",
+       "pos": 15,
+       "score": 0.548393,
+       "mom": 0.4129,
+       "vol": 0.752928,
+       "nombre": "MongoDB"
+      },
+      {
+       "senal": "LPL",
+       "pos": 16,
+       "score": 0.539443,
+       "mom": 0.316058,
+       "vol": 0.585896,
+       "nombre": "LG Display"
+      },
+      {
+       "senal": "PLTR",
+       "pos": 17,
+       "score": 0.391745,
+       "mom": 0.227432,
+       "vol": 0.580561,
+       "nombre": "Palantir"
+      },
+      {
+       "senal": "AMZN",
+       "pos": 18,
+       "score": 0.361876,
+       "mom": 0.122353,
+       "vol": 0.338108,
+       "nombre": "Amazon"
+      },
+      {
+       "senal": "XLV",
+       "pos": 19,
+       "score": 0.321418,
+       "mom": 0.055767,
+       "vol": 0.173502,
+       "nombre": "Salud"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 20,
+       "score": 0.223449,
+       "mom": 0.037679,
+       "vol": 0.168623,
+       "nombre": "Inmobiliario"
+      },
+      {
+       "senal": "BABA",
+       "pos": 21,
+       "score": 0.137153,
+       "mom": 0.061651,
+       "vol": 0.449505,
+       "nombre": "Alibaba"
+      },
+      {
+       "senal": "XLP",
+       "pos": 22,
+       "score": 0.132906,
+       "mom": 0.023183,
+       "vol": 0.174428,
+       "nombre": "Consumo básico"
+      },
+      {
+       "senal": "META",
+       "pos": 23,
+       "score": 0.0902,
+       "mom": 0.038929,
+       "vol": 0.431589,
+       "nombre": "Meta Platforms"
+      },
+      {
+       "senal": "ORCL",
+       "pos": 24,
+       "score": 0.084253,
+       "mom": 0.045727,
+       "vol": 0.54274,
+       "nombre": "Oracle"
+      },
+      {
+       "senal": "LLY",
+       "pos": 25,
+       "score": 0.056605,
+       "mom": 0.024373,
+       "vol": 0.430589,
+       "nombre": "Eli Lilly"
+      },
+      {
+       "senal": "IBM",
+       "pos": 26,
+       "score": 0.042898,
+       "mom": 0.020933,
+       "vol": 0.487967,
+       "nombre": "IBM"
+      },
+      {
+       "senal": "CRWD",
+       "pos": 27,
+       "score": -0.177916,
+       "mom": -0.095297,
+       "vol": 0.53563,
+       "nombre": "CrowdStrike"
+      },
+      {
+       "senal": "MSFT",
+       "pos": 28,
+       "score": -0.18408,
+       "mom": -0.062133,
+       "vol": 0.337533,
+       "nombre": "Microsoft"
+      },
+      {
+       "senal": "SMCI",
+       "pos": 29,
+       "score": -0.28491,
+       "mom": -0.289722,
+       "vol": 1.016889,
+       "nombre": "Super Micro Computer"
+      },
+      {
+       "senal": "PANW",
+       "pos": 30,
+       "score": -0.341627,
+       "mom": -0.147647,
+       "vol": 0.432187,
+       "nombre": "Palo Alto Networks"
+      },
+      {
+       "senal": "NFLX",
+       "pos": 31,
+       "score": -0.373423,
+       "mom": -0.155653,
+       "vol": 0.416827,
+       "nombre": "Netflix"
+      },
+      {
+       "senal": "INTU",
+       "pos": 32,
+       "score": -0.575814,
+       "mom": -0.311724,
+       "vol": 0.541362,
+       "nombre": "Intuit"
+      },
+      {
+       "senal": "ZS",
+       "pos": 33,
+       "score": -0.645738,
+       "mom": -0.383543,
+       "vol": 0.593962,
+       "nombre": "Zscaler"
+      },
+      {
+       "senal": "CRM",
+       "pos": 34,
+       "score": -0.693708,
+       "mom": -0.306182,
+       "vol": 0.44137,
+       "nombre": "Salesforce"
+      },
+      {
+       "senal": "RELX",
+       "pos": 35,
+       "score": -0.807962,
+       "mom": -0.387368,
+       "vol": 0.479439,
+       "nombre": "RELX"
+      },
+      {
+       "senal": "SAP",
+       "pos": 36,
+       "score": -0.890676,
+       "mom": -0.412398,
+       "vol": 0.463016,
+       "nombre": "SAP"
+      },
+      {
+       "senal": "NOW",
+       "pos": 37,
+       "score": -0.891564,
+       "mom": -0.456002,
+       "vol": 0.511463,
+       "nombre": "ServiceNow"
+      },
+      {
+       "senal": "ROOT",
+       "pos": 38,
+       "score": -1.105425,
+       "mom": -0.685707,
+       "vol": 0.620311,
+       "nombre": "Root"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-04",
+     "fechaSenal": "2026-04-30",
+     "mesDecision": "2026-05",
+     "mesCartera": "2026-06",
+     "ranking": [
+      {
+       "senal": "GOOG",
+       "pos": 1,
+       "score": 3.323978,
+       "mom": 1.159172,
+       "vol": 0.34873,
+       "nombre": "Alphabet"
+      },
+      {
+       "senal": "AMD",
+       "pos": 2,
+       "score": 2.946061,
+       "mom": 2.117464,
+       "vol": 0.718744,
+       "nombre": "AMD"
+      },
+      {
+       "senal": "VRT",
+       "pos": 3,
+       "score": 2.589891,
+       "mom": 1.967421,
+       "vol": 0.759654,
+       "nombre": "Vertiv"
+      },
+      {
+       "senal": "VLO",
+       "pos": 4,
+       "score": 2.191868,
+       "mom": 0.946644,
+       "vol": 0.431889,
+       "nombre": "Valero Energy"
+      },
+      {
+       "senal": "XLE",
+       "pos": 5,
+       "score": 1.826973,
+       "mom": 0.47065,
+       "vol": 0.257612,
+       "nombre": "Energía"
+      },
+      {
+       "senal": "AVGO",
+       "pos": 6,
+       "score": 1.590269,
+       "mom": 0.692818,
+       "vol": 0.435661,
+       "nombre": "Broadcom"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 7,
+       "score": 1.232988,
+       "mom": 0.258658,
+       "vol": 0.209782,
+       "nombre": "Nasdaq-100"
+      },
+      {
+       "senal": "DELL",
+       "pos": 8,
+       "score": 1.226998,
+       "mom": 0.85644,
+       "vol": 0.697996,
+       "nombre": "Dell Technologies"
+      },
+      {
+       "senal": "CSCO",
+       "pos": 9,
+       "score": 1.178934,
+       "mom": 0.445941,
+       "vol": 0.378258,
+       "nombre": "Cisco"
+      },
+      {
+       "senal": "NVDA",
+       "pos": 10,
+       "score": 1.107073,
+       "mom": 0.438496,
+       "vol": 0.396085,
+       "nombre": "Nvidia"
+      },
+      {
+       "senal": "GLD",
+       "pos": 11,
+       "score": 1.037956,
+       "mom": 0.358872,
+       "vol": 0.345748,
+       "nombre": "Oro"
+      },
+      {
+       "senal": "BAC",
+       "pos": 12,
+       "score": 0.805765,
+       "mom": 0.206196,
+       "vol": 0.255901,
+       "nombre": "Bank of America"
+      },
+      {
+       "senal": "AMZN",
+       "pos": 13,
+       "score": 0.758671,
+       "mom": 0.259018,
+       "vol": 0.34141,
+       "nombre": "Amazon"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 14,
+       "score": 0.557132,
+       "mom": 0.091974,
+       "vol": 0.165085,
+       "nombre": "Inmobiliario"
+      },
+      {
+       "senal": "LOGI",
+       "pos": 15,
+       "score": 0.542644,
+       "mom": 0.184975,
+       "vol": 0.340877,
+       "nombre": "Logitech"
+      },
+      {
+       "senal": "XLV",
+       "pos": 16,
+       "score": 0.522873,
+       "mom": 0.090909,
+       "vol": 0.173864,
+       "nombre": "Salud"
+      },
+      {
+       "senal": "LLY",
+       "pos": 17,
+       "score": 0.519632,
+       "mom": 0.24034,
+       "vol": 0.46252,
+       "nombre": "Eli Lilly"
+      },
+      {
+       "senal": "LPL",
+       "pos": 18,
+       "score": 0.432905,
+       "mom": 0.314762,
+       "vol": 0.727093,
+       "nombre": "LG Display"
+      },
+      {
+       "senal": "BABA",
+       "pos": 19,
+       "score": 0.418419,
+       "mom": 0.147165,
+       "vol": 0.351716,
+       "nombre": "Alibaba"
+      },
+      {
+       "senal": "MDB",
+       "pos": 20,
+       "score": 0.404288,
+       "mom": 0.293514,
+       "vol": 0.726003,
+       "nombre": "MongoDB"
+      },
+      {
+       "senal": "TSLA",
+       "pos": 21,
+       "score": 0.190531,
+       "mom": 0.072635,
+       "vol": 0.381226,
+       "nombre": "Tesla"
+      },
+      {
+       "senal": "XLP",
+       "pos": 22,
+       "score": 0.102607,
+       "mom": 0.018594,
+       "vol": 0.181218,
+       "nombre": "Consumo básico"
+      },
+      {
+       "senal": "PLTR",
+       "pos": 23,
+       "score": 0.046197,
+       "mom": 0.027949,
+       "vol": 0.604994,
+       "nombre": "Palantir"
+      },
+      {
+       "senal": "ORCL",
+       "pos": 24,
+       "score": -0.068818,
+       "mom": -0.041045,
+       "vol": 0.59643,
+       "nombre": "Oracle"
+      },
+      {
+       "senal": "CRWD",
+       "pos": 25,
+       "score": -0.13759,
+       "mom": -0.079143,
+       "vol": 0.575211,
+       "nombre": "CrowdStrike"
+      },
+      {
+       "senal": "META",
+       "pos": 26,
+       "score": -0.191852,
+       "mom": -0.076855,
+       "vol": 0.400594,
+       "nombre": "Meta Platforms"
+      },
+      {
+       "senal": "PANW",
+       "pos": 27,
+       "score": -0.194633,
+       "mom": -0.092511,
+       "vol": 0.475311,
+       "nombre": "Palo Alto Networks"
+      },
+      {
+       "senal": "IBM",
+       "pos": 28,
+       "score": -0.240558,
+       "mom": -0.116065,
+       "vol": 0.482483,
+       "nombre": "IBM"
+      },
+      {
+       "senal": "SMCI",
+       "pos": 29,
+       "score": -0.325138,
+       "mom": -0.333291,
+       "vol": 1.025075,
+       "nombre": "Super Micro Computer"
+      },
+      {
+       "senal": "MSFT",
+       "pos": 30,
+       "score": -0.433496,
+       "mom": -0.132426,
+       "vol": 0.305483,
+       "nombre": "Microsoft"
+      },
+      {
+       "senal": "NFLX",
+       "pos": 31,
+       "score": -0.535635,
+       "mom": -0.244917,
+       "vol": 0.457245,
+       "nombre": "Netflix"
+      },
+      {
+       "senal": "RELX",
+       "pos": 32,
+       "score": -0.747583,
+       "mom": -0.335649,
+       "vol": 0.448979,
+       "nombre": "RELX"
+      },
+      {
+       "senal": "CRM",
+       "pos": 33,
+       "score": -0.76272,
+       "mom": -0.347383,
+       "vol": 0.455452,
+       "nombre": "Salesforce"
+      },
+      {
+       "senal": "ZS",
+       "pos": 34,
+       "score": -0.824047,
+       "mom": -0.538433,
+       "vol": 0.6534,
+       "nombre": "Zscaler"
+      },
+      {
+       "senal": "ROOT",
+       "pos": 35,
+       "score": -0.860868,
+       "mom": -0.594994,
+       "vol": 0.691155,
+       "nombre": "Root"
+      },
+      {
+       "senal": "NOW",
+       "pos": 36,
+       "score": -0.864543,
+       "mom": -0.574742,
+       "vol": 0.664793,
+       "nombre": "ServiceNow"
+      },
+      {
+       "senal": "INTU",
+       "pos": 37,
+       "score": -0.881546,
+       "mom": -0.493817,
+       "vol": 0.560172,
+       "nombre": "Intuit"
+      },
+      {
+       "senal": "SAP",
+       "pos": 38,
+       "score": -1.143417,
+       "mom": -0.45504,
+       "vol": 0.397965,
+       "nombre": "SAP"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-05",
+     "fechaSenal": "2026-05-29",
+     "mesDecision": "2026-06",
+     "mesCartera": "2026-07",
+     "ranking": [
+      {
+       "senal": "AMD",
+       "pos": 1,
+       "score": 3.634084,
+       "mom": 2.660357,
+       "vol": 0.732057,
+       "nombre": "AMD"
+      },
+      {
+       "senal": "GOOG",
+       "pos": 2,
+       "score": 3.31622,
+       "mom": 1.140446,
+       "vol": 0.343899,
+       "nombre": "Alphabet"
+      },
+      {
+       "senal": "DELL",
+       "pos": 3,
+       "score": 2.731325,
+       "mom": 2.507718,
+       "vol": 0.918132,
+       "nombre": "Dell Technologies"
+      },
+      {
+       "senal": "VRT",
+       "pos": 4,
+       "score": 2.460077,
+       "mom": 1.476563,
+       "vol": 0.60021,
+       "nombre": "Vertiv"
+      },
+      {
+       "senal": "CSCO",
+       "pos": 5,
+       "score": 2.015732,
+       "mom": 0.786979,
+       "vol": 0.390418,
+       "nombre": "Cisco"
+      },
+      {
+       "senal": "VLO",
+       "pos": 6,
+       "score": 2.007061,
+       "mom": 0.879867,
+       "vol": 0.438386,
+       "nombre": "Valero Energy"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 7,
+       "score": 1.770097,
+       "mom": 0.351962,
+       "vol": 0.198838,
+       "nombre": "Nasdaq-100"
+      },
+      {
+       "senal": "AVGO",
+       "pos": 8,
+       "score": 1.503285,
+       "mom": 0.640521,
+       "vol": 0.426081,
+       "nombre": "Broadcom"
+      },
+      {
+       "senal": "GLD",
+       "pos": 9,
+       "score": 1.356812,
+       "mom": 0.377131,
+       "vol": 0.277954,
+       "nombre": "Oro"
+      },
+      {
+       "senal": "XLE",
+       "pos": 10,
+       "score": 1.340033,
+       "mom": 0.367701,
+       "vol": 0.274397,
+       "nombre": "Energía"
+      },
+      {
+       "senal": "LLY",
+       "pos": 11,
+       "score": 1.147383,
+       "mom": 0.436689,
+       "vol": 0.380596,
+       "nombre": "Eli Lilly"
+      },
+      {
+       "senal": "NVDA",
+       "pos": 12,
+       "score": 0.973779,
+       "mom": 0.345195,
+       "vol": 0.35449,
+       "nombre": "Nvidia"
+      },
+      {
+       "senal": "LOGI",
+       "pos": 13,
+       "score": 0.951643,
+       "mom": 0.380399,
+       "vol": 0.399728,
+       "nombre": "Logitech"
+      },
+      {
+       "senal": "TSLA",
+       "pos": 14,
+       "score": 0.946936,
+       "mom": 0.38066,
+       "vol": 0.401991,
+       "nombre": "Tesla"
+      },
+      {
+       "senal": "CRWD",
+       "pos": 15,
+       "score": 0.864788,
+       "mom": 0.444466,
+       "vol": 0.513959,
+       "nombre": "CrowdStrike"
+      },
+      {
+       "senal": "MDB",
+       "pos": 16,
+       "score": 0.824852,
+       "mom": 0.608165,
+       "vol": 0.737302,
+       "nombre": "MongoDB"
+      },
+      {
+       "senal": "AMZN",
+       "pos": 17,
+       "score": 0.815738,
+       "mom": 0.241501,
+       "vol": 0.296052,
+       "nombre": "Amazon"
+      },
+      {
+       "senal": "PANW",
+       "pos": 18,
+       "score": 0.779317,
+       "mom": 0.385329,
+       "vol": 0.494444,
+       "nombre": "Palo Alto Networks"
+      },
+      {
+       "senal": "XLV",
+       "pos": 19,
+       "score": 0.76588,
+       "mom": 0.130517,
+       "vol": 0.170415,
+       "nombre": "Salud"
+      },
+      {
+       "senal": "LPL",
+       "pos": 20,
+       "score": 0.727517,
+       "mom": 0.633198,
+       "vol": 0.870355,
+       "nombre": "LG Display"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 21,
+       "score": 0.682206,
+       "mom": 0.113505,
+       "vol": 0.166379,
+       "nombre": "Inmobiliario"
+      },
+      {
+       "senal": "BAC",
+       "pos": 22,
+       "score": 0.548631,
+       "mom": 0.11554,
+       "vol": 0.210597,
+       "nombre": "Bank of America"
+      },
+      {
+       "senal": "XLP",
+       "pos": 23,
+       "score": 0.298375,
+       "mom": 0.051799,
+       "vol": 0.173604,
+       "nombre": "Consumo básico"
+      },
+      {
+       "senal": "PLTR",
+       "pos": 24,
+       "score": 0.283361,
+       "mom": 0.15568,
+       "vol": 0.549406,
+       "nombre": "Palantir"
+      },
+      {
+       "senal": "BABA",
+       "pos": 25,
+       "score": 0.242738,
+       "mom": 0.102331,
+       "vol": 0.421572,
+       "nombre": "Alibaba"
+      },
+      {
+       "senal": "IBM",
+       "pos": 26,
+       "score": 0.08815,
+       "mom": 0.042718,
+       "vol": 0.484606,
+       "nombre": "IBM"
+      },
+      {
+       "senal": "ORCL",
+       "pos": 27,
+       "score": 0.084854,
+       "mom": 0.049744,
+       "vol": 0.586225,
+       "nombre": "Oracle"
+      },
+      {
+       "senal": "SMCI",
+       "pos": 28,
+       "score": -0.048692,
+       "mom": -0.053558,
+       "vol": 1.099932,
+       "nombre": "Super Micro Computer"
+      },
+      {
+       "senal": "MSFT",
+       "pos": 29,
+       "score": -0.278951,
+       "mom": -0.081759,
+       "vol": 0.293094,
+       "nombre": "Microsoft"
+      },
+      {
+       "senal": "META",
+       "pos": 30,
+       "score": -0.347666,
+       "mom": -0.135532,
+       "vol": 0.389835,
+       "nombre": "Meta Platforms"
+      },
+      {
+       "senal": "NOW",
+       "pos": 31,
+       "score": -0.530866,
+       "mom": -0.391262,
+       "vol": 0.737025,
+       "nombre": "ServiceNow"
+      },
+      {
+       "senal": "ZS",
+       "pos": 32,
+       "score": -0.62172,
+       "mom": -0.552065,
+       "vol": 0.887964,
+       "nombre": "Zscaler"
+      },
+      {
+       "senal": "CRM",
+       "pos": 33,
+       "score": -0.633329,
+       "mom": -0.290578,
+       "vol": 0.458811,
+       "nombre": "Salesforce"
+      },
+      {
+       "senal": "INTU",
+       "pos": 34,
+       "score": -0.876773,
+       "mom": -0.572937,
+       "vol": 0.653461,
+       "nombre": "Intuit"
+      },
+      {
+       "senal": "ROOT",
+       "pos": 35,
+       "score": -0.961001,
+       "mom": -0.590581,
+       "vol": 0.614548,
+       "nombre": "Root"
+      },
+      {
+       "senal": "SAP",
+       "pos": 36,
+       "score": -1.019789,
+       "mom": -0.387917,
+       "vol": 0.380389,
+       "nombre": "SAP"
+      },
+      {
+       "senal": "NFLX",
+       "pos": 37,
+       "score": -1.119731,
+       "mom": -0.353529,
+       "vol": 0.315727,
+       "nombre": "Netflix"
+      },
+      {
+       "senal": "RELX",
+       "pos": 38,
+       "score": -1.342608,
+       "mom": -0.377503,
+       "vol": 0.281172,
+       "nombre": "RELX"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-06",
+     "fechaSenal": "2026-06-30",
+     "mesDecision": "2026-07",
+     "mesCartera": "2026-08",
+     "ranking": [
+      {
+       "senal": "AMD",
+       "pos": 1,
+       "score": 2.898357,
+       "mom": 2.296931,
+       "vol": 0.792494,
+       "nombre": "AMD"
+      },
+      {
+       "senal": "DELL",
+       "pos": 2,
+       "score": 2.414901,
+       "mom": 2.289747,
+       "vol": 0.948174,
+       "nombre": "Dell Technologies"
+      },
+      {
+       "senal": "GOOG",
+       "pos": 3,
+       "score": 2.28052,
+       "mom": 0.838462,
+       "vol": 0.367662,
+       "nombre": "Alphabet"
+      },
+      {
+       "senal": "VLO",
+       "pos": 4,
+       "score": 2.245324,
+       "mom": 0.930723,
+       "vol": 0.414516,
+       "nombre": "Valero Energy"
+      },
+      {
+       "senal": "VRT",
+       "pos": 5,
+       "score": 1.998226,
+       "mom": 1.303594,
+       "vol": 0.652376,
+       "nombre": "Vertiv"
+      },
+      {
+       "senal": "PANW",
+       "pos": 6,
+       "score": 1.887359,
+       "mom": 0.965658,
+       "vol": 0.511645,
+       "nombre": "Palo Alto Networks"
+      },
+      {
+       "senal": "CSCO",
+       "pos": 7,
+       "score": 1.741697,
+       "mom": 0.755608,
+       "vol": 0.433834,
+       "nombre": "Cisco"
+      },
+      {
+       "senal": "LLY",
+       "pos": 8,
+       "score": 1.638862,
+       "mom": 0.633208,
+       "vol": 0.38637,
+       "nombre": "Eli Lilly"
+      },
+      {
+       "senal": "XLV",
+       "pos": 9,
+       "score": 1.321545,
+       "mom": 0.238476,
+       "vol": 0.180453,
+       "nombre": "Salud"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 10,
+       "score": 1.29409,
+       "mom": 0.310455,
+       "vol": 0.239903,
+       "nombre": "Nasdaq-100"
+      },
+      {
+       "senal": "CRWD",
+       "pos": 11,
+       "score": 1.292841,
+       "mom": 0.679892,
+       "vol": 0.52589,
+       "nombre": "CrowdStrike"
+      },
+      {
+       "senal": "BAC",
+       "pos": 12,
+       "score": 1.097178,
+       "mom": 0.232462,
+       "vol": 0.211873,
+       "nombre": "Bank of America"
+      },
+      {
+       "senal": "XLE",
+       "pos": 13,
+       "score": 0.916357,
+       "mom": 0.256735,
+       "vol": 0.280169,
+       "nombre": "Energía"
+      },
+      {
+       "senal": "GLD",
+       "pos": 14,
+       "score": 0.858977,
+       "mom": 0.216714,
+       "vol": 0.252294,
+       "nombre": "Oro"
+      },
+      {
+       "senal": "TSLA",
+       "pos": 15,
+       "score": 0.775147,
+       "mom": 0.365262,
+       "vol": 0.471216,
+       "nombre": "Tesla"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 16,
+       "score": 0.75239,
+       "mom": 0.124396,
+       "vol": 0.165335,
+       "nombre": "Inmobiliario"
+      },
+      {
+       "senal": "MDB",
+       "pos": 17,
+       "score": 0.550764,
+       "mom": 0.412901,
+       "vol": 0.749688,
+       "nombre": "MongoDB"
+      },
+      {
+       "senal": "AVGO",
+       "pos": 18,
+       "score": 0.54262,
+       "mom": 0.29643,
+       "vol": 0.546293,
+       "nombre": "Broadcom"
+      },
+      {
+       "senal": "XLP",
+       "pos": 19,
+       "score": 0.407899,
+       "mom": 0.070802,
+       "vol": 0.173576,
+       "nombre": "Consumo básico"
+      },
+      {
+       "senal": "NVDA",
+       "pos": 20,
+       "score": 0.315734,
+       "mom": 0.127142,
+       "vol": 0.402687,
+       "nombre": "Nvidia"
+      },
+      {
+       "senal": "IBM",
+       "pos": 21,
+       "score": 0.255576,
+       "mom": 0.139984,
+       "vol": 0.547722,
+       "nombre": "IBM"
+      },
+      {
+       "senal": "LOGI",
+       "pos": 22,
+       "score": 0.064925,
+       "mom": 0.027716,
+       "vol": 0.426902,
+       "nombre": "Logitech"
+      },
+      {
+       "senal": "AMZN",
+       "pos": 23,
+       "score": 0.057764,
+       "mom": 0.01872,
+       "vol": 0.324081,
+       "nombre": "Amazon"
+      },
+      {
+       "senal": "LPL",
+       "pos": 24,
+       "score": -0.007954,
+       "mom": -0.007018,
+       "vol": 0.882329,
+       "nombre": "LG Display"
+      },
+      {
+       "senal": "SMCI",
+       "pos": 25,
+       "score": -0.435662,
+       "mom": -0.50231,
+       "vol": 1.15298,
+       "nombre": "Super Micro Computer"
+      },
+      {
+       "senal": "PLTR",
+       "pos": 26,
+       "score": -0.461799,
+       "mom": -0.262743,
+       "vol": 0.568955,
+       "nombre": "Palantir"
+      },
+      {
+       "senal": "BABA",
+       "pos": 27,
+       "score": -0.487902,
+       "mom": -0.196523,
+       "vol": 0.402791,
+       "nombre": "Alibaba"
+      },
+      {
+       "senal": "ZS",
+       "pos": 28,
+       "score": -0.553321,
+       "mom": -0.505392,
+       "vol": 0.913378,
+       "nombre": "Zscaler"
+      },
+      {
+       "senal": "NOW",
+       "pos": 29,
+       "score": -0.593872,
+       "mom": -0.473325,
+       "vol": 0.797015,
+       "nombre": "ServiceNow"
+      },
+      {
+       "senal": "ORCL",
+       "pos": 30,
+       "score": -0.620552,
+       "mom": -0.417579,
+       "vol": 0.672916,
+       "nombre": "Oracle"
+      },
+      {
+       "senal": "META",
+       "pos": 31,
+       "score": -0.681541,
+       "mom": -0.268854,
+       "vol": 0.394479,
+       "nombre": "Meta Platforms"
+      },
+      {
+       "senal": "ROOT",
+       "pos": 32,
+       "score": -0.752462,
+       "mom": -0.53767,
+       "vol": 0.714548,
+       "nombre": "Root"
+      },
+      {
+       "senal": "CRM",
+       "pos": 33,
+       "score": -0.789068,
+       "mom": -0.388042,
+       "vol": 0.491773,
+       "nombre": "Salesforce"
+      },
+      {
+       "senal": "MSFT",
+       "pos": 34,
+       "score": -0.84805,
+       "mom": -0.29477,
+       "vol": 0.347585,
+       "nombre": "Microsoft"
+      },
+      {
+       "senal": "INTU",
+       "pos": 35,
+       "score": -1.004657,
+       "mom": -0.665105,
+       "vol": 0.662022,
+       "nombre": "Intuit"
+      },
+      {
+       "senal": "SAP",
+       "pos": 36,
+       "score": -1.042976,
+       "mom": -0.452775,
+       "vol": 0.434119,
+       "nombre": "SAP"
+      },
+      {
+       "senal": "NFLX",
+       "pos": 37,
+       "score": -1.108332,
+       "mom": -0.38377,
+       "vol": 0.346259,
+       "nombre": "Netflix"
+      },
+      {
+       "senal": "RELX",
+       "pos": 38,
+       "score": -1.192677,
+       "mom": -0.373984,
+       "vol": 0.313567,
+       "nombre": "RELX"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-07",
+     "fechaSenal": "2026-07-31",
+     "mesDecision": "2026-08",
+     "mesCartera": "2026-09",
+     "ranking": [
+      {
+       "senal": "VLO",
+       "pos": 1,
+       "score": 2.854604,
+       "mom": 1.130888,
+       "vol": 0.396163,
+       "nombre": "Valero Energy"
+      },
+      {
+       "senal": "DELL",
+       "pos": 2,
+       "score": 2.317674,
+       "mom": 2.407006,
+       "vol": 1.038544,
+       "nombre": "Dell Technologies"
+      },
+      {
+       "senal": "AMD",
+       "pos": 3,
+       "score": 2.24961,
+       "mom": 1.967964,
+       "vol": 0.874802,
+       "nombre": "AMD"
+      },
+      {
+       "senal": "GOOG",
+       "pos": 4,
+       "score": 1.932173,
+       "mom": 0.697998,
+       "vol": 0.36125,
+       "nombre": "Alphabet"
+      },
+      {
+       "senal": "LLY",
+       "pos": 5,
+       "score": 1.787751,
+       "mom": 0.597454,
+       "vol": 0.334193,
+       "nombre": "Eli Lilly"
+      },
+      {
+       "senal": "CSCO",
+       "pos": 6,
+       "score": 1.601937,
+       "mom": 0.737088,
+       "vol": 0.460123,
+       "nombre": "Cisco"
+      },
+      {
+       "senal": "CRWD",
+       "pos": 7,
+       "score": 1.495304,
+       "mom": 0.826552,
+       "vol": 0.552765,
+       "nombre": "CrowdStrike"
+      },
+      {
+       "senal": "XLE",
+       "pos": 8,
+       "score": 1.480721,
+       "mom": 0.377313,
+       "vol": 0.254817,
+       "nombre": "Energía"
+      },
+      {
+       "senal": "PANW",
+       "pos": 9,
+       "score": 1.433952,
+       "mom": 0.765593,
+       "vol": 0.533904,
+       "nombre": "Palo Alto Networks"
+      },
+      {
+       "senal": "VRT",
+       "pos": 10,
+       "score": 1.244491,
+       "mom": 0.922012,
+       "vol": 0.740875,
+       "nombre": "Vertiv"
+      },
+      {
+       "senal": "BAC",
+       "pos": 11,
+       "score": 1.244466,
+       "mom": 0.264635,
+       "vol": 0.21265,
+       "nombre": "Bank of America"
+      },
+      {
+       "senal": "XLV",
+       "pos": 12,
+       "score": 1.120797,
+       "mom": 0.219947,
+       "vol": 0.196241,
+       "nombre": "Salud"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 13,
+       "score": 0.897735,
+       "mom": 0.228584,
+       "vol": 0.254623,
+       "nombre": "Nasdaq-100"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 14,
+       "score": 0.775425,
+       "mom": 0.129572,
+       "vol": 0.167098,
+       "nombre": "Inmobiliario"
+      },
+      {
+       "senal": "GLD",
+       "pos": 15,
+       "score": 0.760675,
+       "mom": 0.184127,
+       "vol": 0.242058,
+       "nombre": "Oro"
+      },
+      {
+       "senal": "AVGO",
+       "pos": 16,
+       "score": 0.629827,
+       "mom": 0.336662,
+       "vol": 0.534532,
+       "nombre": "Broadcom"
+      },
+      {
+       "senal": "XLP",
+       "pos": 17,
+       "score": 0.518066,
+       "mom": 0.0969,
+       "vol": 0.187041,
+       "nombre": "Consumo básico"
+      },
+      {
+       "senal": "AMZN",
+       "pos": 18,
+       "score": 0.476703,
+       "mom": 0.202203,
+       "vol": 0.42417,
+       "nombre": "Amazon"
+      },
+      {
+       "senal": "NVDA",
+       "pos": 19,
+       "score": 0.41054,
+       "mom": 0.169906,
+       "vol": 0.413859,
+       "nombre": "Nvidia"
+      },
+      {
+       "senal": "MDB",
+       "pos": 20,
+       "score": 0.113045,
+       "mom": 0.083959,
+       "vol": 0.742706,
+       "nombre": "MongoDB"
+      },
+      {
+       "senal": "LOGI",
+       "pos": 21,
+       "score": 0.038514,
+       "mom": 0.017774,
+       "vol": 0.461505,
+       "nombre": "Logitech"
+      },
+      {
+       "senal": "IBM",
+       "pos": 22,
+       "score": -0.069171,
+       "mom": -0.051483,
+       "vol": 0.744294,
+       "nombre": "IBM"
+      },
+      {
+       "senal": "TSLA",
+       "pos": 23,
+       "score": -0.098595,
+       "mom": -0.055087,
+       "vol": 0.558723,
+       "nombre": "Tesla"
+      },
+      {
+       "senal": "MSFT",
+       "pos": 24,
+       "score": -0.147322,
+       "mom": -0.064365,
+       "vol": 0.436902,
+       "nombre": "Microsoft"
+      },
+      {
+       "senal": "BABA",
+       "pos": 25,
+       "score": -0.159642,
+       "mom": -0.073595,
+       "vol": 0.460999,
+       "nombre": "Alibaba"
+      },
+      {
+       "senal": "SMCI",
+       "pos": 26,
+       "score": -0.250407,
+       "mom": -0.306946,
+       "vol": 1.225786,
+       "nombre": "Super Micro Computer"
+      },
+      {
+       "senal": "PLTR",
+       "pos": 27,
+       "score": -0.369456,
+       "mom": -0.203959,
+       "vol": 0.552052,
+       "nombre": "Palantir"
+      },
+      {
+       "senal": "LPL",
+       "pos": 28,
+       "score": -0.38913,
+       "mom": -0.310399,
+       "vol": 0.797674,
+       "nombre": "LG Display"
+      },
+      {
+       "senal": "ZS",
+       "pos": 29,
+       "score": -0.503427,
+       "mom": -0.446766,
+       "vol": 0.887448,
+       "nombre": "Zscaler"
+      },
+      {
+       "senal": "CRM",
+       "pos": 30,
+       "score": -0.520855,
+       "mom": -0.265863,
+       "vol": 0.510436,
+       "nombre": "Salesforce"
+      },
+      {
+       "senal": "META",
+       "pos": 31,
+       "score": -0.522479,
+       "mom": -0.233526,
+       "vol": 0.446957,
+       "nombre": "Meta Platforms"
+      },
+      {
+       "senal": "NOW",
+       "pos": 32,
+       "score": -0.539045,
+       "mom": -0.385502,
+       "vol": 0.715158,
+       "nombre": "ServiceNow"
+      },
+      {
+       "senal": "RELX",
+       "pos": 33,
+       "score": -0.558084,
+       "mom": -0.215582,
+       "vol": 0.38629,
+       "nombre": "RELX"
+      },
+      {
+       "senal": "ROOT",
+       "pos": 34,
+       "score": -0.564827,
+       "mom": -0.404764,
+       "vol": 0.716616,
+       "nombre": "Root"
+      },
+      {
+       "senal": "SAP",
+       "pos": 35,
+       "score": -0.632243,
+       "mom": -0.304182,
+       "vol": 0.481115,
+       "nombre": "SAP"
+      },
+      {
+       "senal": "ORCL",
+       "pos": 36,
+       "score": -0.633056,
+       "mom": -0.411173,
+       "vol": 0.649504,
+       "nombre": "Oracle"
+      },
+      {
+       "senal": "INTU",
+       "pos": 37,
+       "score": -0.772651,
+       "mom": -0.514237,
+       "vol": 0.665548,
+       "nombre": "Intuit"
+      },
+      {
+       "senal": "NFLX",
+       "pos": 38,
+       "score": -1.181368,
+       "mom": -0.398358,
+       "vol": 0.3372,
+       "nombre": "Netflix"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-08",
+     "fechaSenal": "2026-08-31",
+     "mesDecision": "2026-09",
+     "mesCartera": "2026-10",
+     "ranking": [
+      {
+       "senal": "VLO",
+       "pos": 1,
+       "score": 3.27287,
+       "mom": 1.179233,
+       "vol": 0.360305,
+       "nombre": "Valero Energy"
+      },
+      {
+       "senal": "DELL",
+       "pos": 2,
+       "score": 3.177509,
+       "mom": 2.297586,
+       "vol": 0.723078,
+       "nombre": "Dell Technologies"
+      },
+      {
+       "senal": "AMD",
+       "pos": 3,
+       "score": 2.565459,
+       "mom": 1.945221,
+       "vol": 0.758235,
+       "nombre": "AMD"
+      },
+      {
+       "senal": "XLE",
+       "pos": 4,
+       "score": 2.066877,
+       "mom": 0.481955,
+       "vol": 0.23318,
+       "nombre": "Energía"
+      },
+      {
+       "senal": "CSCO",
+       "pos": 5,
+       "score": 1.692985,
+       "mom": 0.668582,
+       "vol": 0.394913,
+       "nombre": "Cisco"
+      },
+      {
+       "senal": "PANW",
+       "pos": 6,
+       "score": 1.623146,
+       "mom": 0.899755,
+       "vol": 0.554328,
+       "nombre": "Palo Alto Networks"
+      },
+      {
+       "senal": "LLY",
+       "pos": 7,
+       "score": 1.54303,
+       "mom": 0.544347,
+       "vol": 0.352778,
+       "nombre": "Eli Lilly"
+      },
+      {
+       "senal": "CRWD",
+       "pos": 8,
+       "score": 1.339352,
+       "mom": 0.907419,
+       "vol": 0.677506,
+       "nombre": "CrowdStrike"
+      },
+      {
+       "senal": "XLV",
+       "pos": 9,
+       "score": 1.228298,
+       "mom": 0.256394,
+       "vol": 0.208739,
+       "nombre": "Salud"
+      },
+      {
+       "senal": "BAC",
+       "pos": 10,
+       "score": 1.190911,
+       "mom": 0.234987,
+       "vol": 0.197317,
+       "nombre": "Bank of America"
+      },
+      {
+       "senal": "GOOG",
+       "pos": 11,
+       "score": 1.087223,
+       "mom": 0.396835,
+       "vol": 0.364999,
+       "nombre": "Alphabet"
+      },
+      {
+       "senal": "VRT",
+       "pos": 12,
+       "score": 0.999087,
+       "mom": 0.737475,
+       "vol": 0.738149,
+       "nombre": "Vertiv"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 13,
+       "score": 0.820103,
+       "mom": 0.212956,
+       "vol": 0.25967,
+       "nombre": "Nasdaq-100"
+      },
+      {
+       "senal": "MDB",
+       "pos": 14,
+       "score": 0.751294,
+       "mom": 0.478652,
+       "vol": 0.637104,
+       "nombre": "MongoDB"
+      },
+      {
+       "senal": "XLP",
+       "pos": 15,
+       "score": 0.64295,
+       "mom": 0.12043,
+       "vol": 0.187309,
+       "nombre": "Consumo básico"
+      },
+      {
+       "senal": "GLD",
+       "pos": 16,
+       "score": 0.607557,
+       "mom": 0.163084,
+       "vol": 0.268425,
+       "nombre": "Oro"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 17,
+       "score": 0.597955,
+       "mom": 0.098744,
+       "vol": 0.165136,
+       "nombre": "Inmobiliario"
+      },
+      {
+       "senal": "NVDA",
+       "pos": 18,
+       "score": 0.459656,
+       "mom": 0.199375,
+       "vol": 0.433749,
+       "nombre": "Nvidia"
+      },
+      {
+       "senal": "AMZN",
+       "pos": 19,
+       "score": 0.452893,
+       "mom": 0.197631,
+       "vol": 0.436373,
+       "nombre": "Amazon"
+      },
+      {
+       "senal": "AVGO",
+       "pos": 20,
+       "score": 0.263298,
+       "mom": 0.142718,
+       "vol": 0.542039,
+       "nombre": "Broadcom"
+      },
+      {
+       "senal": "CRM",
+       "pos": 21,
+       "score": 0.168511,
+       "mom": 0.107409,
+       "vol": 0.637401,
+       "nombre": "Salesforce"
+      },
+      {
+       "senal": "PLTR",
+       "pos": 22,
+       "score": 0.042512,
+       "mom": 0.03427,
+       "vol": 0.80611,
+       "nombre": "Palantir"
+      },
+      {
+       "senal": "MSFT",
+       "pos": 23,
+       "score": -0.000884,
+       "mom": -0.000382,
+       "vol": 0.432394,
+       "nombre": "Microsoft"
+      },
+      {
+       "senal": "SMCI",
+       "pos": 24,
+       "score": -0.181641,
+       "mom": -0.212801,
+       "vol": 1.171544,
+       "nombre": "Super Micro Computer"
+      },
+      {
+       "senal": "IBM",
+       "pos": 25,
+       "score": -0.216916,
+       "mom": -0.139141,
+       "vol": 0.64145,
+       "nombre": "IBM"
+      },
+      {
+       "senal": "LOGI",
+       "pos": 26,
+       "score": -0.223136,
+       "mom": -0.089138,
+       "vol": 0.399478,
+       "nombre": "Logitech"
+      },
+      {
+       "senal": "TSLA",
+       "pos": 27,
+       "score": -0.285803,
+       "mom": -0.162453,
+       "vol": 0.56841,
+       "nombre": "Tesla"
+      },
+      {
+       "senal": "NOW",
+       "pos": 28,
+       "score": -0.290789,
+       "mom": -0.186066,
+       "vol": 0.639866,
+       "nombre": "ServiceNow"
+      },
+      {
+       "senal": "SAP",
+       "pos": 29,
+       "score": -0.325743,
+       "mom": -0.148636,
+       "vol": 0.456299,
+       "nombre": "SAP"
+      },
+      {
+       "senal": "META",
+       "pos": 30,
+       "score": -0.448187,
+       "mom": -0.209015,
+       "vol": 0.466357,
+       "nombre": "Meta Platforms"
+      },
+      {
+       "senal": "ROOT",
+       "pos": 31,
+       "score": -0.489534,
+       "mom": -0.372448,
+       "vol": 0.76082,
+       "nombre": "Root"
+      },
+      {
+       "senal": "RELX",
+       "pos": 32,
+       "score": -0.584702,
+       "mom": -0.206539,
+       "vol": 0.353238,
+       "nombre": "RELX"
+      },
+      {
+       "senal": "LPL",
+       "pos": 33,
+       "score": -0.593275,
+       "mom": -0.34259,
+       "vol": 0.577456,
+       "nombre": "LG Display"
+      },
+      {
+       "senal": "ZS",
+       "pos": 34,
+       "score": -0.664036,
+       "mom": -0.363608,
+       "vol": 0.547573,
+       "nombre": "Zscaler"
+      },
+      {
+       "senal": "BABA",
+       "pos": 35,
+       "score": -0.77562,
+       "mom": -0.34828,
+       "vol": 0.449035,
+       "nombre": "Alibaba"
+      },
+      {
+       "senal": "ORCL",
+       "pos": 36,
+       "score": -0.796414,
+       "mom": -0.45714,
+       "vol": 0.573999,
+       "nombre": "Oracle"
+      },
+      {
+       "senal": "NFLX",
+       "pos": 37,
+       "score": -0.857429,
+       "mom": -0.315663,
+       "vol": 0.368151,
+       "nombre": "Netflix"
+      },
+      {
+       "senal": "INTU",
+       "pos": 38,
+       "score": -0.925629,
+       "mom": -0.461417,
+       "vol": 0.498491,
+       "nombre": "Intuit"
+      }
+     ]
+    },
+    {
+     "mesSenal": "2026-09",
+     "fechaSenal": "2026-09-30",
+     "mesDecision": "2026-10",
+     "mesCartera": "2026-11",
+     "ranking": [
+      {
+       "senal": "VLO",
+       "pos": 1,
+       "score": 3.938628,
+       "mom": 1.382125,
+       "vol": 0.350915,
+       "nombre": "Valero Energy"
+      },
+      {
+       "senal": "DELL",
+       "pos": 2,
+       "score": 2.965564,
+       "mom": 2.41929,
+       "vol": 0.815794,
+       "nombre": "Dell Technologies"
+      },
+      {
+       "senal": "XLE",
+       "pos": 3,
+       "score": 2.120268,
+       "mom": 0.464778,
+       "vol": 0.219207,
+       "nombre": "Energía"
+      },
+      {
+       "senal": "AMD",
+       "pos": 4,
+       "score": 2.111891,
+       "mom": 1.437355,
+       "vol": 0.680601,
+       "nombre": "AMD"
+      },
+      {
+       "senal": "CSCO",
+       "pos": 5,
+       "score": 1.533069,
+       "mom": 0.524138,
+       "vol": 0.341888,
+       "nombre": "Cisco"
+      },
+      {
+       "senal": "PANW",
+       "pos": 6,
+       "score": 1.376409,
+       "mom": 0.840834,
+       "vol": 0.610889,
+       "nombre": "Palo Alto Networks"
+      },
+      {
+       "senal": "CRWD",
+       "pos": 7,
+       "score": 1.351375,
+       "mom": 0.990075,
+       "vol": 0.732642,
+       "nombre": "CrowdStrike"
+      },
+      {
+       "senal": "LLY",
+       "pos": 8,
+       "score": 1.238399,
+       "mom": 0.377003,
+       "vol": 0.304427,
+       "nombre": "Eli Lilly"
+      },
+      {
+       "senal": "XLV",
+       "pos": 9,
+       "score": 1.119521,
+       "mom": 0.211313,
+       "vol": 0.188753,
+       "nombre": "Salud"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 10,
+       "score": 1.027616,
+       "mom": 0.205632,
+       "vol": 0.200106,
+       "nombre": "Nasdaq-100"
+      },
+      {
+       "senal": "GOOG",
+       "pos": 11,
+       "score": 0.717266,
+       "mom": 0.236986,
+       "vol": 0.330402,
+       "nombre": "Alphabet"
+      },
+      {
+       "senal": "XLP",
+       "pos": 12,
+       "score": 0.630515,
+       "mom": 0.107805,
+       "vol": 0.17098,
+       "nombre": "Consumo básico"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 13,
+       "score": 0.469384,
+       "mom": 0.064367,
+       "vol": 0.13713,
+       "nombre": "Inmobiliario"
+      },
+      {
+       "senal": "VRT",
+       "pos": 14,
+       "score": 0.417955,
+       "mom": 0.278135,
+       "vol": 0.665465,
+       "nombre": "Vertiv"
+      },
+      {
+       "senal": "NVDA",
+       "pos": 15,
+       "score": 0.393162,
+       "mom": 0.153652,
+       "vol": 0.390812,
+       "nombre": "Nvidia"
+      },
+      {
+       "senal": "BAC",
+       "pos": 16,
+       "score": 0.282482,
+       "mom": 0.061285,
+       "vol": 0.216951,
+       "nombre": "Bank of America"
+      },
+      {
+       "senal": "META",
+       "pos": 17,
+       "score": 0.279009,
+       "mom": 0.145218,
+       "vol": 0.520478,
+       "nombre": "Meta Platforms"
+      },
+      {
+       "senal": "GLD",
+       "pos": 18,
+       "score": 0.220671,
+       "mom": 0.055685,
+       "vol": 0.252345,
+       "nombre": "Oro"
+      },
+      {
+       "senal": "AMZN",
+       "pos": 19,
+       "score": 0.102943,
+       "mom": 0.041024,
+       "vol": 0.398514,
+       "nombre": "Amazon"
+      },
+      {
+       "senal": "MSFT",
+       "pos": 20,
+       "score": 0.049659,
+       "mom": 0.019066,
+       "vol": 0.383932,
+       "nombre": "Microsoft"
+      },
+      {
+       "senal": "MDB",
+       "pos": 21,
+       "score": -0.015112,
+       "mom": -0.011365,
+       "vol": 0.752102,
+       "nombre": "MongoDB"
+      },
+      {
+       "senal": "AVGO",
+       "pos": 22,
+       "score": -0.059537,
+       "mom": -0.023273,
+       "vol": 0.390892,
+       "nombre": "Broadcom"
+      },
+      {
+       "senal": "PLTR",
+       "pos": 23,
+       "score": -0.061919,
+       "mom": -0.047885,
+       "vol": 0.773338,
+       "nombre": "Palantir"
+      },
+      {
+       "senal": "CRM",
+       "pos": 24,
+       "score": -0.151044,
+       "mom": -0.092792,
+       "vol": 0.614339,
+       "nombre": "Salesforce"
+      },
+      {
+       "senal": "SMCI",
+       "pos": 25,
+       "score": -0.219488,
+       "mom": -0.19344,
+       "vol": 0.881324,
+       "nombre": "Super Micro Computer"
+      },
+      {
+       "senal": "LOGI",
+       "pos": 26,
+       "score": -0.33983,
+       "mom": -0.131013,
+       "vol": 0.385526,
+       "nombre": "Logitech"
+      },
+      {
+       "senal": "TSLA",
+       "pos": 27,
+       "score": -0.393467,
+       "mom": -0.206989,
+       "vol": 0.526064,
+       "nombre": "Tesla"
+      },
+      {
+       "senal": "SAP",
+       "pos": 28,
+       "score": -0.407863,
+       "mom": -0.167584,
+       "vol": 0.410884,
+       "nombre": "SAP"
+      },
+      {
+       "senal": "IBM",
+       "pos": 29,
+       "score": -0.416184,
+       "mom": -0.250979,
+       "vol": 0.603049,
+       "nombre": "IBM"
+      },
+      {
+       "senal": "NOW",
+       "pos": 30,
+       "score": -0.440528,
+       "mom": -0.256227,
+       "vol": 0.581636,
+       "nombre": "ServiceNow"
+      },
+      {
+       "senal": "RELX",
+       "pos": 31,
+       "score": -0.584361,
+       "mom": -0.213559,
+       "vol": 0.365457,
+       "nombre": "RELX"
+      },
+      {
+       "senal": "ZS",
+       "pos": 32,
+       "score": -0.595303,
+       "mom": -0.385477,
+       "vol": 0.647531,
+       "nombre": "Zscaler"
+      },
+      {
+       "senal": "ROOT",
+       "pos": 33,
+       "score": -0.641014,
+       "mom": -0.415651,
+       "vol": 0.648427,
+       "nombre": "Root"
+      },
+      {
+       "senal": "BABA",
+       "pos": 34,
+       "score": -0.820406,
+       "mom": -0.350206,
+       "vol": 0.426869,
+       "nombre": "Alibaba"
+      },
+      {
+       "senal": "LPL",
+       "pos": 35,
+       "score": -0.833605,
+       "mom": -0.399151,
+       "vol": 0.478825,
+       "nombre": "LG Display"
+      },
+      {
+       "senal": "ORCL",
+       "pos": 36,
+       "score": -0.851794,
+       "mom": -0.461346,
+       "vol": 0.541618,
+       "nombre": "Oracle"
+      },
+      {
+       "senal": "NFLX",
+       "pos": 37,
+       "score": -0.980667,
+       "mom": -0.365415,
+       "vol": 0.372619,
+       "nombre": "Netflix"
+      },
+      {
+       "senal": "INTU",
+       "pos": 38,
+       "score": -1.220706,
+       "mom": -0.574589,
+       "vol": 0.470702,
+       "nombre": "Intuit"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

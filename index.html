@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="ValerIA">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#EBEFF2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F161C" media="(prefers-color-scheme: dark)">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-180.png">
+<link rel="manifest" href="manifest.json">
+<title>Ranking ValerIA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;600;800&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);-webkit-text-size-adjust:100%}
+body{margin:0}
+/* Tablero de clasificación mensual: dos estrategias en paralelo, numerales grandes de puesto */
+:root{
+  --bg:#EBEFF2; --surface:#F7F9FA; --ink:#121B24; --muted:#56687A; --line:#CBD5DC;
+  --oro:#8E5308; --oro-fondo:#F5E6CA; --sube:#1C6A57; --baja:#9B3A31;
+  --display:"Chivo","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0F161C; --surface:#172129; --ink:#E4ECF1; --muted:#8FA2B0; --line:#2B3844;
+  --oro:#E3A53D; --oro-fondo:#33260F; --sube:#5BBBA0; --baja:#E57E73; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F161C; --surface:#172129; --ink:#E4ECF1; --muted:#8FA2B0; --line:#2B3844;
+  --oro:#E3A53D; --oro-fondo:#33260F; --sube:#5BBBA0; --baja:#E57E73; color-scheme:dark}
+html,body{background:var(--bg);color:var(--ink)}
+body{font-family:var(--display);font-size:15px;line-height:1.45}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:20px;padding-block:28px 40px;display:grid;gap:22px}
+.eyebrow,.lbl{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0}
+h1{font-size:clamp(26px,4vw,36px);font-weight:800;margin:4px 0 6px;letter-spacing:-.01em;text-wrap:balance}
+.formula{font-family:var(--mono);font-size:13px;color:var(--muted);margin:0}
+.aviso{border:1px solid var(--oro);background:var(--oro-fondo);padding:10px 14px;font-size:14px}
+.barra{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--ink)}
+.seg button{font:600 14px var(--display);padding:9px 16px;border:0;background:transparent;color:var(--ink);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.seg button:focus-visible,.btn:focus-visible,.link:focus-visible,summary:focus-visible{outline:2px solid var(--oro);outline-offset:2px}
+.contexto{margin:0;color:var(--muted);font-size:14px;flex:1 1 280px;min-width:0}
+.paneles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:18px}
+.panel{background:var(--surface);border:1px solid var(--line);padding:18px 18px 14px;display:grid;gap:12px;align-content:start;min-width:0}
+.cab{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px}
+.cab h2{margin:0;font-size:20px;font-weight:800}
+.cab .n{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.chip{margin-left:auto;font-family:var(--mono);font-size:12px;padding:3px 8px;border:1px solid var(--line);white-space:nowrap}
+.chip.rota{border-color:var(--oro);color:var(--oro)}
+.cuando{margin:0;font-size:13px;color:var(--muted)}
+.top{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.top li{display:grid;grid-template-columns:52px 1fr auto 64px;align-items:center;gap:12px;padding:10px 12px;border:1px solid var(--line);min-width:0}
+.top li.p1{background:var(--oro-fondo);border-color:var(--oro)}
+.rk{font-family:var(--mono);font-weight:600;font-size:34px;line-height:1;color:var(--muted);font-variant-numeric:tabular-nums}
+.p1 .rk{color:var(--oro)}
+.nom{min-width:0}
+.nom b{display:block;font-size:16px;font-weight:600;overflow-wrap:anywhere}
+.nom small{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.sc{font-family:var(--mono);font-size:18px;font-weight:600;font-variant-numeric:tabular-nums;text-align:right}
+.sc small{display:block;font-size:10px;font-weight:400;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.mv{font-family:var(--mono);font-size:14px;font-weight:600;text-align:right;white-space:nowrap}
+.mv.up{color:var(--sube)} .mv.down{color:var(--baja)} .mv.eq,.mv.new{color:var(--muted)}
+.mv.new{font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+details{border-top:1px solid var(--line);padding-top:8px}
+summary{cursor:pointer;font-size:13px;color:var(--muted)}
+.tabla{overflow-x:auto;margin-top:8px}
+table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums}
+th,td{padding:5px 8px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+th:nth-child(2),td:nth-child(2){text-align:left}
+th{font-weight:400;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+.vacio{color:var(--muted);font-size:14px;margin:0}
+.carga{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;border:1px dashed var(--line);padding:14px 16px}
+.carga.drag{border-color:var(--oro);background:var(--oro-fondo)}
+.btn{font:600 14px var(--display);padding:9px 16px;background:var(--ink);color:var(--bg);border:0;cursor:pointer}
+.link{font:13px var(--display);background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer;padding:0}
+.estado{flex-basis:100%;margin:0;font-size:13px;color:var(--muted)}
+.pie-datos{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;margin-top:-6px}
+.frescura{margin:0;font-family:var(--mono);font-size:12px;color:var(--muted);min-width:0}
+.manual{border-top:0;padding-top:0}
+.manual > summary{margin-bottom:10px}
+.estado.err{color:var(--baja)}
+footer{font-size:12.5px;color:var(--muted);max-width:70ch}
+@media (max-width:480px){.top li{grid-template-columns:38px 1fr auto 46px;gap:8px;padding:9px}.rk{font-size:26px}.sc{font-size:16px}}
+</style>
+</head>
+<body>
+
+<main class="wrap">
+  <header>
+    <p class="eyebrow">ValerIA · rotación momentum</p>
+    <h1>Ranking del mes</h1>
+    <p class="formula">score = rentabilidad 11 meses ÷ volatilidad 3 meses · metodología Portfolio Visualizer</p>
+  </header>
+
+  <div id="aviso" class="aviso" hidden></div>
+
+  <section class="barra" aria-label="Vista">
+    <div class="seg">
+      <button id="v-proxima" type="button" aria-pressed="true">Próxima rotación</button>
+      <button id="v-cerrado" type="button" aria-pressed="false">Último mes cerrado</button>
+    </div>
+    <p id="contexto" class="contexto"></p>
+  </section>
+
+  <section id="paneles" class="paneles" aria-live="polite"></section>
+
+  <div class="pie-datos"><p id="frescura" class="frescura"></p>
+    <button id="recargar" type="button" class="link">Actualizar</button></div>
+
+  <details id="manual" class="manual">
+    <summary>Carga manual de CSV (solo si falla la actualización automática)</summary>
+  <section id="carga" class="carga">
+    <label for="fichero" class="btn">Cargar CSV</label>
+    <input id="fichero" type="file" accept=".csv,.txt" multiple hidden>
+    <span>o arrastra aquí <code>precios_10y.csv</code> y <code>precios_acciones.csv</code></span>
+    <button id="olvidar" type="button" class="link" hidden>Olvidar datos guardados</button>
+    <p id="estado" class="estado"></p>
+  </section>
+  </details>
+
+  <footer>
+    Se actualiza sola tras cada cierre de mes: GitHub Actions descarga las cotizaciones de Yahoo Finance,
+    las pasa a euros, calcula los rankings con el mismo motor que el Excel y publica esta página.
+    La señal de cada decisión usa cierres hasta el final del mes anterior, así que la próxima rotación ya
+    se conoce un mes antes de ejecutarse. Las flechas comparan el puesto con el ranking de la decisión
+    anterior. Herramienta de cálculo, no recomendación de inversión.
+  </footer>
+</main>
+
+<script>
+// Motor de ranking con metodologia Portfolio Visualizer.
+//   momentum = cierre(t-1) / cierre(t-12) - 1          (11 meses)
+//   vol      = retornos diarios de los 3 meses que ACABAN en el cierre de t-1
+// La señal del mes t se cierra con datos de t-1: se conoce un mes antes.
+
+const DIAS_ANIO = 252;
+const MIN_OBS_VOL = 40;
+
+const BENCH_PAT = /iwda|urth|swda|msci|world|benchmark|[ií]ndice/i;
+
+function parseFecha(s) {
+  if (!s) return null;
+  s = String(s).trim().replace(/["']/g, "");
+  let m = s.match(/^(\d{4})[-/](\d{1,2})[-/](\d{1,2})/);
+  if (m) return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
+  m = s.match(/^(\d{1,2})[-/](\d{1,2})[-/](\d{4})/);
+  if (m) return new Date(Date.UTC(+m[3], +m[2] - 1, +m[1]));
+  return null;
+}
+
+function parseCSV(texto) {
+  const lineas = texto.trim().split(/\r?\n/).filter((l) => l.trim());
+  if (lineas.length < 2) throw new Error("El CSV necesita cabecera y al menos una fila.");
+  const sep = (lineas[0].match(/;/g) || []).length > (lineas[0].match(/,/g) || []).length ? ";" : ",";
+  const comaDecimal = sep === ";";
+  const cab = lineas[0].split(sep).map((s) => s.trim().replace(/^["']|["']$/g, ""));
+  const todas = cab.slice(1);
+  if (!todas.length) throw new Error("No hay columnas de activos tras la columna de fechas.");
+
+  const filas = [];
+  for (let i = 1; i < lineas.length; i++) {
+    const c = lineas[i].split(sep);
+    const f = parseFecha(c[0]);
+    if (!f) continue;
+    const vals = todas.map((_, j) => {
+      let v = (c[j + 1] ?? "").trim().replace(/["']/g, "");
+      if (comaDecimal) v = v.replace(/\./g, "").replace(",", ".");
+      const n = parseFloat(v);
+      return Number.isFinite(n) ? n : null;
+    });
+    filas.push({ fecha: f, vals });
+  }
+  filas.sort((a, b) => a.fecha - b.fecha);
+  if (!filas.length) throw new Error("No se ha reconocido ninguna fecha en la primera columna.");
+
+  // El indice de referencia se descarga en el mismo CSV pero no compite.
+  const idxBench = todas.findIndex((c) => BENCH_PAT.test(c));
+  const activos = [], indices = [];
+  todas.forEach((c, j) => (j === idxBench ? indices : activos).push({ nombre: c, j }));
+
+  return {
+    activos: activos.map((a) => a.nombre),
+    cols: activos.map((a) => a.j),
+    benchmark: indices.length ? indices[0].nombre : null,
+    filas,
+  };
+}
+
+const claveMes = (d) =>
+  `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, "0")}`;
+
+function sumarMeses(clave, n) {
+  const [a, m] = clave.split("-").map(Number);
+  const d = new Date(Date.UTC(a, m - 1 + n, 1));
+  return claveMes(d);
+}
+
+// Resta meses recortando al ultimo dia del mes destino, como pandas DateOffset:
+// 31-jul menos 3 meses es 30-abr, no 1-may.
+function restarMeses(d, n) {
+  const y = d.getUTCFullYear(), m = d.getUTCMonth() - n, dia = d.getUTCDate();
+  const ultimo = new Date(Date.UTC(y, m + 1, 0)).getUTCDate();
+  return new Date(Date.UTC(y, m, Math.min(dia, ultimo)));
+}
+
+function cierresMensuales(datos) {
+  const { cols, filas } = datos;
+  const meses = [], mapa = new Map(), cierre = new Map();
+  for (const f of filas) {
+    const k = claveMes(f.fecha);
+    if (!mapa.has(k)) { mapa.set(k, cols.map(() => null)); meses.push(k); }
+    const acc = mapa.get(k);
+    let algo = false;
+    cols.forEach((c, j) => { const v = f.vals[c]; if (v != null) { acc[j] = v; algo = true; } });
+    if (algo) cierre.set(k, f.fecha);
+  }
+  return { meses, mapa, cierre };
+}
+
+// Volatilidad anualizada sobre el calendario propio de cada activo: alinear
+// mercados distintos generaria retornos cero falsos y subestimaria el riesgo.
+function volatilidad(datos, hasta, volMeses) {
+  const { cols, filas } = datos;
+  const desde = restarMeses(hasta, volMeses);
+  return cols.map((c) => {
+    const s = [];
+    for (const f of filas) {
+      if (f.fecha < desde || f.fecha > hasta) continue;
+      if (f.vals[c] != null) s.push(f.vals[c]);
+    }
+    const r = [];
+    for (let i = 1; i < s.length; i++) if (s[i - 1] > 0) r.push(s[i] / s[i - 1] - 1);
+    if (r.length < MIN_OBS_VOL) return null;
+    const media = r.reduce((a, b) => a + b, 0) / r.length;
+    const varz = r.reduce((a, b) => a + (b - media) ** 2, 0) / (r.length - 1);
+    return Math.sqrt(varz) * Math.sqrt(DIAS_ANIO);
+  });
+}
+
+// Ultimo mes con el cierre real del mercado. Si la ultima fila es de un mes a
+// medias, sus precios son intradia y ese mes no puede alimentar la señal.
+function estadoUltimoMes(datos) {
+  const { meses, cierre } = cierresMensuales(datos);
+  const ult = meses[meses.length - 1];
+  const f = cierre.get(ult);
+  const [a, m] = ult.split("-").map(Number);
+  let fin = new Date(Date.UTC(a, m, 0));
+  while (fin.getUTCDay() === 0 || fin.getUTCDay() === 6) fin.setUTCDate(fin.getUTCDate() - 1);
+  // margen de 4 dias por festivos de cada plaza
+  const completo = (fin - f) / 86400000 <= 4;
+  return { mes: ult, fecha: f, completo, indice: meses.length - 1 };
+}
+
+function calcular(datos, { lookback = 12, skip = 1, volMeses = 3 } = {}) {
+  const { activos } = datos;
+  const { meses, mapa, cierre } = cierresMensuales(datos);
+  const span = lookback - skip;                 // 11 meses de ventana de momentum
+  const est = estadoUltimoMes(datos);
+  const tope = est.completo ? meses.length - 1 : meses.length - 2;
+  const out = [];
+
+  for (let k = span; k <= tope; k++) {
+    const fRef = cierre.get(meses[k]);
+    if (!fRef) continue;
+    const fin = mapa.get(meses[k]), ini = mapa.get(meses[k - span]);
+    const vol = volatilidad(datos, fRef, volMeses);
+
+    const ranking = activos.map((nombre, j) => {
+      const mom = ini[j] != null && fin[j] != null && ini[j] > 0 ? fin[j] / ini[j] - 1 : null;
+      const v = vol[j];
+      return { nombre, mom, vol: v, score: mom != null && v ? mom / v : null };
+    }).filter((r) => r.score != null).sort((a, b) => b.score - a.score);
+    if (!ranking.length) continue;
+    ranking.forEach((r, i) => (r.pos = i + 1));
+
+    out.push({
+      mesSenal: meses[k],
+      fechaSenal: fRef,
+      mesDecision: sumarMeses(meses[k], skip),
+      mesCartera: sumarMeses(meses[k], skip + 1),
+      ranking,
+    });
+  }
+  return out;
+}
+
+// Variacion de puesto respecto al ranking anterior.
+function conMovimiento(actual, previo) {
+  const antes = new Map((previo?.ranking || []).map((r) => [r.nombre, r.pos]));
+  return actual.ranking.map((r) => {
+    const p = antes.get(r.nombre);
+    return { ...r, posPrevia: p ?? null, delta: p == null ? null : p - r.pos };
+  });
+}
+
+
+const MESES = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+const nomMes = (k) => { const [a, m] = k.split("-").map(Number); return `${MESES[m - 1]} ${a}`; };
+const soloMes = (k) => MESES[+k.split("-")[1] - 1];
+const fFecha = (d) => `${d.getUTCDate()} ${MESES[d.getUTCMonth()].slice(0, 3)} ${d.getUTCFullYear()}`;
+const fNum = (x, d = 2) => x == null ? "—" : x.toLocaleString("es-ES", { minimumFractionDigits: d, maximumFractionDigits: d });
+const fPct = (x) => x == null ? "—" : fNum(x * 100, 1) + "%";
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+const TITULO = { sectorial: "Sectorial", acciones: "Acciones" };
+const CLAVE_LOCAL = { sectorial: "valeria-csv-sectorial", acciones: "valeria-csv-acciones" };
+const COMPRA = { XLP: "SXLP.L", XLV: "SXLV.L", QQQ: "CNDX.L", XLE: "SXLE.L", VNQ: "XRES.L", XLU: "SXLU.L", GLD: "SGLD.L" };
+const SECTOR = { XLP: "Consumo básico", XLV: "Salud", QQQ: "Tecnología", XLE: "Energía", VNQ: "Inmobiliario", XLU: "Utilities", GLD: "Oro" };
+
+// Estado: origen "db" (automático), "csv" (manual) o null.
+const estado = { vista: "proxima", sectorial: null, acciones: null, db: "cargando" };
+
+function leerLocal(k) { try { return localStorage.getItem(k); } catch { return null; } }
+function guardarLocal(k, v) { try { localStorage.setItem(k, v); return true; } catch { return false; } }
+
+/* Ambos orígenes se normalizan a la misma forma:
+   {titulo, esperados, activos, ultimoDato, avisos, generado, ejemplo, origen,
+    decisiones: [{mesSenal, fechaSenal, mesDecision, mesCartera, ranking: [{id, titulo, sub, pos, score, mom, vol}]}]} */
+function desdeDb(d) {
+  return {
+    titulo: d.titulo, esperados: d.esperados, activos: d.activos, ultimoDato: d.ultimoDato,
+    avisos: d.avisos || [], generado: d.generado, ejemplo: !!d.ejemplo, origen: "db",
+    decisiones: (d.decisiones || []).map((x) => ({
+      ...x, fechaSenal: parseFecha(x.fechaSenal),
+      ranking: x.ranking.map((r) => ({
+        id: r.senal, titulo: r.nombre || r.senal, pos: r.pos, score: r.score, mom: r.mom, vol: r.vol,
+        sub: r.compra ? `comprar ${r.compra} · señal ${r.senal}` : (r.nombre && r.nombre !== r.senal ? r.senal : ""),
+      })),
+    })),
+  };
+}
+function desdeCsv(texto, tipo, nombre) {
+  const datos = parseCSV(texto);
+  const dec = calcular(datos);
+  if (dec.length < 2) throw new Error("hacen falta al menos 13 meses de precios para tener dos rankings que comparar");
+  const et = (n) => {
+    const t = n.trim().toUpperCase();
+    if (SECTOR[t]) return { titulo: SECTOR[t], sub: `comprar ${COMPRA[t]} · señal ${t}` };
+    const m = n.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
+    return m ? { titulo: m[1], sub: m[2] } : { titulo: n, sub: "" };
+  };
+  return {
+    titulo: TITULO[tipo], esperados: null, activos: datos.activos.length, origen: "csv", archivo: nombre,
+    ultimoDato: datos.filas[datos.filas.length - 1].fecha.toISOString().slice(0, 10), avisos: [], ejemplo: false,
+    decisiones: dec.map((x) => ({ ...x, ranking: x.ranking.map((r) => ({ ...r, id: r.nombre, ...et(r.nombre) })) })),
+  };
+}
+
+function mesAnteriorAHoy() {
+  const h = new Date();
+  return claveMes(new Date(Date.UTC(h.getUTCFullYear(), h.getUTCMonth() - 1, 1)));
+}
+
+function movimiento(sel, prev) {
+  const antes = new Map((prev?.ranking || []).map((r) => [r.id, r.pos]));
+  return sel.ranking.map((r) => {
+    const p = antes.get(r.id);
+    return { ...r, posPrevia: p ?? null, delta: p == null ? null : p - r.pos };
+  });
+}
+
+function panel(tipo) {
+  const e = estado[tipo];
+  if (!e || e.decisiones.length < 2) {
+    const txt = estado.db === "cargando" ? "Cargando el ranking…"
+      : "No hay ranking de esta estrategia. Comprueba que la acción de GitHub haya generado rankings.json.";
+    return `<article class="panel"><div class="cab"><h2>${TITULO[tipo]}</h2></div><p class="vacio">${txt}</p></article>`;
+  }
+  const n = e.decisiones.length;
+  const iSel = estado.vista === "proxima" ? n - 1 : n - 2;
+  const sel = e.decisiones[iSel], prev = e.decisiones[iSel - 1];
+  const filas = prev ? movimiento(sel, prev) : sel.ranking.map((r) => ({ ...r, delta: null, posPrevia: null }));
+  const gan = filas[0], ganPrev = prev?.ranking[0];
+  const rota = ganPrev && ganPrev.id !== gan.id;
+
+  const chip = !ganPrev ? "" : rota
+    ? `<span class="chip rota" title="Cambia el activo en cartera">Rota: ${esc(ganPrev.titulo)} → ${esc(gan.titulo)}</span>`
+    : `<span class="chip" title="El primero no cambia">Mantener ${esc(gan.titulo)}</span>`;
+  const cuando = estado.vista === "proxima"
+    ? `Señal con cierres hasta el ${fFecha(sel.fechaSenal)} · se ejecuta al cierre de ${soloMes(sel.mesDecision)} · cartera de ${nomMes(sel.mesCartera)}`
+    : `Decidido al cierre de ${nomMes(sel.mesDecision)} con datos hasta el ${fFecha(sel.fechaSenal)} · cartera de ${nomMes(sel.mesCartera)}`;
+  const contra = prev ? ` Flechas frente a la decisión de ${nomMes(prev.mesDecision)}.` : "";
+
+  const mov = (r) => r.delta == null ? `<span class="mv new" title="Sin puesto el mes anterior">nuevo</span>`
+    : r.delta > 0 ? `<span class="mv up" title="Sube ${r.delta} desde el ${r.posPrevia}º">▲ ${r.delta}</span>`
+    : r.delta < 0 ? `<span class="mv down" title="Baja ${-r.delta} desde el ${r.posPrevia}º">▼ ${-r.delta}</span>`
+    : `<span class="mv eq" title="Mismo puesto">=</span>`;
+  const top = filas.slice(0, 3).map((r) => `
+    <li class="p${r.pos}">
+      <span class="rk">${r.pos}</span>
+      <div class="nom"><b>${esc(r.titulo)}</b>${r.sub ? `<small>${esc(r.sub)}</small>` : ""}</div>
+      <span class="sc">${fNum(r.score)}<small>score</small></span>
+      ${mov(r)}
+    </li>`).join("");
+  const tabla = filas.map((r) => `<tr><td>${r.pos}</td><td>${esc(r.titulo)}</td>
+    <td>${fPct(r.mom)}</td><td>${fPct(r.vol)}</td><td>${fNum(r.score)}</td><td>${r.posPrevia ?? "—"}</td></tr>`).join("");
+
+  return `<article class="panel">
+    <div class="cab"><h2>${esc(e.titulo || TITULO[tipo])}</h2><span class="n">${filas.length} activos</span>${chip}</div>
+    <p class="cuando">${cuando}.${contra}</p>
+    <ol class="top">${top}</ol>
+    <details><summary>Ranking completo</summary><div class="tabla"><table>
+      <thead><tr><th>#</th><th>Activo</th><th>Rent. 11m</th><th>Vol. 3m</th><th>Score</th><th>Antes</th></tr></thead>
+      <tbody>${tabla}</tbody></table></div></details>
+  </article>`;
+}
+
+function pintar() {
+  document.getElementById("v-proxima").setAttribute("aria-pressed", estado.vista === "proxima");
+  document.getElementById("v-cerrado").setAttribute("aria-pressed", estado.vista === "cerrado");
+  document.getElementById("contexto").textContent = estado.vista === "proxima"
+    ? "La decisión que toca en el próximo cierre de mes. Ya está fijada con datos cerrados."
+    : "La decisión tomada en el último cierre: lo que debería estar en cartera ahora.";
+  document.getElementById("paneles").innerHTML = panel("sectorial") + panel("acciones");
+
+  const avisos = [], fresc = [];
+  if (["sectorial", "acciones"].some((t) => estado[t]?.ejemplo))
+    avisos.push("<b>Datos de ejemplo simulados.</b> No son rankings reales.");
+  if (estado.db === "sin-acceso")
+    avisos.push("No se han podido descargar los rankings. Comprueba la conexión o usa la carga manual.");
+  if (estado.db === "offline")
+    avisos.push("Sin conexión: se muestran los últimos rankings descargados en este dispositivo.");
+  for (const t of ["sectorial", "acciones"]) {
+    const e = estado[t];
+    if (!e || e.ejemplo || !e.decisiones.length) continue;
+    const ult = e.decisiones[e.decisiones.length - 1].mesSenal;
+    if (ult < mesAnteriorAHoy())
+      avisos.push(`${TITULO[t]}: falta el cierre de ${nomMes(mesAnteriorAHoy())}. Revisa que la acción de GitHub se haya ejecutado.`);
+    if (e.esperados && e.activos < e.esperados)
+      avisos.push(`${TITULO[t]}: el ranking usa ${e.activos} de ${e.esperados} activos. Completa la lista en universos.json.`);
+    e.avisos.forEach((a) => avisos.push(`${TITULO[t]}: ${esc(a)}`));
+    const g = e.generado ? new Date(e.generado) : null;
+    fresc.push(e.origen === "db"
+      ? `${TITULO[t]}: calculado el ${g ? fFecha(g) : "—"} · último precio ${e.ultimoDato}`
+      : `${TITULO[t]}: CSV manual ${e.archivo || ""} · último precio ${e.ultimoDato}`);
+  }
+  const av = document.getElementById("aviso");
+  av.innerHTML = avisos.join("<br>");
+  av.hidden = !avisos.length;
+  document.getElementById("frescura").textContent = fresc.join("   ·   ");
+}
+
+function msg(t, err) { const p = document.getElementById("estado"); p.textContent = t; p.className = "estado" + (err ? " err" : ""); }
+
+async function procesar(files) {
+  const hechos = [], fallos = [];
+  for (const f of files) {
+    try {
+      const txt = await f.text();
+      const tipo = parseCSV(txt).activos.length <= 15 ? "sectorial" : "acciones";
+      estado[tipo] = desdeCsv(txt, tipo, f.name);
+      const ok = txt.length < 2.5e6 && guardarLocal(CLAVE_LOCAL[tipo], JSON.stringify({ nombre: f.name, txt }));
+      hechos.push(`${f.name} → ${TITULO[tipo]}${ok ? "" : " (no guardado)"}`);
+    } catch (e) { fallos.push(`${f.name}: ${e.message}`); }
+  }
+  msg((hechos.length ? "Cargado: " + hechos.join(" · ") : "") + (fallos.length ? " Error en " + fallos.join(" · ") : ""), !!fallos.length);
+  pintar();
+}
+
+document.getElementById("v-proxima").onclick = () => { estado.vista = "proxima"; pintar(); };
+document.getElementById("v-cerrado").onclick = () => { estado.vista = "cerrado"; pintar(); };
+document.getElementById("fichero").onchange = (e) => { procesar([...e.target.files]); e.target.value = ""; };
+document.getElementById("olvidar").hidden = true;
+const zona = document.getElementById("carga");
+["dragenter", "dragover"].forEach((t) => document.addEventListener(t, (e) => { e.preventDefault(); zona.classList.add("drag"); }));
+["dragleave", "drop"].forEach((t) => document.addEventListener(t, (e) => { e.preventDefault(); if (t === "drop" || !e.relatedTarget) zona.classList.remove("drag"); }));
+document.addEventListener("drop", (e) => {
+  const f = [...(e.dataTransfer?.files || [])];
+  if (f.length) { document.getElementById("manual").open = true; procesar(f); }
+});
+
+function cargarRespaldoLocal() {
+  for (const t of ["sectorial", "acciones"]) {
+    if (estado[t]) continue;
+    try { const g = JSON.parse(leerLocal(CLAVE_LOCAL[t]) || "null"); if (g) estado[t] = desdeCsv(g.txt, t, g.nombre); } catch {}
+  }
+}
+
+const CLAVE_JSON = "valeria-rankings-json";
+
+async function cargarDatos() {
+  estado.db = "cargando"; pintar();
+  let texto = null;
+  try {
+    const r = await fetch("rankings.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    texto = await r.text();
+    guardarLocal(CLAVE_JSON, texto);
+    estado.db = "ok";
+  } catch {
+    texto = leerLocal(CLAVE_JSON);              // sin conexión: últimos datos de este dispositivo
+    estado.db = texto ? "offline" : "sin-acceso";
+  }
+  if (texto) {
+    try {
+      const j = JSON.parse(texto);
+      for (const t of ["sectorial", "acciones"])
+        if (j.estrategias?.[t]) estado[t] = desdeDb({ ...j.estrategias[t], generado: j.generado });
+    } catch { estado.db = "sin-acceso"; }
+  }
+  if (!estado.sectorial || !estado.acciones) cargarRespaldoLocal();
+  pintar();
+}
+document.getElementById("recargar").onclick = () => cargarDatos();
+cargarDatos();
+</script>
+
+</body>
+</html>

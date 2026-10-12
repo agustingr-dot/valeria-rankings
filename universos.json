@@ -1,0 +1,209 @@
+{
+  "moneda": "EUR",
+  "parametros": {
+    "lookback": 12,
+    "skip": 1,
+    "vol_meses": 3
+  },
+  "estrategias": {
+    "sectorial": {
+      "titulo": "Sectorial",
+      "esperados": 7,
+      "activos": [
+        {
+          "senal": "XLP",
+          "nombre": "Consumo básico",
+          "compra": "SXLP.L"
+        },
+        {
+          "senal": "XLV",
+          "nombre": "Salud",
+          "compra": "SXLV.L"
+        },
+        {
+          "senal": "QQQ",
+          "nombre": "Tecnología",
+          "compra": "CNDX.L"
+        },
+        {
+          "senal": "XLE",
+          "nombre": "Energía",
+          "compra": "SXLE.L"
+        },
+        {
+          "senal": "VNQ",
+          "nombre": "Inmobiliario",
+          "compra": "XRES.L"
+        },
+        {
+          "senal": "XLU",
+          "nombre": "Utilities",
+          "compra": "SXLU.L"
+        },
+        {
+          "senal": "GLD",
+          "nombre": "Oro",
+          "compra": "SGLD.L"
+        }
+      ]
+    },
+    "acciones": {
+      "titulo": "Acciones",
+      "esperados": 38,
+      "activos": [
+        {
+          "senal": "XLE",
+          "nombre": "Energía"
+        },
+        {
+          "senal": "GLD",
+          "nombre": "Oro"
+        },
+        {
+          "senal": "VNQ",
+          "nombre": "Inmobiliario"
+        },
+        {
+          "senal": "XLP",
+          "nombre": "Consumo básico"
+        },
+        {
+          "senal": "XLV",
+          "nombre": "Salud"
+        },
+        {
+          "senal": "QQQ",
+          "nombre": "Nasdaq-100"
+        },
+        {
+          "senal": "ZS",
+          "nombre": "Zscaler"
+        },
+        {
+          "senal": "PLTR",
+          "nombre": "Palantir"
+        },
+        {
+          "senal": "NOW",
+          "nombre": "ServiceNow"
+        },
+        {
+          "senal": "INTU",
+          "nombre": "Intuit"
+        },
+        {
+          "senal": "MDB",
+          "nombre": "MongoDB"
+        },
+        {
+          "senal": "META",
+          "nombre": "Meta Platforms"
+        },
+        {
+          "senal": "TSLA",
+          "nombre": "Tesla"
+        },
+        {
+          "senal": "RELX",
+          "nombre": "RELX"
+        },
+        {
+          "senal": "AMD",
+          "nombre": "AMD"
+        },
+        {
+          "senal": "MSFT",
+          "nombre": "Microsoft"
+        },
+        {
+          "senal": "AVGO",
+          "nombre": "Broadcom"
+        },
+        {
+          "senal": "NVDA",
+          "nombre": "Nvidia"
+        },
+        {
+          "senal": "NFLX",
+          "nombre": "Netflix"
+        },
+        {
+          "senal": "IBM",
+          "nombre": "IBM"
+        },
+        {
+          "senal": "CRM",
+          "nombre": "Salesforce"
+        },
+        {
+          "senal": "CSCO",
+          "nombre": "Cisco"
+        },
+        {
+          "senal": "BABA",
+          "nombre": "Alibaba"
+        },
+        {
+          "senal": "AMZN",
+          "nombre": "Amazon"
+        },
+        {
+          "senal": "ORCL",
+          "nombre": "Oracle"
+        },
+        {
+          "senal": "SAP",
+          "nombre": "SAP"
+        },
+        {
+          "senal": "BAC",
+          "nombre": "Bank of America"
+        },
+        {
+          "senal": "GOOG",
+          "nombre": "Alphabet"
+        },
+        {
+          "senal": "ROOT",
+          "nombre": "Root"
+        },
+        {
+          "senal": "PANW",
+          "nombre": "Palo Alto Networks"
+        },
+        {
+          "senal": "VRT",
+          "nombre": "Vertiv"
+        },
+        {
+          "senal": "LLY",
+          "nombre": "Eli Lilly"
+        },
+        {
+          "senal": "VLO",
+          "nombre": "Valero Energy"
+        },
+        {
+          "senal": "LOGI",
+          "nombre": "Logitech"
+        },
+        {
+          "senal": "DELL",
+          "nombre": "Dell Technologies"
+        },
+        {
+          "senal": "LPL",
+          "nombre": "LG Display"
+        },
+        {
+          "senal": "CRWD",
+          "nombre": "CrowdStrike"
+        },
+        {
+          "senal": "SMCI",
+          "nombre": "Super Micro Computer"
+        }
+      ]
+    }
+  }
+}
