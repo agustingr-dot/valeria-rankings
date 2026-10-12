@@ -63,9 +63,9 @@ button:focus-visible,select:focus-visible,summary:focus-visible,.btn:focus-visib
 .chip{margin-left:auto;font-family:var(--mono);font-size:12px;padding:3px 8px;border:1px solid var(--line);white-space:nowrap}
 .chip.rota{border-color:var(--acento);color:var(--acento)}
 .top{list-style:none;margin:0;padding:0;display:grid;gap:6px}
-.top li{display:grid;grid-template-columns:40px 1fr auto 52px;align-items:center;gap:10px;padding:9px 10px;border:1px solid var(--line);min-width:0}
+.top li{display:grid;grid-template-columns:40px 1fr auto 52px;align-items:center;gap:10px;padding:7px 10px;border:1px solid var(--line);min-width:0}
 .top li.p1{background:var(--gana-fondo);border-color:var(--gana)}
-.rk{font-family:var(--mono);font-weight:600;font-size:28px;line-height:1;color:var(--muted);font-variant-numeric:tabular-nums}
+.rk{font-family:var(--mono);font-weight:600;font-size:26px;line-height:1;color:var(--muted);font-variant-numeric:tabular-nums}
 .p1 .rk{color:var(--gana)}
 .nom{min-width:0}
 .nom b{display:block;font-size:16px;font-weight:600;overflow-wrap:anywhere}
@@ -76,6 +76,16 @@ button:focus-visible,select:focus-visible,summary:focus-visible,.btn:focus-visib
 .mv.up{color:var(--sube)} .mv.down{color:var(--baja)} .mv.eq,.mv.new{color:var(--muted)}
 .mv.new{font-size:11px;text-transform:uppercase;letter-spacing:.08em}
 .info{margin:0;font-size:13px;color:var(--muted)}
+.prov{border:1px dashed var(--muted);padding:10px 12px;display:grid;gap:8px}
+.prov .cab h3{margin:0;font-size:14px;font-weight:800}
+.prov .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.mini{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.mini li{display:grid;grid-template-columns:22px 1fr auto 44px;gap:8px;align-items:baseline;padding:3px 0;font-size:14px}
+.mini li.p1 b{color:var(--gana)}
+.mini .rk2{font-family:var(--mono);font-weight:600;color:var(--muted)}
+.mini b{font-weight:600;min-width:0;overflow-wrap:anywhere}
+.mini .sc2{font-family:var(--mono);font-weight:600;font-variant-numeric:tabular-nums;text-align:right}
+.chip.vende{border-color:var(--acento);color:var(--acento)}
 .vacio{color:var(--muted);font-size:14px;margin:0}
 details{border-top:1px solid var(--line);padding-top:6px}
 summary{cursor:pointer;font-size:13px;color:var(--muted)}
@@ -138,8 +148,11 @@ footer{font-size:12.5px;color:var(--muted);max-width:70ch}
   <footer>
     Se actualiza sola tras cada cierre de mes: GitHub Actions descarga las cotizaciones de Yahoo Finance,
     las pasa a euros, calcula los rankings con el mismo motor que el Excel y publica esta página.
-    La señal de cada decisión usa cierres hasta el final del mes anterior, así que la próxima rotación ya
-    se conoce un mes antes de ejecutarse. Herramienta de cálculo, no recomendación de inversión.
+    Tras cada cierre de mes, la operación se hace el primer día hábil: mantener si el primero no cambia,
+    o vender el anterior y comprar el nuevo. La señal de cada decisión usa cierres hasta el final del mes
+    anterior, así que la próxima rotación ya es definitiva un mes antes; el avance provisional enseña cómo va
+    la siguiente con los precios de cada día. Festivos de mercado no contemplados salvo el 1 de enero.
+    Herramienta de cálculo, no recomendación de inversión.
   </footer>
 </main>
 
@@ -267,12 +280,13 @@ function estadoUltimoMes(datos) {
   return { mes: ult, fecha: f, completo, indice: meses.length - 1 };
 }
 
-function calcular(datos, { lookback = 12, skip = 1, volMeses = 3 } = {}) {
+function calcular(datos, { lookback = 12, skip = 1, volMeses = 3, incluirIncompleto = false } = {}) {
   const { activos } = datos;
   const { meses, mapa, cierre } = cierresMensuales(datos);
   const span = lookback - skip;                 // 11 meses de ventana de momentum
   const est = estadoUltimoMes(datos);
-  const tope = est.completo ? meses.length - 1 : meses.length - 2;
+  // el mes en curso solo entra en el avance provisional, nunca en las decisiones
+  const tope = est.completo || incluirIncompleto ? meses.length - 1 : meses.length - 2;
   const out = [];
 
   for (let k = span; k <= tope; k++) {
@@ -309,10 +323,30 @@ function conMovimiento(actual, previo) {
   });
 }
 
+// Avance provisional: la señal del mes en curso con los precios hasta hoy.
+// Decide la ejecución del día 1 del mes siguiente al próximo; cambia cada día.
+function provisional(datos, params = {}) {
+  const est = estadoUltimoMes(datos);
+  if (est.completo) return null;
+  const r = calcular(datos, { ...params, incluirIncompleto: true });
+  const ult = r[r.length - 1];
+  return ult && ult.mesSenal === est.mes ? ult : null;
+}
+
 
 const MES3 = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
 const fMes = (k) => { const [a, m] = k.split("-").map(Number); return `${MES3[m - 1]}-${a}`; };
 const fDia = (d) => `${String(d.getUTCDate()).padStart(2, "0")}-${MES3[d.getUTCMonth()]}-${d.getUTCFullYear()}`;
+const DIAS = ["dom","lun","mar","mié","jue","vie","sáb"];
+// Primer día hábil de un mes (fines de semana y 1 de enero; otros festivos no se contemplan)
+function diaEjecucion(k) {
+  const [a, m] = k.split("-").map(Number);
+  const d = new Date(Date.UTC(a, m - 1, 1));
+  while (d.getUTCDay() === 0 || d.getUTCDay() === 6 || (d.getUTCMonth() === 0 && d.getUTCDate() === 1))
+    d.setUTCDate(d.getUTCDate() + 1);
+  return d;
+}
+const fEjec = (k) => { const d = diaEjecucion(k); return `${DIAS[d.getUTCDay()]} ${fDia(d)}`; };
 const fNum = (x, d = 2) => x == null ? "—" : x.toLocaleString("es-ES", { minimumFractionDigits: d, maximumFractionDigits: d });
 const fPct = (x) => x == null ? "—" : fNum(x * 100, 1) + "%";
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -336,17 +370,21 @@ const estado = {
 /* Los dos orígenes se normalizan a la misma forma:
    {titulo, esperados, activos, ultimoDato, avisos, generado, origen,
     decisiones: [{mesSenal, fechaSenal, mesDecision, mesCartera, ranking: [{id, titulo, sub, pos, score, mom, vol}]}]} */
+function decisionJson(x) {
+  return {
+    ...x, fechaSenal: parseFecha(x.fechaSenal),
+    ranking: x.ranking.map((r) => ({
+      id: r.senal, titulo: r.nombre || r.senal, pos: r.pos, score: r.score, mom: r.mom, vol: r.vol,
+      sub: r.compra ? `${r.compra} (señal ${r.senal})` : (r.nombre && r.nombre !== r.senal ? r.senal : ""),
+    })),
+  };
+}
 function desdeJson(d) {
   return {
     titulo: d.titulo, esperados: d.esperados, activos: d.activos, ultimoDato: d.ultimoDato,
     avisos: d.avisos || [], generado: d.generado, origen: "web",
-    decisiones: (d.decisiones || []).map((x) => ({
-      ...x, fechaSenal: parseFecha(x.fechaSenal),
-      ranking: x.ranking.map((r) => ({
-        id: r.senal, titulo: r.nombre || r.senal, pos: r.pos, score: r.score, mom: r.mom, vol: r.vol,
-        sub: r.compra ? `comprar ${r.compra} · señal ${r.senal}` : (r.nombre && r.nombre !== r.senal ? r.senal : ""),
-      })),
-    })),
+    decisiones: (d.decisiones || []).map(decisionJson),
+    provisional: d.provisional ? decisionJson(d.provisional) : null,
   };
 }
 function desdeCsv(texto, tipo, nombre) {
@@ -355,14 +393,16 @@ function desdeCsv(texto, tipo, nombre) {
   if (dec.length < 2) throw new Error("hacen falta al menos 13 meses de precios para tener dos rankings que comparar");
   const et = (n) => {
     const t = n.trim().toUpperCase();
-    if (SECTOR[t]) return { titulo: SECTOR[t], sub: `comprar ${COMPRA[t]} · señal ${t}` };
+    if (SECTOR[t]) return { titulo: SECTOR[t], sub: `${COMPRA[t]} (señal ${t})` };
     const m = n.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
     return m ? { titulo: m[1], sub: m[2] } : { titulo: n, sub: "" };
   };
+  const conEt = (x) => ({ ...x, ranking: x.ranking.map((r) => ({ ...r, id: r.nombre, ...et(r.nombre) })) });
+  const prov = provisional(datos);
   return {
     titulo: TITULO[tipo], esperados: null, activos: datos.activos.length, origen: "csv", archivo: nombre,
     ultimoDato: datos.filas[datos.filas.length - 1].fecha.toISOString().slice(0, 10), avisos: [],
-    decisiones: dec.map((x) => ({ ...x, ranking: x.ranking.map((r) => ({ ...r, id: r.nombre, ...et(r.nombre) })) })),
+    decisiones: dec.map(conEt), provisional: prov ? conEt(prov) : null,
   };
 }
 
@@ -386,6 +426,37 @@ function movimiento(sel, prev) {
   });
 }
 
+const flecha = (r) => r.delta == null ? `<span class="mv new" title="Sin puesto el mes anterior">nuevo</span>`
+  : r.delta > 0 ? `<span class="mv up" title="Sube ${r.delta} desde el ${r.posPrevia}º">▲ ${r.delta}</span>`
+  : r.delta < 0 ? `<span class="mv down" title="Baja ${-r.delta} desde el ${r.posPrevia}º">▼ ${-r.delta}</span>`
+  : `<span class="mv eq" title="Mismo puesto">=</span>`;
+
+// Acción frente a lo que hay en cartera: mantener, o vender el anterior y comprar el nuevo
+function chipAccion(gan, ganPrev, prefijo = "") {
+  if (!ganPrev) return "";
+  const [m, v] = prefijo ? ["mantener", "vender"] : ["Mantener", "Vender"];
+  return ganPrev.id === gan.id
+    ? `<span class="chip">${prefijo}${m} ${esc(gan.titulo)}</span>`
+    : `<span class="chip vende">${prefijo}${v} ${esc(ganPrev.titulo)} → comprar ${esc(gan.titulo)}</span>`;
+}
+
+function bloqueProvisional(e, def) {
+  const p = e.provisional;
+  if (!p || p.mesDecision !== sumarMeses(def.mesDecision, 1)) {
+    return `<p class="info">El avance provisional de la siguiente rotación empieza con el primer cierre de ${fMes(def.mesCartera)}.</p>`;
+  }
+  const filas = movimiento(p, def);
+  const top = filas.slice(0, 3).map((r) => `
+    <li class="p${r.pos}"><span class="rk2">${r.pos}</span><b>${esc(r.titulo)}</b>
+      <span class="sc2">${fNum(r.score)}</span>${flecha(r)}</li>`).join("");
+  return `<section class="prov" aria-label="Avance provisional">
+    <div class="cab"><span class="tag">Avance provisional</span>${chipAccion(filas[0], def.ranking[0], "Por ahora: ")}</div>
+    <ol class="mini">${top}</ol>
+    <p class="info">Con cierres hasta el ${fDia(p.fechaSenal)}; cambia cada día hasta el cierre de ${fMes(p.mesSenal)}.
+      Se ejecutaría el ${fEjec(p.mesCartera)}. Flechas sobre la rotación de ${fMes(def.mesCartera)}.</p>
+  </section>`;
+}
+
 function panel() {
   const tipo = estado.estrategia, e = estado[tipo];
   if (!e || !e.decisiones.length) {
@@ -397,35 +468,27 @@ function panel() {
   const sel = e.decisiones[i], prev = e.decisiones[i - 1];
   const esProxima = i === n - 1;
   const filas = prev ? movimiento(sel, prev) : sel.ranking.map((r) => ({ ...r, delta: null, posPrevia: null }));
-  const gan = filas[0], ganPrev = prev?.ranking[0];
-  const rota = ganPrev && ganPrev.id !== gan.id;
 
-  const chip = !ganPrev ? "" : rota
-    ? `<span class="chip rota" title="Cambia el activo en cartera">Rota: ${esc(ganPrev.titulo)} → ${esc(gan.titulo)}</span>`
-    : `<span class="chip" title="El primero no cambia">Mantener ${esc(gan.titulo)}</span>`;
   const info = (esProxima
-      ? `Señal con cierres hasta el ${fDia(sel.fechaSenal)} para ejecutar al cierre de ${fMes(sel.mesDecision)}.`
-      : `Señal con cierres hasta el ${fDia(sel.fechaSenal)}, ejecutada al cierre de ${fMes(sel.mesDecision)} (cartera de ${fMes(sel.mesCartera)}).`)
+      ? `Señal con cierres hasta el ${fDia(sel.fechaSenal)}. Se ejecuta el ${fEjec(sel.mesCartera)}, tras el cierre de ${fMes(sel.mesDecision)}.`
+      : `Señal con cierres hasta el ${fDia(sel.fechaSenal)}. Ejecutada el ${fEjec(sel.mesCartera)} (cartera de ${fMes(sel.mesCartera)}).`)
     + (prev ? ` Flechas sobre el cierre de ${fMes(prev.mesDecision)}.` : "");
 
-  const mov = (r) => r.delta == null ? `<span class="mv new" title="Sin puesto el mes anterior">nuevo</span>`
-    : r.delta > 0 ? `<span class="mv up" title="Sube ${r.delta} desde el ${r.posPrevia}º">▲ ${r.delta}</span>`
-    : r.delta < 0 ? `<span class="mv down" title="Baja ${-r.delta} desde el ${r.posPrevia}º">▼ ${-r.delta}</span>`
-    : `<span class="mv eq" title="Mismo puesto">=</span>`;
   const top = filas.slice(0, 3).map((r) => `
     <li class="p${r.pos}">
       <span class="rk">${r.pos}</span>
       <div class="nom"><b>${esc(r.titulo)}</b>${r.sub ? `<small>${esc(r.sub)}</small>` : ""}</div>
       <span class="sc">${fNum(r.score)}<small>score</small></span>
-      ${mov(r)}
+      ${flecha(r)}
     </li>`).join("");
   const tabla = filas.map((r) => `<tr${r.pos === 1 ? ' class="g"' : ""}><td>${r.pos}</td><td>${esc(r.titulo)}</td>
     <td>${fPct(r.mom)}</td><td>${fPct(r.vol)}</td><td>${fNum(r.score)}</td><td>${r.posPrevia ?? "—"}</td></tr>`).join("");
 
   return `<article class="panel">
-    <div class="cab"><h2>Cierre ${fMes(sel.mesDecision)}</h2><span class="n">${filas.length} activos</span>${chip}</div>
+    <div class="cab"><h2>Cierre ${fMes(sel.mesDecision)}</h2><span class="n">${filas.length} activos</span>${chipAccion(filas[0], prev?.ranking[0])}</div>
     <ol class="top">${top}</ol>
     <p class="info">${info}</p>
+    ${esProxima ? bloqueProvisional(e, sel) : ""}
     <details><summary>Ranking completo</summary><div class="tabla"><table>
       <thead><tr><th>#</th><th>Activo</th><th>Rent. 11m</th><th>Vol. 3m</th><th>Score</th><th>Antes</th></tr></thead>
       <tbody>${tabla}</tbody></table></div></details>

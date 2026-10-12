@@ -24,14 +24,15 @@ def mes_completo(px):
     return (fin - ult.normalize()).days <= 4
 
 
-def calcular(px, lookback=12, skip=1, vol_meses=3):
+def calcular(px, lookback=12, skip=1, vol_meses=3, incluir_incompleto=False):
     """px: precios diarios ya en la moneda base, una columna por activo."""
     px = px.sort_index().dropna(how="all")
     meses = px.index.to_period("M")
     mensual = px.groupby(meses).last()          # ultimo cierre de cada activo
     cierre = px.index.to_series().groupby(meses).max()
     span = lookback - skip
-    tope = len(mensual) - 1 if mes_completo(px) else len(mensual) - 2
+    # el mes en curso solo entra en el avance provisional, nunca en las decisiones
+    tope = len(mensual) - 1 if (mes_completo(px) or incluir_incompleto) else len(mensual) - 2
     out = []
     for k in range(span, tope + 1):
         p = mensual.index[k]
@@ -123,9 +124,15 @@ def main(cfg_path="universos.json", out_path="rankings.json"):
         avisos = [f"Sin datos de {t}" for t in tickers if t not in px or px[t].notna().sum() < 200]
         px = px[[t for t in tickers if t in px and px[t].notna().sum() >= 200]]
         px, notas = a_moneda(px, base, desde)
-        dec = calcular(px, par.get("lookback", 12), par.get("skip", 1), par.get("vol_meses", 3))
+        args = (par.get("lookback", 12), par.get("skip", 1), par.get("vol_meses", 3))
+        dec = calcular(px, *args)
+        prov = None
+        if not mes_completo(px):                       # avance con el mes en curso
+            todas = calcular(px, *args, incluir_incompleto=True)
+            if todas and todas[-1]["mesSenal"] == str(px.index.max().to_period("M")):
+                prov = todas[-1]
         meta = {a["senal"]: a for a in activos}
-        for d in dec:
+        for d in dec + ([prov] if prov else []):
             for r in d["ranking"]:
                 r["nombre"] = meta[r["senal"]].get("nombre", r["senal"])
                 if meta[r["senal"]].get("compra"):
@@ -139,6 +146,7 @@ def main(cfg_path="universos.json", out_path="rankings.json"):
             "avisos": avisos,
             "notas": notas,
             "decisiones": dec[-DECISIONES_GUARDADAS:],
+            "provisional": prov,
         }
         print(f"{clave}: {len(px.columns)} activos, ultima señal {dec[-1]['mesSenal']}, "
               f"1º {dec[-1]['ranking'][0]['senal']} ({dec[-1]['ranking'][0]['score']:.2f})")
