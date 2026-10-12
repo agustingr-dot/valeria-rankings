@@ -1,5 +1,5 @@
 {
-  "moneda": "EUR",
+  "moneda": "USD",
   "parametros": {
     "lookback": 12,
     "skip": 1,
