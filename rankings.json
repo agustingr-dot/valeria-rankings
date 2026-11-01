@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-12T17:24:46+00:00",
+ "generado": "2026-11-01T23:57:17+00:00",
  "moneda": "USD",
  "metodologia": "Portfolio Visualizer: rentabilidad t-12 a t-1, vol 3m hasta t-1",
  "estrategias": {
@@ -7,82 +7,11 @@
    "titulo": "Sectorial",
    "esperados": 7,
    "activos": 7,
-   "ultimoDato": "2026-10-12",
-   "mesIncompleto": true,
+   "ultimoDato": "2026-10-30",
+   "mesIncompleto": false,
    "avisos": [],
    "notas": [],
    "decisiones": [
-    {
-     "mesSenal": "2023-09",
-     "fechaSenal": "2023-09-29",
-     "mesDecision": "2023-10",
-     "mesCartera": "2023-11",
-     "ranking": [
-      {
-       "senal": "QQQ",
-       "pos": 1,
-       "score": 1.859148,
-       "mom": 0.29771,
-       "vol": 0.160132,
-       "nombre": "Tecnología",
-       "compra": "CNDX.L"
-      },
-      {
-       "senal": "GLD",
-       "pos": 2,
-       "score": 1.435403,
-       "mom": 0.128629,
-       "vol": 0.089612,
-       "nombre": "Oro",
-       "compra": "SGLD.L"
-      },
-      {
-       "senal": "XLE",
-       "pos": 3,
-       "score": 0.229692,
-       "mom": 0.04193,
-       "vol": 0.182548,
-       "nombre": "Energía",
-       "compra": "SXLE.L"
-      },
-      {
-       "senal": "XLV",
-       "pos": 4,
-       "score": -0.139153,
-       "mom": -0.014363,
-       "vol": 0.10322,
-       "nombre": "Salud",
-       "compra": "SXLV.L"
-      },
-      {
-       "senal": "XLP",
-       "pos": 5,
-       "score": -0.30165,
-       "mom": -0.029339,
-       "vol": 0.097261,
-       "nombre": "Consumo básico",
-       "compra": "SXLP.L"
-      },
-      {
-       "senal": "VNQ",
-       "pos": 6,
-       "score": -0.320632,
-       "mom": -0.046323,
-       "vol": 0.144475,
-       "nombre": "Inmobiliario",
-       "compra": "XRES.L"
-      },
-      {
-       "senal": "XLU",
-       "pos": 7,
-       "score": -0.561406,
-       "mom": -0.089243,
-       "vol": 0.158963,
-       "nombre": "Utilities",
-       "compra": "SXLU.L"
-      }
-     ]
-    },
     {
      "mesSenal": "2023-10",
      "fechaSenal": "2023-10-31",
@@ -92,9 +21,9 @@
       {
        "senal": "QQQ",
        "pos": 1,
-       "score": 1.194609,
+       "score": 1.194606,
        "mom": 0.204146,
-       "vol": 0.170889,
+       "vol": 0.17089,
        "nombre": "Tecnología",
        "compra": "CNDX.L"
       },
@@ -110,7 +39,7 @@
       {
        "senal": "XLE",
        "pos": 3,
-       "score": -0.153228,
+       "score": -0.153226,
        "mom": -0.0304,
        "vol": 0.198398,
        "nombre": "Energía",
@@ -119,7 +48,7 @@
       {
        "senal": "XLU",
        "pos": 4,
-       "score": -0.717956,
+       "score": -0.717954,
        "mom": -0.137551,
        "vol": 0.191587,
        "nombre": "Utilities",
@@ -128,16 +57,16 @@
       {
        "senal": "VNQ",
        "pos": 5,
-       "score": -0.751798,
+       "score": -0.751799,
        "mom": -0.134081,
-       "vol": 0.178346,
+       "vol": 0.178347,
        "nombre": "Inmobiliario",
        "compra": "XRES.L"
       },
       {
        "senal": "XLP",
        "pos": 6,
-       "score": -0.873233,
+       "score": -0.873231,
        "mom": -0.097926,
        "vol": 0.112142,
        "nombre": "Consumo básico",
@@ -146,7 +75,7 @@
       {
        "senal": "XLV",
        "pos": 7,
-       "score": -0.892768,
+       "score": -0.892769,
        "mom": -0.089522,
        "vol": 0.100275,
        "nombre": "Salud",
@@ -181,7 +110,7 @@
       {
        "senal": "VNQ",
        "pos": 3,
-       "score": 0.097475,
+       "score": 0.097474,
        "mom": 0.021988,
        "vol": 0.225578,
        "nombre": "Inmobiliario",
@@ -199,7 +128,7 @@
       {
        "senal": "XLV",
        "pos": 5,
-       "score": -0.19194,
+       "score": -0.191941,
        "mom": -0.021658,
        "vol": 0.112838,
        "nombre": "Salud",
@@ -208,16 +137,16 @@
       {
        "senal": "XLP",
        "pos": 6,
-       "score": -0.293606,
-       "mom": -0.034367,
-       "vol": 0.11705,
+       "score": -0.293602,
+       "mom": -0.034366,
+       "vol": 0.117051,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
       },
       {
        "senal": "XLU",
        "pos": 7,
-       "score": -0.426688,
+       "score": -0.426687,
        "mom": -0.088687,
        "vol": 0.207851,
        "nombre": "Utilities",
@@ -234,7 +163,7 @@
       {
        "senal": "QQQ",
        "pos": 1,
-       "score": 2.565719,
+       "score": 2.565718,
        "mom": 0.399598,
        "vol": 0.155745,
        "nombre": "Tecnología",
@@ -252,7 +181,7 @@
       {
        "senal": "XLV",
        "pos": 3,
-       "score": 0.338341,
+       "score": 0.33834,
        "mom": 0.039723,
        "vol": 0.117406,
        "nombre": "Salud",
@@ -262,16 +191,16 @@
        "senal": "VNQ",
        "pos": 4,
        "score": 0.055977,
-       "mom": 0.013127,
-       "vol": 0.234515,
+       "mom": 0.013128,
+       "vol": 0.234516,
        "nombre": "Inmobiliario",
        "compra": "XRES.L"
       },
       {
        "senal": "XLP",
        "pos": 5,
-       "score": 0.021371,
-       "mom": 0.002712,
+       "score": 0.021374,
+       "mom": 0.002713,
        "vol": 0.126917,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
@@ -279,8 +208,8 @@
       {
        "senal": "XLE",
        "pos": 6,
-       "score": -0.162132,
-       "mom": -0.033485,
+       "score": -0.162131,
+       "mom": -0.033484,
        "vol": 0.206526,
        "nombre": "Energía",
        "compra": "SXLE.L"
@@ -288,7 +217,7 @@
       {
        "senal": "XLU",
        "pos": 7,
-       "score": -0.253063,
+       "score": -0.253061,
        "mom": -0.052804,
        "vol": 0.208659,
        "nombre": "Utilities",
@@ -305,7 +234,7 @@
       {
        "senal": "QQQ",
        "pos": 1,
-       "score": 3.014484,
+       "score": 3.01448,
        "mom": 0.430205,
        "vol": 0.142713,
        "nombre": "Tecnología",
@@ -314,7 +243,7 @@
       {
        "senal": "XLV",
        "pos": 2,
-       "score": 1.168861,
+       "score": 1.168859,
        "mom": 0.122311,
        "vol": 0.104641,
        "nombre": "Salud",
@@ -332,7 +261,7 @@
       {
        "senal": "XLP",
        "pos": 4,
-       "score": 0.349993,
+       "score": 0.349995,
        "mom": 0.039201,
        "vol": 0.112004,
        "nombre": "Consumo básico",
@@ -341,7 +270,7 @@
       {
        "senal": "XLE",
        "pos": 5,
-       "score": 0.173548,
+       "score": 0.173549,
        "mom": 0.033253,
        "vol": 0.191606,
        "nombre": "Energía",
@@ -376,8 +305,8 @@
       {
        "senal": "QQQ",
        "pos": 1,
-       "score": 2.555326,
-       "mom": 0.375221,
+       "score": 2.555324,
+       "mom": 0.375222,
        "vol": 0.146839,
        "nombre": "Tecnología",
        "compra": "CNDX.L"
@@ -385,9 +314,9 @@
       {
        "senal": "XLV",
        "pos": 2,
-       "score": 1.3238,
+       "score": 1.323796,
        "mom": 0.132909,
-       "vol": 0.100399,
+       "vol": 0.1004,
        "nombre": "Salud",
        "compra": "SXLV.L"
       },
@@ -403,9 +332,9 @@
       {
        "senal": "VNQ",
        "pos": 4,
-       "score": 0.342871,
-       "mom": 0.064969,
-       "vol": 0.189487,
+       "score": 0.342873,
+       "mom": 0.06497,
+       "vol": 0.189486,
        "nombre": "Inmobiliario",
        "compra": "XRES.L"
       },
@@ -421,8 +350,8 @@
       {
        "senal": "XLP",
        "pos": 6,
-       "score": 0.156249,
-       "mom": 0.01805,
+       "score": 0.156252,
+       "mom": 0.018051,
        "vol": 0.115523,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
@@ -430,9 +359,9 @@
       {
        "senal": "XLU",
        "pos": 7,
-       "score": -0.326657,
+       "score": -0.326658,
        "mom": -0.058927,
-       "vol": 0.180394,
+       "vol": 0.180393,
        "nombre": "Utilities",
        "compra": "SXLU.L"
       }
@@ -447,16 +376,16 @@
       {
        "senal": "QQQ",
        "pos": 1,
-       "score": 2.453164,
+       "score": 2.453168,
        "mom": 0.385717,
-       "vol": 0.157233,
+       "vol": 0.157232,
        "nombre": "Tecnología",
        "compra": "CNDX.L"
       },
       {
        "senal": "XLV",
        "pos": 2,
-       "score": 1.387713,
+       "score": 1.387706,
        "mom": 0.124494,
        "vol": 0.089712,
        "nombre": "Salud",
@@ -474,7 +403,7 @@
       {
        "senal": "XLE",
        "pos": 4,
-       "score": 0.914605,
+       "score": 0.914602,
        "mom": 0.147055,
        "vol": 0.160785,
        "nombre": "Energía",
@@ -485,15 +414,15 @@
        "pos": 5,
        "score": 0.488114,
        "mom": 0.082359,
-       "vol": 0.168729,
+       "vol": 0.168728,
        "nombre": "Inmobiliario",
        "compra": "XRES.L"
       },
       {
        "senal": "XLP",
        "pos": 6,
-       "score": 0.154863,
-       "mom": 0.014775,
+       "score": 0.154859,
+       "mom": 0.014774,
        "vol": 0.095406,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
@@ -501,7 +430,7 @@
       {
        "senal": "XLU",
        "pos": 7,
-       "score": -0.094197,
+       "score": -0.094198,
        "mom": -0.015669,
        "vol": 0.166341,
        "nombre": "Utilities",
@@ -518,17 +447,17 @@
       {
        "senal": "XLE",
        "pos": 1,
-       "score": 1.734856,
+       "score": 1.734851,
        "mom": 0.262935,
-       "vol": 0.15156,
+       "vol": 0.151561,
        "nombre": "Energía",
        "compra": "SXLE.L"
       },
       {
        "senal": "QQQ",
        "pos": 2,
-       "score": 1.333909,
-       "mom": 0.228275,
+       "score": 1.333908,
+       "mom": 0.228274,
        "vol": 0.171132,
        "nombre": "Tecnología",
        "compra": "CNDX.L"
@@ -545,7 +474,7 @@
       {
        "senal": "XLV",
        "pos": 4,
-       "score": 1.112649,
+       "score": 1.112647,
        "mom": 0.115797,
        "vol": 0.104073,
        "nombre": "Salud",
@@ -554,16 +483,16 @@
       {
        "senal": "XLP",
        "pos": 5,
-       "score": 0.733022,
-       "mom": 0.069204,
-       "vol": 0.09441,
+       "score": 0.733031,
+       "mom": 0.069205,
+       "vol": 0.094409,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
       },
       {
        "senal": "XLU",
        "pos": 6,
-       "score": 0.386426,
+       "score": 0.386427,
        "mom": 0.063091,
        "vol": 0.163268,
        "nombre": "Utilities",
@@ -572,9 +501,9 @@
       {
        "senal": "VNQ",
        "pos": 7,
-       "score": 0.203294,
+       "score": 0.203297,
        "mom": 0.037476,
-       "vol": 0.184344,
+       "vol": 0.184343,
        "nombre": "Inmobiliario",
        "compra": "XRES.L"
       }
@@ -589,7 +518,7 @@
       {
        "senal": "QQQ",
        "pos": 1,
-       "score": 1.456657,
+       "score": 1.456659,
        "mom": 0.226518,
        "vol": 0.155505,
        "nombre": "Tecnología",
@@ -607,8 +536,8 @@
       {
        "senal": "XLE",
        "pos": 3,
-       "score": 1.164292,
-       "mom": 0.177227,
+       "score": 1.164293,
+       "mom": 0.177228,
        "vol": 0.152219,
        "nombre": "Energía",
        "compra": "SXLE.L"
@@ -616,7 +545,7 @@
       {
        "senal": "XLU",
        "pos": 4,
-       "score": 0.943695,
+       "score": 0.943696,
        "mom": 0.140147,
        "vol": 0.148509,
        "nombre": "Utilities",
@@ -625,7 +554,7 @@
       {
        "senal": "XLV",
        "pos": 5,
-       "score": 0.903302,
+       "score": 0.903299,
        "mom": 0.0959,
        "vol": 0.106166,
        "nombre": "Salud",
@@ -636,16 +565,16 @@
        "pos": 6,
        "score": 0.672348,
        "mom": 0.065552,
-       "vol": 0.097498,
+       "vol": 0.097497,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
       },
       {
        "senal": "VNQ",
        "pos": 7,
-       "score": 0.150414,
+       "score": 0.150415,
        "mom": 0.02697,
-       "vol": 0.179302,
+       "vol": 0.179301,
        "nombre": "Inmobiliario",
        "compra": "XRES.L"
       }
@@ -660,8 +589,8 @@
       {
        "senal": "QQQ",
        "pos": 1,
-       "score": 1.730424,
-       "mom": 0.257341,
+       "score": 1.730423,
+       "mom": 0.25734,
        "vol": 0.148715,
        "nombre": "Tecnología",
        "compra": "CNDX.L"
@@ -669,9 +598,9 @@
       {
        "senal": "XLV",
        "pos": 2,
-       "score": 1.037768,
+       "score": 1.03777,
        "mom": 0.104077,
-       "vol": 0.10029,
+       "vol": 0.100289,
        "nombre": "Salud",
        "compra": "SXLV.L"
       },
@@ -687,7 +616,7 @@
       {
        "senal": "XLE",
        "pos": 4,
-       "score": 0.462745,
+       "score": 0.462744,
        "mom": 0.076866,
        "vol": 0.166109,
        "nombre": "Energía",
@@ -698,7 +627,7 @@
        "pos": 5,
        "score": 0.410492,
        "mom": 0.040874,
-       "vol": 0.099574,
+       "vol": 0.099573,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
       },
@@ -714,7 +643,7 @@
       {
        "senal": "VNQ",
        "pos": 7,
-       "score": 0.151523,
+       "score": 0.151522,
        "mom": 0.025371,
        "vol": 0.167438,
        "nombre": "Inmobiliario",
@@ -741,7 +670,7 @@
        "senal": "QQQ",
        "pos": 2,
        "score": 1.490807,
-       "mom": 0.254851,
+       "mom": 0.25485,
        "vol": 0.170948,
        "nombre": "Tecnología",
        "compra": "CNDX.L"
@@ -749,8 +678,8 @@
       {
        "senal": "XLV",
        "pos": 3,
-       "score": 1.41995,
-       "mom": 0.141467,
+       "score": 1.419952,
+       "mom": 0.141468,
        "vol": 0.099628,
        "nombre": "Salud",
        "compra": "SXLV.L"
@@ -758,7 +687,7 @@
       {
        "senal": "XLU",
        "pos": 4,
-       "score": 1.341714,
+       "score": 1.34171,
        "mom": 0.195763,
        "vol": 0.145905,
        "nombre": "Utilities",
@@ -767,7 +696,7 @@
       {
        "senal": "VNQ",
        "pos": 5,
-       "score": 1.031941,
+       "score": 1.031942,
        "mom": 0.145471,
        "vol": 0.140968,
        "nombre": "Inmobiliario",
@@ -776,7 +705,7 @@
       {
        "senal": "XLP",
        "pos": 6,
-       "score": 1.007304,
+       "score": 1.007297,
        "mom": 0.101619,
        "vol": 0.100882,
        "nombre": "Consumo básico",
@@ -785,7 +714,7 @@
       {
        "senal": "XLE",
        "pos": 7,
-       "score": 0.510012,
+       "score": 0.510014,
        "mom": 0.08337,
        "vol": 0.163467,
        "nombre": "Energía",
@@ -802,7 +731,7 @@
       {
        "senal": "XLU",
        "pos": 1,
-       "score": 2.351944,
+       "score": 2.351943,
        "mom": 0.328202,
        "vol": 0.139545,
        "nombre": "Utilities",
@@ -811,7 +740,7 @@
       {
        "senal": "XLP",
        "pos": 2,
-       "score": 2.226232,
+       "score": 2.226229,
        "mom": 0.226273,
        "vol": 0.101639,
        "nombre": "Consumo básico",
@@ -829,7 +758,7 @@
       {
        "senal": "VNQ",
        "pos": 4,
-       "score": 2.104246,
+       "score": 2.10424,
        "mom": 0.299678,
        "vol": 0.142416,
        "nombre": "Inmobiliario",
@@ -838,7 +767,7 @@
       {
        "senal": "XLV",
        "pos": 5,
-       "score": 2.034421,
+       "score": 2.034416,
        "mom": 0.235785,
        "vol": 0.115898,
        "nombre": "Salud",
@@ -847,7 +776,7 @@
       {
        "senal": "QQQ",
        "pos": 6,
-       "score": 1.579707,
+       "score": 1.57971,
        "mom": 0.3366,
        "vol": 0.213077,
        "nombre": "Tecnología",
@@ -856,7 +785,7 @@
       {
        "senal": "XLE",
        "pos": 7,
-       "score": 0.191181,
+       "score": 0.191178,
        "mom": 0.036039,
        "vol": 0.188508,
        "nombre": "Energía",
@@ -873,16 +802,16 @@
       {
        "senal": "XLU",
        "pos": 1,
-       "score": 2.95386,
+       "score": 2.953864,
        "mom": 0.397875,
-       "vol": 0.134697,
+       "vol": 0.134696,
        "nombre": "Utilities",
        "compra": "SXLU.L"
       },
       {
        "senal": "VNQ",
        "pos": 2,
-       "score": 2.825723,
+       "score": 2.82572,
        "mom": 0.392606,
        "vol": 0.13894,
        "nombre": "Inmobiliario",
@@ -891,7 +820,7 @@
       {
        "senal": "XLP",
        "pos": 3,
-       "score": 2.665527,
+       "score": 2.665524,
        "mom": 0.257471,
        "vol": 0.096593,
        "nombre": "Consumo básico",
@@ -909,7 +838,7 @@
       {
        "senal": "XLV",
        "pos": 5,
-       "score": 2.098323,
+       "score": 2.098321,
        "mom": 0.256287,
        "vol": 0.122139,
        "nombre": "Salud",
@@ -918,9 +847,9 @@
       {
        "senal": "QQQ",
        "pos": 6,
-       "score": 1.716,
+       "score": 1.716003,
        "mom": 0.400569,
-       "vol": 0.233432,
+       "vol": 0.233431,
        "nombre": "Tecnología",
        "compra": "CNDX.L"
       },
@@ -953,17 +882,17 @@
       {
        "senal": "XLU",
        "pos": 2,
-       "score": 2.144492,
+       "score": 2.144496,
        "mom": 0.315177,
-       "vol": 0.146971,
+       "vol": 0.14697,
        "nombre": "Utilities",
        "compra": "SXLU.L"
       },
       {
        "senal": "XLP",
        "pos": 3,
-       "score": 1.695175,
-       "mom": 0.165739,
+       "score": 1.695172,
+       "mom": 0.165738,
        "vol": 0.097771,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
@@ -971,7 +900,7 @@
       {
        "senal": "VNQ",
        "pos": 4,
-       "score": 1.444733,
+       "score": 1.444736,
        "mom": 0.200786,
        "vol": 0.138978,
        "nombre": "Inmobiliario",
@@ -980,16 +909,16 @@
       {
        "senal": "QQQ",
        "pos": 5,
-       "score": 1.223373,
+       "score": 1.223374,
        "mom": 0.252909,
-       "vol": 0.206731,
+       "vol": 0.20673,
        "nombre": "Tecnología",
        "compra": "CNDX.L"
       },
       {
        "senal": "XLV",
        "pos": 6,
-       "score": 1.185854,
+       "score": 1.185856,
        "mom": 0.136203,
        "vol": 0.114856,
        "nombre": "Salud",
@@ -998,9 +927,9 @@
       {
        "senal": "XLE",
        "pos": 7,
-       "score": 0.405932,
+       "score": 0.405929,
        "mom": 0.083452,
-       "vol": 0.205581,
+       "vol": 0.205582,
        "nombre": "Energía",
        "compra": "SXLE.L"
       }
@@ -1015,7 +944,7 @@
       {
        "senal": "XLU",
        "pos": 1,
-       "score": 2.112285,
+       "score": 2.112284,
        "mom": 0.339973,
        "vol": 0.16095,
        "nombre": "Utilities",
@@ -1024,8 +953,8 @@
       {
        "senal": "XLP",
        "pos": 2,
-       "score": 1.856454,
-       "mom": 0.178877,
+       "score": 1.856447,
+       "mom": 0.178876,
        "vol": 0.096354,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
@@ -1051,8 +980,8 @@
       {
        "senal": "VNQ",
        "pos": 5,
-       "score": 1.049344,
-       "mom": 0.143885,
+       "score": 1.049346,
+       "mom": 0.143886,
        "vol": 0.137119,
        "nombre": "Inmobiliario",
        "compra": "XRES.L"
@@ -1060,8 +989,8 @@
       {
        "senal": "XLE",
        "pos": 6,
-       "score": 0.859957,
-       "mom": 0.167427,
+       "score": 0.859955,
+       "mom": 0.167426,
        "vol": 0.194692,
        "nombre": "Energía",
        "compra": "SXLE.L"
@@ -1069,7 +998,7 @@
       {
        "senal": "XLV",
        "pos": 7,
-       "score": 0.851449,
+       "score": 0.85145,
        "mom": 0.093092,
        "vol": 0.109334,
        "nombre": "Salud",
@@ -1095,8 +1024,8 @@
       {
        "senal": "XLU",
        "pos": 2,
-       "score": 1.645778,
-       "mom": 0.270848,
+       "score": 1.645779,
+       "mom": 0.270849,
        "vol": 0.164572,
        "nombre": "Utilities",
        "compra": "SXLU.L"
@@ -1104,7 +1033,7 @@
       {
        "senal": "QQQ",
        "pos": 3,
-       "score": 1.353653,
+       "score": 1.35365,
        "mom": 0.233345,
        "vol": 0.172382,
        "nombre": "Tecnología",
@@ -1113,7 +1042,7 @@
       {
        "senal": "XLP",
        "pos": 4,
-       "score": 1.099337,
+       "score": 1.099335,
        "mom": 0.108327,
        "vol": 0.098539,
        "nombre": "Consumo básico",
@@ -1122,9 +1051,9 @@
       {
        "senal": "VNQ",
        "pos": 5,
-       "score": 0.634048,
+       "score": 0.63405,
        "mom": 0.103965,
-       "vol": 0.163971,
+       "vol": 0.16397,
        "nombre": "Inmobiliario",
        "compra": "XRES.L"
       },
@@ -1166,7 +1095,7 @@
       {
        "senal": "XLU",
        "pos": 2,
-       "score": 1.615356,
+       "score": 1.615355,
        "mom": 0.293932,
        "vol": 0.181961,
        "nombre": "Utilities",
@@ -1176,8 +1105,8 @@
        "senal": "QQQ",
        "pos": 3,
        "score": 1.050055,
-       "mom": 0.196797,
-       "vol": 0.187416,
+       "mom": 0.196796,
+       "vol": 0.187415,
        "nombre": "Tecnología",
        "compra": "CNDX.L"
       },
@@ -1186,7 +1115,7 @@
        "pos": 4,
        "score": 0.762855,
        "mom": 0.09066,
-       "vol": 0.118843,
+       "vol": 0.118842,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
       },
@@ -1202,7 +1131,7 @@
       {
        "senal": "XLE",
        "pos": 6,
-       "score": 0.270096,
+       "score": 0.270097,
        "mom": 0.051155,
        "vol": 0.189396,
        "nombre": "Energía",
@@ -1211,7 +1140,7 @@
       {
        "senal": "XLV",
        "pos": 7,
-       "score": 0.221534,
+       "score": 0.221536,
        "mom": 0.03026,
        "vol": 0.136594,
        "nombre": "Salud",
@@ -1237,7 +1166,7 @@
       {
        "senal": "XLU",
        "pos": 2,
-       "score": 1.384925,
+       "score": 1.384923,
        "mom": 0.234821,
        "vol": 0.169555,
        "nombre": "Utilities",
@@ -1246,9 +1175,9 @@
       {
        "senal": "XLP",
        "pos": 3,
-       "score": 0.855045,
+       "score": 0.85505,
        "mom": 0.110406,
-       "vol": 0.129123,
+       "vol": 0.129122,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
       },
@@ -1265,7 +1194,7 @@
        "senal": "VNQ",
        "pos": 5,
        "score": 0.687547,
-       "mom": 0.119281,
+       "mom": 0.119282,
        "vol": 0.173488,
        "nombre": "Inmobiliario",
        "compra": "XRES.L"
@@ -1273,9 +1202,9 @@
       {
        "senal": "XLV",
        "pos": 6,
-       "score": 0.157739,
+       "score": 0.15774,
        "mom": 0.020447,
-       "vol": 0.129626,
+       "vol": 0.129625,
        "nombre": "Salud",
        "compra": "SXLV.L"
       },
@@ -1308,7 +1237,7 @@
       {
        "senal": "XLU",
        "pos": 2,
-       "score": 1.250758,
+       "score": 1.250757,
        "mom": 0.217561,
        "vol": 0.173944,
        "nombre": "Utilities",
@@ -1317,25 +1246,25 @@
       {
        "senal": "VNQ",
        "pos": 3,
-       "score": 1.070221,
+       "score": 1.070217,
        "mom": 0.184406,
-       "vol": 0.172307,
+       "vol": 0.172308,
        "nombre": "Inmobiliario",
        "compra": "XRES.L"
       },
       {
        "senal": "XLP",
        "pos": 4,
-       "score": 0.729296,
+       "score": 0.729298,
        "mom": 0.109842,
-       "vol": 0.150614,
+       "vol": 0.150613,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
       },
       {
        "senal": "QQQ",
        "pos": 5,
-       "score": 0.495884,
+       "score": 0.495885,
        "mom": 0.111157,
        "vol": 0.22416,
        "nombre": "Tecnología",
@@ -1344,18 +1273,18 @@
       {
        "senal": "XLV",
        "pos": 6,
-       "score": 0.452857,
-       "mom": 0.05727,
-       "vol": 0.126465,
+       "score": 0.452859,
+       "mom": 0.057271,
+       "vol": 0.126464,
        "nombre": "Salud",
        "compra": "SXLV.L"
       },
       {
        "senal": "XLE",
        "pos": 7,
-       "score": 0.157197,
+       "score": 0.157198,
        "mom": 0.032102,
-       "vol": 0.204213,
+       "vol": 0.204214,
        "nombre": "Energía",
        "compra": "SXLE.L"
       }
@@ -1381,15 +1310,15 @@
        "pos": 2,
        "score": 0.560195,
        "mom": 0.118146,
-       "vol": 0.210901,
+       "vol": 0.210902,
        "nombre": "Utilities",
        "compra": "SXLU.L"
       },
       {
        "senal": "XLP",
        "pos": 3,
-       "score": 0.439385,
-       "mom": 0.08556,
+       "score": 0.439386,
+       "mom": 0.085561,
        "vol": 0.194728,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
@@ -1397,7 +1326,7 @@
       {
        "senal": "VNQ",
        "pos": 4,
-       "score": 0.43589,
+       "score": 0.435888,
        "mom": 0.105106,
        "vol": 0.241131,
        "nombre": "Inmobiliario",
@@ -1426,7 +1355,7 @@
        "pos": 7,
        "score": -0.276103,
        "mom": -0.107871,
-       "vol": 0.390691,
+       "vol": 0.39069,
        "nombre": "Energía",
        "compra": "SXLE.L"
       }
@@ -1459,9 +1388,9 @@
       {
        "senal": "XLP",
        "pos": 3,
-       "score": 0.531754,
+       "score": 0.531755,
        "mom": 0.101416,
-       "vol": 0.19072,
+       "vol": 0.190719,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
       },
@@ -1477,7 +1406,7 @@
       {
        "senal": "QQQ",
        "pos": 5,
-       "score": 0.227861,
+       "score": 0.227862,
        "mom": 0.088381,
        "vol": 0.387871,
        "nombre": "Tecnología",
@@ -1488,7 +1417,7 @@
        "pos": 6,
        "score": -0.219409,
        "mom": -0.083495,
-       "vol": 0.380545,
+       "vol": 0.380544,
        "nombre": "Energía",
        "compra": "SXLE.L"
       },
@@ -1521,7 +1450,7 @@
       {
        "senal": "XLU",
        "pos": 2,
-       "score": 0.748405,
+       "score": 0.748404,
        "mom": 0.154863,
        "vol": 0.206924,
        "nombre": "Utilities",
@@ -1539,9 +1468,9 @@
       {
        "senal": "XLP",
        "pos": 4,
-       "score": 0.374303,
+       "score": 0.374304,
        "mom": 0.066384,
-       "vol": 0.177354,
+       "vol": 0.177353,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
       },
@@ -1557,18 +1486,18 @@
       {
        "senal": "XLE",
        "pos": 6,
-       "score": -0.158091,
+       "score": -0.158092,
        "mom": -0.06011,
-       "vol": 0.380221,
+       "vol": 0.38022,
        "nombre": "Energía",
        "compra": "SXLE.L"
       },
       {
        "senal": "XLV",
        "pos": 7,
-       "score": -0.345202,
-       "mom": -0.083857,
-       "vol": 0.242922,
+       "score": -0.345204,
+       "mom": -0.083858,
+       "vol": 0.242923,
        "nombre": "Salud",
        "compra": "SXLV.L"
       }
@@ -1592,7 +1521,7 @@
       {
        "senal": "QQQ",
        "pos": 2,
-       "score": 1.382013,
+       "score": 1.382012,
        "mom": 0.193018,
        "vol": 0.139665,
        "nombre": "Tecnología",
@@ -1601,7 +1530,7 @@
       {
        "senal": "XLU",
        "pos": 3,
-       "score": 1.15216,
+       "score": 1.152158,
        "mom": 0.155989,
        "vol": 0.135389,
        "nombre": "Utilities",
@@ -1612,7 +1541,7 @@
        "pos": 4,
        "score": -0.070234,
        "mom": -0.013077,
-       "vol": 0.186189,
+       "vol": 0.18619,
        "nombre": "Energía",
        "compra": "SXLE.L"
       },
@@ -1628,7 +1557,7 @@
       {
        "senal": "VNQ",
        "pos": 6,
-       "score": -0.184847,
+       "score": -0.184846,
        "mom": -0.026663,
        "vol": 0.144242,
        "nombre": "Inmobiliario",
@@ -1637,9 +1566,9 @@
       {
        "senal": "XLV",
        "pos": 7,
-       "score": -0.804992,
+       "score": -0.804991,
        "mom": -0.156182,
-       "vol": 0.194016,
+       "vol": 0.194017,
        "nombre": "Salud",
        "compra": "SXLV.L"
       }
@@ -1672,9 +1601,9 @@
       {
        "senal": "XLU",
        "pos": 3,
-       "score": 0.553084,
+       "score": 0.553082,
        "mom": 0.0673,
-       "vol": 0.121681,
+       "vol": 0.121682,
        "nombre": "Utilities",
        "compra": "SXLU.L"
       },
@@ -1699,7 +1628,7 @@
       {
        "senal": "VNQ",
        "pos": 6,
-       "score": -0.188931,
+       "score": -0.18893,
        "mom": -0.024702,
        "vol": 0.130749,
        "nombre": "Inmobiliario",
@@ -1708,9 +1637,9 @@
       {
        "senal": "XLV",
        "pos": 7,
-       "score": -0.647401,
+       "score": -0.6474,
        "mom": -0.09591,
-       "vol": 0.148146,
+       "vol": 0.148147,
        "nombre": "Salud",
        "compra": "SXLV.L"
       }
@@ -1734,7 +1663,7 @@
       {
        "senal": "QQQ",
        "pos": 2,
-       "score": 2.267284,
+       "score": 2.267279,
        "mom": 0.247515,
        "vol": 0.109168,
        "nombre": "Tecnología",
@@ -1743,16 +1672,16 @@
       {
        "senal": "XLU",
        "pos": 3,
-       "score": 0.99143,
+       "score": 0.991426,
        "mom": 0.12341,
-       "vol": 0.124477,
+       "vol": 0.124478,
        "nombre": "Utilities",
        "compra": "SXLU.L"
       },
       {
        "senal": "XLE",
        "pos": 4,
-       "score": 0.251396,
+       "score": 0.251398,
        "mom": 0.042011,
        "vol": 0.167111,
        "nombre": "Energía",
@@ -1761,7 +1690,7 @@
       {
        "senal": "VNQ",
        "pos": 5,
-       "score": 0.074201,
+       "score": 0.074199,
        "mom": 0.009753,
        "vol": 0.131445,
        "nombre": "Inmobiliario",
@@ -1779,9 +1708,9 @@
       {
        "senal": "XLV",
        "pos": 7,
-       "score": -0.223245,
+       "score": -0.223244,
        "mom": -0.035502,
-       "vol": 0.159026,
+       "vol": 0.159027,
        "nombre": "Salud",
        "compra": "SXLV.L"
       }
@@ -1805,16 +1734,16 @@
       {
        "senal": "QQQ",
        "pos": 2,
-       "score": 1.630172,
+       "score": 1.630167,
        "mom": 0.24076,
-       "vol": 0.14769,
+       "vol": 0.147691,
        "nombre": "Tecnología",
        "compra": "CNDX.L"
       },
       {
        "senal": "XLU",
        "pos": 3,
-       "score": 0.844957,
+       "score": 0.844956,
        "mom": 0.10596,
        "vol": 0.125403,
        "nombre": "Utilities",
@@ -1823,7 +1752,7 @@
       {
        "senal": "XLV",
        "pos": 4,
-       "score": -0.028369,
+       "score": -0.028366,
        "mom": -0.003958,
        "vol": 0.139525,
        "nombre": "Salud",
@@ -1832,7 +1761,7 @@
       {
        "senal": "XLE",
        "pos": 5,
-       "score": -0.28613,
+       "score": -0.286131,
        "mom": -0.046775,
        "vol": 0.163476,
        "nombre": "Energía",
@@ -1850,7 +1779,7 @@
       {
        "senal": "XLP",
        "pos": 7,
-       "score": -0.521767,
+       "score": -0.521765,
        "mom": -0.058762,
        "vol": 0.112622,
        "nombre": "Consumo básico",
@@ -1876,8 +1805,8 @@
       {
        "senal": "XLU",
        "pos": 2,
-       "score": 1.802229,
-       "mom": 0.222429,
+       "score": 1.802226,
+       "mom": 0.222428,
        "vol": 0.123419,
        "nombre": "Utilities",
        "compra": "SXLU.L"
@@ -1885,7 +1814,7 @@
       {
        "senal": "QQQ",
        "pos": 3,
-       "score": 1.26012,
+       "score": 1.260117,
        "mom": 0.215871,
        "vol": 0.17131,
        "nombre": "Tecnología",
@@ -1903,9 +1832,9 @@
       {
        "senal": "XLE",
        "pos": 5,
-       "score": 0.473512,
-       "mom": 0.081966,
-       "vol": 0.173101,
+       "score": 0.473511,
+       "mom": 0.081965,
+       "vol": 0.173102,
        "nombre": "Energía",
        "compra": "SXLE.L"
       },
@@ -1921,7 +1850,7 @@
       {
        "senal": "XLP",
        "pos": 7,
-       "score": 0.245236,
+       "score": 0.245235,
        "mom": 0.028992,
        "vol": 0.118221,
        "nombre": "Consumo básico",
@@ -1947,8 +1876,8 @@
       {
        "senal": "XLU",
        "pos": 2,
-       "score": 1.023713,
-       "mom": 0.127618,
+       "score": 1.023714,
+       "mom": 0.127617,
        "vol": 0.124661,
        "nombre": "Utilities",
        "compra": "SXLU.L"
@@ -1956,7 +1885,7 @@
       {
        "senal": "QQQ",
        "pos": 3,
-       "score": 1.017372,
+       "score": 1.01737,
        "mom": 0.182151,
        "vol": 0.179041,
        "nombre": "Tecnología",
@@ -1965,7 +1894,7 @@
       {
        "senal": "XLV",
        "pos": 4,
-       "score": 0.520804,
+       "score": 0.520805,
        "mom": 0.072532,
        "vol": 0.139269,
        "nombre": "Salud",
@@ -1974,7 +1903,7 @@
       {
        "senal": "XLE",
        "pos": 5,
-       "score": 0.310465,
+       "score": 0.310464,
        "mom": 0.054391,
        "vol": 0.175192,
        "nombre": "Energía",
@@ -2018,7 +1947,7 @@
       {
        "senal": "QQQ",
        "pos": 2,
-       "score": 1.42817,
+       "score": 1.428169,
        "mom": 0.22995,
        "vol": 0.161011,
        "nombre": "Tecnología",
@@ -2027,7 +1956,7 @@
       {
        "senal": "XLU",
        "pos": 3,
-       "score": 0.942327,
+       "score": 0.942328,
        "mom": 0.123086,
        "vol": 0.130619,
        "nombre": "Utilities",
@@ -2036,7 +1965,7 @@
       {
        "senal": "XLE",
        "pos": 4,
-       "score": 0.797383,
+       "score": 0.797382,
        "mom": 0.159455,
        "vol": 0.199973,
        "nombre": "Energía",
@@ -2054,7 +1983,7 @@
       {
        "senal": "XLP",
        "pos": 6,
-       "score": 0.274835,
+       "score": 0.274834,
        "mom": 0.032632,
        "vol": 0.118735,
        "nombre": "Consumo básico",
@@ -2080,7 +2009,7 @@
       {
        "senal": "QQQ",
        "pos": 1,
-       "score": 2.005649,
+       "score": 2.005648,
        "mom": 0.299712,
        "vol": 0.149434,
        "nombre": "Tecnología",
@@ -2107,7 +2036,7 @@
       {
        "senal": "XLE",
        "pos": 4,
-       "score": 1.032898,
+       "score": 1.032896,
        "mom": 0.227194,
        "vol": 0.219958,
        "nombre": "Energía",
@@ -2118,14 +2047,14 @@
        "pos": 5,
        "score": 1.005965,
        "mom": 0.126257,
-       "vol": 0.125509,
+       "vol": 0.125508,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
       },
       {
        "senal": "XLV",
        "pos": 6,
-       "score": 0.824049,
+       "score": 0.82405,
        "mom": 0.112181,
        "vol": 0.136133,
        "nombre": "Salud",
@@ -2134,7 +2063,7 @@
       {
        "senal": "VNQ",
        "pos": 7,
-       "score": 0.759455,
+       "score": 0.759453,
        "mom": 0.087289,
        "vol": 0.114936,
        "nombre": "Inmobiliario",
@@ -2151,7 +2080,7 @@
       {
        "senal": "XLE",
        "pos": 1,
-       "score": 2.694601,
+       "score": 2.694599,
        "mom": 0.57085,
        "vol": 0.21185,
        "nombre": "Energía",
@@ -2160,8 +2089,8 @@
       {
        "senal": "QQQ",
        "pos": 2,
-       "score": 1.196399,
-       "mom": 0.21979,
+       "score": 1.1964,
+       "mom": 0.219791,
        "vol": 0.18371,
        "nombre": "Tecnología",
        "compra": "CNDX.L"
@@ -2169,9 +2098,9 @@
       {
        "senal": "XLU",
        "pos": 3,
-       "score": 1.178489,
+       "score": 1.178487,
        "mom": 0.196346,
-       "vol": 0.166608,
+       "vol": 0.166609,
        "nombre": "Utilities",
        "compra": "SXLU.L"
       },
@@ -2187,7 +2116,7 @@
       {
        "senal": "XLV",
        "pos": 5,
-       "score": 0.411508,
+       "score": 0.411509,
        "mom": 0.062324,
        "vol": 0.151453,
        "nombre": "Salud",
@@ -2205,7 +2134,7 @@
       {
        "senal": "XLP",
        "pos": 7,
-       "score": 0.196522,
+       "score": 0.196521,
        "mom": 0.029538,
        "vol": 0.150304,
        "nombre": "Consumo básico",
@@ -2222,7 +2151,7 @@
       {
        "senal": "XLE",
        "pos": 1,
-       "score": 2.213973,
+       "score": 2.213971,
        "mom": 0.510243,
        "vol": 0.230465,
        "nombre": "Energía",
@@ -2249,7 +2178,7 @@
       {
        "senal": "XLU",
        "pos": 4,
-       "score": 1.004926,
+       "score": 1.004923,
        "mom": 0.176347,
        "vol": 0.175483,
        "nombre": "Utilities",
@@ -2258,7 +2187,7 @@
       {
        "senal": "VNQ",
        "pos": 5,
-       "score": 0.816393,
+       "score": 0.816395,
        "mom": 0.121372,
        "vol": 0.148668,
        "nombre": "Inmobiliario",
@@ -2320,7 +2249,7 @@
       {
        "senal": "XLV",
        "pos": 4,
-       "score": 0.794635,
+       "score": 0.794634,
        "mom": 0.123324,
        "vol": 0.155196,
        "nombre": "Salud",
@@ -2329,7 +2258,7 @@
       {
        "senal": "VNQ",
        "pos": 5,
-       "score": 0.730782,
+       "score": 0.730783,
        "mom": 0.10642,
        "vol": 0.145625,
        "nombre": "Inmobiliario",
@@ -2338,7 +2267,7 @@
       {
        "senal": "XLU",
        "pos": 6,
-       "score": 0.67183,
+       "score": 0.671831,
        "mom": 0.111169,
        "vol": 0.165471,
        "nombre": "Utilities",
@@ -2347,7 +2276,7 @@
       {
        "senal": "XLP",
        "pos": 7,
-       "score": 0.306954,
+       "score": 0.306955,
        "mom": 0.045107,
        "vol": 0.14695,
        "nombre": "Consumo básico",
@@ -2420,7 +2349,7 @@
        "pos": 7,
        "score": 0.453543,
        "mom": 0.070117,
-       "vol": 0.154598,
+       "vol": 0.154597,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
       }
@@ -2444,7 +2373,7 @@
       {
        "senal": "XLV",
        "pos": 2,
-       "score": 1.107679,
+       "score": 1.107678,
        "mom": 0.203443,
        "vol": 0.183666,
        "nombre": "Salud",
@@ -2453,8 +2382,8 @@
       {
        "senal": "QQQ",
        "pos": 3,
-       "score": 0.831004,
-       "mom": 0.211963,
+       "score": 0.831003,
+       "mom": 0.211962,
        "vol": 0.255068,
        "nombre": "Tecnología",
        "compra": "CNDX.L"
@@ -2491,7 +2420,7 @@
        "pos": 7,
        "score": 0.47649,
        "mom": 0.08206,
-       "vol": 0.172219,
+       "vol": 0.172218,
        "nombre": "Consumo básico",
        "compra": "SXLP.L"
       }
@@ -2533,7 +2462,7 @@
       {
        "senal": "XLP",
        "pos": 4,
-       "score": 0.618365,
+       "score": 0.618366,
        "mom": 0.106822,
        "vol": 0.172749,
        "nombre": "Consumo básico",
@@ -2542,7 +2471,7 @@
       {
        "senal": "VNQ",
        "pos": 5,
-       "score": 0.560869,
+       "score": 0.56087,
        "mom": 0.0854,
        "vol": 0.152263,
        "nombre": "Inmobiliario",
@@ -2586,8 +2515,8 @@
       {
        "senal": "XLV",
        "pos": 2,
-       "score": 1.057465,
-       "mom": 0.187067,
+       "score": 1.057464,
+       "mom": 0.187066,
        "vol": 0.176901,
        "nombre": "Salud",
        "compra": "SXLV.L"
@@ -2613,7 +2542,7 @@
       {
        "senal": "VNQ",
        "pos": 5,
-       "score": 0.342733,
+       "score": 0.342732,
        "mom": 0.043062,
        "vol": 0.125642,
        "nombre": "Inmobiliario",
@@ -2638,401 +2567,90 @@
        "compra": "SXLU.L"
       }
      ]
+    },
+    {
+     "mesSenal": "2026-10",
+     "fechaSenal": "2026-10-30",
+     "mesDecision": "2026-11",
+     "mesCartera": "2026-12",
+     "ranking": [
+      {
+       "senal": "XLE",
+       "pos": 1,
+       "score": 2.749708,
+       "mom": 0.592403,
+       "vol": 0.215442,
+       "nombre": "Energía",
+       "compra": "SXLE.L"
+      },
+      {
+       "senal": "XLV",
+       "pos": 2,
+       "score": 1.120192,
+       "mom": 0.192257,
+       "vol": 0.171628,
+       "nombre": "Salud",
+       "compra": "SXLV.L"
+      },
+      {
+       "senal": "XLP",
+       "pos": 3,
+       "score": 1.007602,
+       "mom": 0.15754,
+       "vol": 0.156352,
+       "nombre": "Consumo básico",
+       "compra": "SXLP.L"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 4,
+       "score": 0.637747,
+       "mom": 0.120282,
+       "vol": 0.188604,
+       "nombre": "Tecnología",
+       "compra": "CNDX.L"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 5,
+       "score": 0.519018,
+       "mom": 0.067367,
+       "vol": 0.129796,
+       "nombre": "Inmobiliario",
+       "compra": "XRES.L"
+      },
+      {
+       "senal": "XLU",
+       "pos": 6,
+       "score": -0.09184,
+       "mom": -0.014263,
+       "vol": 0.155299,
+       "nombre": "Utilities",
+       "compra": "SXLU.L"
+      },
+      {
+       "senal": "GLD",
+       "pos": 7,
+       "score": -0.338632,
+       "mom": -0.082758,
+       "vol": 0.244388,
+       "nombre": "Oro",
+       "compra": "SGLD.L"
+      }
+     ]
     }
    ],
-   "provisional": {
-    "mesSenal": "2026-10",
-    "fechaSenal": "2026-10-12",
-    "mesDecision": "2026-11",
-    "mesCartera": "2026-12",
-    "ranking": [
-     {
-      "senal": "XLE",
-      "pos": 1,
-      "score": 2.438546,
-      "mom": 0.50223,
-      "vol": 0.205955,
-      "nombre": "Energía",
-      "compra": "SXLE.L"
-     },
-     {
-      "senal": "QQQ",
-      "pos": 2,
-      "score": 1.154441,
-      "mom": 0.209913,
-      "vol": 0.181831,
-      "nombre": "Tecnología",
-      "compra": "CNDX.L"
-     },
-     {
-      "senal": "XLV",
-      "pos": 3,
-      "score": 0.624713,
-      "mom": 0.105322,
-      "vol": 0.168592,
-      "nombre": "Salud",
-      "compra": "SXLV.L"
-     },
-     {
-      "senal": "XLP",
-      "pos": 4,
-      "score": 0.574352,
-      "mom": 0.088544,
-      "vol": 0.154163,
-      "nombre": "Consumo básico",
-      "compra": "SXLP.L"
-     },
-     {
-      "senal": "VNQ",
-      "pos": 5,
-      "score": 0.286409,
-      "mom": 0.035723,
-      "vol": 0.124727,
-      "nombre": "Inmobiliario",
-      "compra": "XRES.L"
-     },
-     {
-      "senal": "GLD",
-      "pos": 6,
-      "score": -0.063244,
-      "mom": -0.015185,
-      "vol": 0.240103,
-      "nombre": "Oro",
-      "compra": "SGLD.L"
-     },
-     {
-      "senal": "XLU",
-      "pos": 7,
-      "score": -0.384381,
-      "mom": -0.05682,
-      "vol": 0.147822,
-      "nombre": "Utilities",
-      "compra": "SXLU.L"
-     }
-    ]
-   }
+   "provisional": null
   },
   "acciones": {
    "titulo": "Acciones",
    "esperados": 38,
    "activos": 38,
-   "ultimoDato": "2026-10-12",
-   "mesIncompleto": true,
+   "ultimoDato": "2026-10-30",
+   "mesIncompleto": false,
    "avisos": [],
    "notas": [],
    "decisiones": [
-    {
-     "mesSenal": "2023-09",
-     "fechaSenal": "2023-09-29",
-     "mesDecision": "2023-10",
-     "mesCartera": "2023-11",
-     "ranking": [
-      {
-       "senal": "META",
-       "pos": 1,
-       "score": 7.333802,
-       "mom": 2.222521,
-       "vol": 0.303052,
-       "nombre": "Meta Platforms"
-      },
-      {
-       "senal": "NVDA",
-       "pos": 2,
-       "score": 5.671048,
-       "mom": 2.224836,
-       "vol": 0.392315,
-       "nombre": "Nvidia"
-      },
-      {
-       "senal": "SMCI",
-       "pos": 3,
-       "score": 4.015526,
-       "mom": 2.940509,
-       "vol": 0.732285,
-       "nombre": "Super Micro Computer"
-      },
-      {
-       "senal": "AVGO",
-       "pos": 4,
-       "score": 2.716169,
-       "mom": 0.813688,
-       "vol": 0.299572,
-       "nombre": "Broadcom"
-      },
-      {
-       "senal": "VRT",
-       "pos": 5,
-       "score": 2.395835,
-       "mom": 1.601567,
-       "vol": 0.66848,
-       "nombre": "Vertiv"
-      },
-      {
-       "senal": "MDB",
-       "pos": 6,
-       "score": 2.233426,
-       "mom": 0.889636,
-       "vol": 0.398328,
-       "nombre": "MongoDB"
-      },
-      {
-       "senal": "QQQ",
-       "pos": 7,
-       "score": 1.859145,
-       "mom": 0.297709,
-       "vol": 0.160132,
-       "nombre": "Nasdaq-100"
-      },
-      {
-       "senal": "AMD",
-       "pos": 8,
-       "score": 1.777789,
-       "mom": 0.711955,
-       "vol": 0.400472,
-       "nombre": "AMD"
-      },
-      {
-       "senal": "MSFT",
-       "pos": 9,
-       "score": 1.717075,
-       "mom": 0.37337,
-       "vol": 0.217445,
-       "nombre": "Microsoft"
-      },
-      {
-       "senal": "DELL",
-       "pos": 10,
-       "score": 1.705344,
-       "mom": 0.837166,
-       "vol": 0.490908,
-       "nombre": "Dell Technologies"
-      },
-      {
-       "senal": "RELX",
-       "pos": 11,
-       "score": 1.603955,
-       "mom": 0.276348,
-       "vol": 0.172292,
-       "nombre": "RELX"
-      },
-      {
-       "senal": "GOOG",
-       "pos": 12,
-       "score": 1.550066,
-       "mom": 0.39288,
-       "vol": 0.25346,
-       "nombre": "Alphabet"
-      },
-      {
-       "senal": "SAP",
-       "pos": 13,
-       "score": 1.504772,
-       "mom": 0.368621,
-       "vol": 0.244968,
-       "nombre": "SAP"
-      },
-      {
-       "senal": "GLD",
-       "pos": 14,
-       "score": 1.435403,
-       "mom": 0.128629,
-       "vol": 0.089612,
-       "nombre": "Oro"
-      },
-      {
-       "senal": "LLY",
-       "pos": 15,
-       "score": 1.391282,
-       "mom": 0.499456,
-       "vol": 0.35899,
-       "nombre": "Eli Lilly"
-      },
-      {
-       "senal": "PLTR",
-       "pos": 16,
-       "score": 1.274444,
-       "mom": 0.82025,
-       "vol": 0.643614,
-       "nombre": "Palantir"
-      },
-      {
-       "senal": "NOW",
-       "pos": 17,
-       "score": 1.243738,
-       "mom": 0.328516,
-       "vol": 0.264136,
-       "nombre": "ServiceNow"
-      },
-      {
-       "senal": "LOGI",
-       "pos": 18,
-       "score": 1.241701,
-       "mom": 0.412132,
-       "vol": 0.331909,
-       "nombre": "Logitech"
-      },
-      {
-       "senal": "CSCO",
-       "pos": 19,
-       "score": 1.186023,
-       "mom": 0.210887,
-       "vol": 0.17781,
-       "nombre": "Cisco"
-      },
-      {
-       "senal": "CRM",
-       "pos": 20,
-       "score": 1.093161,
-       "mom": 0.247186,
-       "vol": 0.22612,
-       "nombre": "Salesforce"
-      },
-      {
-       "senal": "ORCL",
-       "pos": 21,
-       "score": 1.053021,
-       "mom": 0.37232,
-       "vol": 0.353574,
-       "nombre": "Oracle"
-      },
-      {
-       "senal": "BABA",
-       "pos": 22,
-       "score": 0.977825,
-       "mom": 0.364265,
-       "vol": 0.372526,
-       "nombre": "Alibaba"
-      },
-      {
-       "senal": "INTU",
-       "pos": 23,
-       "score": 0.886427,
-       "mom": 0.201805,
-       "vol": 0.227661,
-       "nombre": "Intuit"
-      },
-      {
-       "senal": "NFLX",
-       "pos": 24,
-       "score": 0.849047,
-       "mom": 0.293682,
-       "vol": 0.345897,
-       "nombre": "Netflix"
-      },
-      {
-       "senal": "PANW",
-       "pos": 25,
-       "score": 0.805288,
-       "mom": 0.36628,
-       "vol": 0.454844,
-       "nombre": "Palo Alto Networks"
-      },
-      {
-       "senal": "AMZN",
-       "pos": 26,
-       "score": 0.759971,
-       "mom": 0.240922,
-       "vol": 0.317014,
-       "nombre": "Amazon"
-      },
-      {
-       "senal": "VLO",
-       "pos": 27,
-       "score": 0.586732,
-       "mom": 0.164747,
-       "vol": 0.280787,
-       "nombre": "Valero Energy"
-      },
-      {
-       "senal": "IBM",
-       "pos": 28,
-       "score": 0.483989,
-       "mom": 0.065534,
-       "vol": 0.135405,
-       "nombre": "IBM"
-      },
-      {
-       "senal": "LPL",
-       "pos": 29,
-       "score": 0.302932,
-       "mom": 0.099099,
-       "vol": 0.327133,
-       "nombre": "LG Display"
-      },
-      {
-       "senal": "XLE",
-       "pos": 30,
-       "score": 0.229695,
-       "mom": 0.04193,
-       "vol": 0.182548,
-       "nombre": "Energía"
-      },
-      {
-       "senal": "TSLA",
-       "pos": 31,
-       "score": 0.197717,
-       "mom": 0.099675,
-       "vol": 0.50413,
-       "nombre": "Tesla"
-      },
-      {
-       "senal": "ROOT",
-       "pos": 32,
-       "score": 0.131584,
-       "mom": 0.114889,
-       "vol": 0.873123,
-       "nombre": "Root"
-      },
-      {
-       "senal": "CRWD",
-       "pos": 33,
-       "score": 0.090849,
-       "mom": 0.038338,
-       "vol": 0.42199,
-       "nombre": "CrowdStrike"
-      },
-      {
-       "senal": "ZS",
-       "pos": 34,
-       "score": 0.019935,
-       "mom": 0.009669,
-       "vol": 0.485032,
-       "nombre": "Zscaler"
-      },
-      {
-       "senal": "XLV",
-       "pos": 35,
-       "score": -0.139156,
-       "mom": -0.014364,
-       "vol": 0.10322,
-       "nombre": "Salud"
-      },
-      {
-       "senal": "XLP",
-       "pos": 36,
-       "score": -0.30165,
-       "mom": -0.029339,
-       "vol": 0.097261,
-       "nombre": "Consumo básico"
-      },
-      {
-       "senal": "VNQ",
-       "pos": 37,
-       "score": -0.320631,
-       "mom": -0.046323,
-       "vol": 0.144475,
-       "nombre": "Inmobiliario"
-      },
-      {
-       "senal": "BAC",
-       "pos": 38,
-       "score": -1.001692,
-       "mom": -0.218293,
-       "vol": 0.217924,
-       "nombre": "Bank of America"
-      }
-     ]
-    },
     {
      "mesSenal": "2023-10",
      "fechaSenal": "2023-10-31",
@@ -3042,7 +2660,7 @@
       {
        "senal": "META",
        "pos": 1,
-       "score": 5.272835,
+       "score": 5.272845,
        "mom": 1.550974,
        "vol": 0.294144,
        "nombre": "Meta Platforms"
@@ -3050,7 +2668,7 @@
       {
        "senal": "NVDA",
        "pos": 2,
-       "score": 3.424721,
+       "score": 3.42472,
        "mom": 1.410595,
        "vol": 0.411886,
        "nombre": "Nvidia"
@@ -3066,8 +2684,8 @@
       {
        "senal": "VRT",
        "pos": 4,
-       "score": 2.494779,
-       "mom": 1.835378,
+       "score": 2.49478,
+       "mom": 1.835379,
        "vol": 0.735688,
        "nombre": "Vertiv"
       },
@@ -3082,7 +2700,7 @@
       {
        "senal": "AVGO",
        "pos": 6,
-       "score": 1.760176,
+       "score": 1.760175,
        "mom": 0.567478,
        "vol": 0.322399,
        "nombre": "Broadcom"
@@ -3090,7 +2708,7 @@
       {
        "senal": "RELX",
        "pos": 7,
-       "score": 1.681065,
+       "score": 1.681064,
        "mom": 0.262761,
        "vol": 0.156306,
        "nombre": "RELX"
@@ -3106,7 +2724,7 @@
       {
        "senal": "MSFT",
        "pos": 9,
-       "score": 1.590108,
+       "score": 1.590109,
        "mom": 0.334236,
        "vol": 0.210197,
        "nombre": "Microsoft"
@@ -3123,16 +2741,16 @@
        "senal": "LLY",
        "pos": 11,
        "score": 1.322459,
-       "mom": 0.504694,
-       "vol": 0.381633,
+       "mom": 0.504695,
+       "vol": 0.381634,
        "nombre": "Eli Lilly"
       },
       {
        "senal": "QQQ",
        "pos": 12,
-       "score": 1.194609,
+       "score": 1.194608,
        "mom": 0.204146,
-       "vol": 0.170889,
+       "vol": 0.17089,
        "nombre": "Nasdaq-100"
       },
       {
@@ -3146,7 +2764,7 @@
       {
        "senal": "CRM",
        "pos": 14,
-       "score": 1.146072,
+       "score": 1.146071,
        "mom": 0.253229,
        "vol": 0.220954,
        "nombre": "Salesforce"
@@ -3155,14 +2773,14 @@
        "senal": "DELL",
        "pos": 15,
        "score": 1.097219,
-       "mom": 0.538209,
+       "mom": 0.538208,
        "vol": 0.490521,
        "nombre": "Dell Technologies"
       },
       {
        "senal": "LOGI",
        "pos": 16,
-       "score": 1.036411,
+       "score": 1.03641,
        "mom": 0.320632,
        "vol": 0.309367,
        "nombre": "Logitech"
@@ -3202,7 +2820,7 @@
       {
        "senal": "INTU",
        "pos": 21,
-       "score": 0.915608,
+       "score": 0.915607,
        "mom": 0.223191,
        "vol": 0.243762,
        "nombre": "Intuit"
@@ -3226,8 +2844,8 @@
       {
        "senal": "ORCL",
        "pos": 24,
-       "score": 0.717496,
-       "mom": 0.264251,
+       "score": 0.717497,
+       "mom": 0.264252,
        "vol": 0.368297,
        "nombre": "Oracle"
       },
@@ -3244,7 +2862,7 @@
        "pos": 26,
        "score": 0.502938,
        "mom": 0.08061,
-       "vol": 0.160279,
+       "vol": 0.160278,
        "nombre": "Cisco"
       },
       {
@@ -3274,15 +2892,15 @@
       {
        "senal": "IBM",
        "pos": 30,
-       "score": 0.049562,
-       "mom": 0.0082,
-       "vol": 0.165454,
+       "score": 0.049565,
+       "mom": 0.008201,
+       "vol": 0.165453,
        "nombre": "IBM"
       },
       {
        "senal": "VLO",
        "pos": 31,
-       "score": -0.088316,
+       "score": -0.088317,
        "mom": -0.026032,
        "vol": 0.294757,
        "nombre": "Valero Energy"
@@ -3290,9 +2908,9 @@
       {
        "senal": "XLE",
        "pos": 32,
-       "score": -0.153226,
+       "score": -0.153225,
        "mom": -0.0304,
-       "vol": 0.198398,
+       "vol": 0.198399,
        "nombre": "Energía"
       },
       {
@@ -3314,15 +2932,15 @@
       {
        "senal": "VNQ",
        "pos": 35,
-       "score": -0.751799,
+       "score": -0.751796,
        "mom": -0.134081,
-       "vol": 0.178346,
+       "vol": 0.178347,
        "nombre": "Inmobiliario"
       },
       {
        "senal": "XLP",
        "pos": 36,
-       "score": -0.873239,
+       "score": -0.873235,
        "mom": -0.097926,
        "vol": 0.112141,
        "nombre": "Consumo básico"
@@ -3330,7 +2948,7 @@
       {
        "senal": "XLV",
        "pos": 37,
-       "score": -0.892769,
+       "score": -0.892767,
        "mom": -0.089522,
        "vol": 0.100275,
        "nombre": "Salud"
@@ -3338,7 +2956,7 @@
       {
        "senal": "BAC",
        "pos": 38,
-       "score": -1.248262,
+       "score": -1.248264,
        "mom": -0.283947,
        "vol": 0.227474,
        "nombre": "Bank of America"
@@ -3354,7 +2972,7 @@
       {
        "senal": "NVDA",
        "pos": 1,
-       "score": 6.551625,
+       "score": 6.551626,
        "mom": 2.201494,
        "vol": 0.336023,
        "nombre": "Nvidia"
@@ -3362,7 +2980,7 @@
       {
        "senal": "META",
        "pos": 2,
-       "score": 6.24978,
+       "score": 6.249781,
        "mom": 1.718548,
        "vol": 0.274977,
        "nombre": "Meta Platforms"
@@ -3370,9 +2988,9 @@
       {
        "senal": "VRT",
        "pos": 3,
-       "score": 4.931925,
+       "score": 4.93192,
        "mom": 2.196193,
-       "vol": 0.445301,
+       "vol": 0.445302,
        "nombre": "Vertiv"
       },
       {
@@ -3402,7 +3020,7 @@
       {
        "senal": "CRM",
        "pos": 7,
-       "score": 3.215101,
+       "score": 3.215096,
        "mom": 0.899841,
        "vol": 0.27988,
        "nombre": "Salesforce"
@@ -3418,9 +3036,9 @@
       {
        "senal": "RELX",
        "pos": 9,
-       "score": 2.931751,
+       "score": 2.931747,
        "mom": 0.421112,
-       "vol": 0.143638,
+       "vol": 0.143639,
        "nombre": "RELX"
       },
       {
@@ -3434,7 +3052,7 @@
       {
        "senal": "QQQ",
        "pos": 11,
-       "score": 2.839442,
+       "score": 2.839441,
        "mom": 0.466617,
        "vol": 0.164334,
        "nombre": "Nasdaq-100"
@@ -3442,15 +3060,15 @@
       {
        "senal": "MSFT",
        "pos": 12,
-       "score": 2.74775,
+       "score": 2.747753,
        "mom": 0.593986,
-       "vol": 0.216172,
+       "vol": 0.216171,
        "nombre": "Microsoft"
       },
       {
        "senal": "SAP",
        "pos": 13,
-       "score": 2.721191,
+       "score": 2.721193,
        "mom": 0.567643,
        "vol": 0.208601,
        "nombre": "SAP"
@@ -3474,9 +3092,9 @@
       {
        "senal": "AVGO",
        "pos": 16,
-       "score": 2.219057,
+       "score": 2.21906,
        "mom": 0.685593,
-       "vol": 0.308957,
+       "vol": 0.308956,
        "nombre": "Broadcom"
       },
       {
@@ -3490,9 +3108,9 @@
       {
        "senal": "LLY",
        "pos": 18,
-       "score": 2.038348,
+       "score": 2.038344,
        "mom": 0.631505,
-       "vol": 0.309812,
+       "vol": 0.309813,
        "nombre": "Eli Lilly"
       },
       {
@@ -3506,7 +3124,7 @@
       {
        "senal": "DELL",
        "pos": 20,
-       "score": 1.965866,
+       "score": 1.965868,
        "mom": 0.942376,
        "vol": 0.479369,
        "nombre": "Dell Technologies"
@@ -3514,7 +3132,7 @@
       {
        "senal": "INTU",
        "pos": 21,
-       "score": 1.965741,
+       "score": 1.965743,
        "mom": 0.478928,
        "vol": 0.243637,
        "nombre": "Intuit"
@@ -3530,9 +3148,9 @@
       {
        "senal": "GOOG",
        "pos": 23,
-       "score": 1.823653,
+       "score": 1.823652,
        "mom": 0.509298,
-       "vol": 0.279273,
+       "vol": 0.279274,
        "nombre": "Alphabet"
       },
       {
@@ -3554,7 +3172,7 @@
       {
        "senal": "LOGI",
        "pos": 26,
-       "score": 1.374833,
+       "score": 1.374831,
        "mom": 0.432505,
        "vol": 0.314587,
        "nombre": "Logitech"
@@ -3564,15 +3182,15 @@
        "pos": 27,
        "score": 1.250992,
        "mom": 0.443301,
-       "vol": 0.35436,
+       "vol": 0.354359,
        "nombre": "Oracle"
       },
       {
        "senal": "IBM",
        "pos": 28,
-       "score": 1.069334,
+       "score": 1.069341,
        "mom": 0.181311,
-       "vol": 0.169555,
+       "vol": 0.169554,
        "nombre": "IBM"
       },
       {
@@ -3586,7 +3204,7 @@
       {
        "senal": "CSCO",
        "pos": 30,
-       "score": 0.190397,
+       "score": 0.190398,
        "mom": 0.046662,
        "vol": 0.245078,
        "nombre": "Cisco"
@@ -3610,9 +3228,9 @@
       {
        "senal": "XLE",
        "pos": 33,
-       "score": -0.033409,
+       "score": -0.03341,
        "mom": -0.007069,
-       "vol": 0.211582,
+       "vol": 0.211583,
        "nombre": "Energía"
       },
       {
@@ -3626,7 +3244,7 @@
       {
        "senal": "XLV",
        "pos": 35,
-       "score": -0.191942,
+       "score": -0.191941,
        "mom": -0.021658,
        "vol": 0.112838,
        "nombre": "Salud"
@@ -3642,7 +3260,7 @@
       {
        "senal": "XLP",
        "pos": 37,
-       "score": -0.293606,
+       "score": -0.293605,
        "mom": -0.034367,
        "vol": 0.11705,
        "nombre": "Consumo básico"
@@ -3650,7 +3268,7 @@
       {
        "senal": "BABA",
        "pos": 38,
-       "score": -0.466057,
+       "score": -0.466056,
        "mom": -0.14996,
        "vol": 0.321764,
        "nombre": "Alibaba"
@@ -3666,15 +3284,15 @@
       {
        "senal": "VRT",
        "pos": 1,
-       "score": 5.249854,
+       "score": 5.24985,
        "mom": 2.379509,
-       "vol": 0.453252,
+       "vol": 0.453253,
        "nombre": "Vertiv"
       },
       {
        "senal": "META",
        "pos": 2,
-       "score": 5.08665,
+       "score": 5.086651,
        "mom": 1.376049,
        "vol": 0.270522,
        "nombre": "Meta Platforms"
@@ -3706,7 +3324,7 @@
       {
        "senal": "DELL",
        "pos": 6,
-       "score": 3.443493,
+       "score": 3.443496,
        "mom": 0.923625,
        "vol": 0.268223,
        "nombre": "Dell Technologies"
@@ -3714,7 +3332,7 @@
       {
        "senal": "AVGO",
        "pos": 7,
-       "score": 2.852549,
+       "score": 2.852553,
        "mom": 0.951514,
        "vol": 0.333566,
        "nombre": "Broadcom"
@@ -3722,7 +3340,7 @@
       {
        "senal": "MSFT",
        "pos": 8,
-       "score": 2.594948,
+       "score": 2.594953,
        "mom": 0.530908,
        "vol": 0.204593,
        "nombre": "Microsoft"
@@ -3730,15 +3348,15 @@
       {
        "senal": "QQQ",
        "pos": 9,
-       "score": 2.565727,
+       "score": 2.565724,
        "mom": 0.399598,
-       "vol": 0.155744,
+       "vol": 0.155745,
        "nombre": "Nasdaq-100"
       },
       {
        "senal": "RELX",
        "pos": 10,
-       "score": 2.510335,
+       "score": 2.510333,
        "mom": 0.363042,
        "vol": 0.144619,
        "nombre": "RELX"
@@ -3762,8 +3380,8 @@
       {
        "senal": "LLY",
        "pos": 13,
-       "score": 2.283562,
-       "mom": 0.710504,
+       "score": 2.283561,
+       "mom": 0.710503,
        "vol": 0.311138,
        "nombre": "Eli Lilly"
       },
@@ -3778,8 +3396,8 @@
       {
        "senal": "LOGI",
        "pos": 15,
-       "score": 2.161044,
-       "mom": 0.655938,
+       "score": 2.161042,
+       "mom": 0.655937,
        "vol": 0.303528,
        "nombre": "Logitech"
       },
@@ -3795,14 +3413,14 @@
        "senal": "INTU",
        "pos": 17,
        "score": 2.035974,
-       "mom": 0.486547,
+       "mom": 0.486546,
        "vol": 0.238975,
        "nombre": "Intuit"
       },
       {
        "senal": "CRM",
        "pos": 18,
-       "score": 1.994056,
+       "score": 1.994053,
        "mom": 0.566589,
        "vol": 0.284139,
        "nombre": "Salesforce"
@@ -3826,17 +3444,17 @@
       {
        "senal": "IBM",
        "pos": 21,
-       "score": 1.802786,
+       "score": 1.802795,
        "mom": 0.274198,
-       "vol": 0.152097,
+       "vol": 0.152096,
        "nombre": "IBM"
       },
       {
        "senal": "SAP",
        "pos": 22,
-       "score": 1.636576,
+       "score": 1.63658,
        "mom": 0.325907,
-       "vol": 0.19914,
+       "vol": 0.199139,
        "nombre": "SAP"
       },
       {
@@ -3850,9 +3468,9 @@
       {
        "senal": "GOOG",
        "pos": 24,
-       "score": 1.39198,
+       "score": 1.391978,
        "mom": 0.411134,
-       "vol": 0.295359,
+       "vol": 0.29536,
        "nombre": "Alphabet"
       },
       {
@@ -3882,7 +3500,7 @@
       {
        "senal": "ORCL",
        "pos": 28,
-       "score": 0.598943,
+       "score": 0.598942,
        "mom": 0.205424,
        "vol": 0.342978,
        "nombre": "Oracle"
@@ -3898,9 +3516,9 @@
       {
        "senal": "XLV",
        "pos": 30,
-       "score": 0.338338,
+       "score": 0.33834,
        "mom": 0.039723,
-       "vol": 0.117406,
+       "vol": 0.117405,
        "nombre": "Salud"
       },
       {
@@ -3914,15 +3532,15 @@
       {
        "senal": "VNQ",
        "pos": 32,
-       "score": 0.055976,
+       "score": 0.055977,
        "mom": 0.013127,
-       "vol": 0.234516,
+       "vol": 0.234517,
        "nombre": "Inmobiliario"
       },
       {
        "senal": "XLP",
        "pos": 33,
-       "score": 0.021371,
+       "score": 0.021372,
        "mom": 0.002712,
        "vol": 0.126917,
        "nombre": "Consumo básico"
@@ -3930,7 +3548,7 @@
       {
        "senal": "BAC",
        "pos": 34,
-       "score": -0.073467,
+       "score": -0.073469,
        "mom": -0.021467,
        "vol": 0.292193,
        "nombre": "Bank of America"
@@ -3939,7 +3557,7 @@
        "senal": "VLO",
        "pos": 35,
        "score": -0.158385,
-       "mom": -0.040942,
+       "mom": -0.040941,
        "vol": 0.258493,
        "nombre": "Valero Energy"
       },
@@ -3948,7 +3566,7 @@
        "pos": 36,
        "score": -0.162133,
        "mom": -0.033485,
-       "vol": 0.206526,
+       "vol": 0.206527,
        "nombre": "Energía"
       },
       {
@@ -3978,25 +3596,25 @@
       {
        "senal": "VRT",
        "pos": 1,
-       "score": 6.995665,
+       "score": 6.995667,
        "mom": 2.468382,
-       "vol": 0.352845,
+       "vol": 0.352844,
        "nombre": "Vertiv"
       },
       {
        "senal": "NVDA",
        "pos": 2,
-       "score": 5.411534,
-       "mom": 1.651374,
+       "score": 5.411539,
+       "mom": 1.651375,
        "vol": 0.305158,
        "nombre": "Nvidia"
       },
       {
        "senal": "META",
        "pos": 3,
-       "score": 5.401328,
+       "score": 5.401313,
        "mom": 1.230137,
-       "vol": 0.227747,
+       "vol": 0.227748,
        "nombre": "Meta Platforms"
       },
       {
@@ -4019,14 +3637,14 @@
        "senal": "LLY",
        "pos": 6,
        "score": 4.017475,
-       "mom": 1.088155,
+       "mom": 1.088154,
        "vol": 0.270855,
        "nombre": "Eli Lilly"
       },
       {
        "senal": "DELL",
        "pos": 7,
-       "score": 3.533408,
+       "score": 3.533414,
        "mom": 1.092333,
        "vol": 0.309144,
        "nombre": "Dell Technologies"
@@ -4034,7 +3652,7 @@
       {
        "senal": "MSFT",
        "pos": 8,
-       "score": 3.53108,
+       "score": 3.531086,
        "mom": 0.604134,
        "vol": 0.17109,
        "nombre": "Microsoft"
@@ -4058,7 +3676,7 @@
       {
        "senal": "AVGO",
        "pos": 11,
-       "score": 3.022239,
+       "score": 3.022241,
        "mom": 1.030753,
        "vol": 0.341056,
        "nombre": "Broadcom"
@@ -4066,7 +3684,7 @@
       {
        "senal": "QQQ",
        "pos": 12,
-       "score": 3.014485,
+       "score": 3.014482,
        "mom": 0.430205,
        "vol": 0.142713,
        "nombre": "Nasdaq-100"
@@ -4082,15 +3700,15 @@
       {
        "senal": "RELX",
        "pos": 14,
-       "score": 2.620967,
-       "mom": 0.393913,
+       "score": 2.620963,
+       "mom": 0.393912,
        "vol": 0.150293,
        "nombre": "RELX"
       },
       {
        "senal": "INTU",
        "pos": 15,
-       "score": 2.590576,
+       "score": 2.590579,
        "mom": 0.560999,
        "vol": 0.216554,
        "nombre": "Intuit"
@@ -4098,7 +3716,7 @@
       {
        "senal": "CRM",
        "pos": 16,
-       "score": 2.487348,
+       "score": 2.48735,
        "mom": 0.718049,
        "vol": 0.28868,
        "nombre": "Salesforce"
@@ -4138,7 +3756,7 @@
       {
        "senal": "GOOG",
        "pos": 21,
-       "score": 2.222149,
+       "score": 2.222147,
        "mom": 0.570321,
        "vol": 0.256653,
        "nombre": "Alphabet"
@@ -4154,7 +3772,7 @@
       {
        "senal": "LOGI",
        "pos": 23,
-       "score": 1.811333,
+       "score": 1.811332,
        "mom": 0.554372,
        "vol": 0.306058,
        "nombre": "Logitech"
@@ -4178,7 +3796,7 @@
       {
        "senal": "XLV",
        "pos": 26,
-       "score": 1.168862,
+       "score": 1.168859,
        "mom": 0.122311,
        "vol": 0.104641,
        "nombre": "Salud"
@@ -4186,9 +3804,9 @@
       {
        "senal": "ORCL",
        "pos": 27,
-       "score": 0.91514,
+       "score": 0.915137,
        "mom": 0.297609,
-       "vol": 0.325206,
+       "vol": 0.325207,
        "nombre": "Oracle"
       },
       {
@@ -4218,7 +3836,7 @@
       {
        "senal": "VLO",
        "pos": 31,
-       "score": 0.348603,
+       "score": 0.348605,
        "mom": 0.089604,
        "vol": 0.257036,
        "nombre": "Valero Energy"
@@ -4234,7 +3852,7 @@
       {
        "senal": "XLE",
        "pos": 33,
-       "score": 0.173548,
+       "score": 0.173549,
        "mom": 0.033253,
        "vol": 0.191607,
        "nombre": "Energía"
@@ -4250,7 +3868,7 @@
       {
        "senal": "BAC",
        "pos": 35,
-       "score": 0.084291,
+       "score": 0.084292,
        "mom": 0.022418,
        "vol": 0.265961,
        "nombre": "Bank of America"
@@ -4268,7 +3886,7 @@
        "pos": 37,
        "score": -0.475616,
        "mom": -0.166874,
-       "vol": 0.350858,
+       "vol": 0.350859,
        "nombre": "Alibaba"
       },
       {
@@ -4290,7 +3908,7 @@
       {
        "senal": "VRT",
        "pos": 1,
-       "score": 8.663511,
+       "score": 8.663517,
        "mom": 3.727986,
        "vol": 0.430309,
        "nombre": "Vertiv"
@@ -4306,15 +3924,15 @@
       {
        "senal": "LLY",
        "pos": 3,
-       "score": 4.779664,
+       "score": 4.779683,
        "mom": 1.213002,
-       "vol": 0.253784,
+       "vol": 0.253783,
        "nombre": "Eli Lilly"
       },
       {
        "senal": "NVDA",
        "pos": 4,
-       "score": 3.977688,
+       "score": 3.977684,
        "mom": 1.848891,
        "vol": 0.464816,
        "nombre": "Nvidia"
@@ -4330,9 +3948,9 @@
       {
        "senal": "DELL",
        "pos": 6,
-       "score": 3.717655,
+       "score": 3.717663,
        "mom": 1.415279,
-       "vol": 0.380691,
+       "vol": 0.38069,
        "nombre": "Dell Technologies"
       },
       {
@@ -4347,14 +3965,14 @@
        "senal": "AVGO",
        "pos": 8,
        "score": 3.07607,
-       "mom": 1.058458,
+       "mom": 1.058459,
        "vol": 0.344094,
        "nombre": "Broadcom"
       },
       {
        "senal": "META",
        "pos": 9,
-       "score": 2.767353,
+       "score": 2.767351,
        "mom": 1.315042,
        "vol": 0.475199,
        "nombre": "Meta Platforms"
@@ -4378,15 +3996,15 @@
       {
        "senal": "MSFT",
        "pos": 12,
-       "score": 2.613044,
+       "score": 2.613042,
        "mom": 0.446531,
-       "vol": 0.170885,
+       "vol": 0.170886,
        "nombre": "Microsoft"
       },
       {
        "senal": "QQQ",
        "pos": 13,
-       "score": 2.555325,
+       "score": 2.555323,
        "mom": 0.375222,
        "vol": 0.146839,
        "nombre": "Nasdaq-100"
@@ -4410,9 +4028,9 @@
       {
        "senal": "INTU",
        "pos": 16,
-       "score": 2.329216,
+       "score": 2.329214,
        "mom": 0.496942,
-       "vol": 0.213351,
+       "vol": 0.213352,
        "nombre": "Intuit"
       },
       {
@@ -4426,7 +4044,7 @@
       {
        "senal": "SAP",
        "pos": 18,
-       "score": 2.099387,
+       "score": 2.099386,
        "mom": 0.509229,
        "vol": 0.242561,
        "nombre": "SAP"
@@ -4434,7 +4052,7 @@
       {
        "senal": "RELX",
        "pos": 19,
-       "score": 2.071867,
+       "score": 2.071861,
        "mom": 0.382422,
        "vol": 0.184579,
        "nombre": "RELX"
@@ -4442,7 +4060,7 @@
       {
        "senal": "IBM",
        "pos": 20,
-       "score": 1.89076,
+       "score": 1.890759,
        "mom": 0.47694,
        "vol": 0.252248,
        "nombre": "IBM"
@@ -4458,8 +4076,8 @@
       {
        "senal": "CRM",
        "pos": 22,
-       "score": 1.791232,
-       "mom": 0.5458,
+       "score": 1.791234,
+       "mom": 0.545801,
        "vol": 0.304707,
        "nombre": "Salesforce"
       },
@@ -4474,15 +4092,15 @@
       {
        "senal": "LOGI",
        "pos": 24,
-       "score": 1.726318,
+       "score": 1.726317,
        "mom": 0.537985,
-       "vol": 0.311637,
+       "vol": 0.311638,
        "nombre": "Logitech"
       },
       {
        "senal": "XLV",
        "pos": 25,
-       "score": 1.323806,
+       "score": 1.323807,
        "mom": 0.132909,
        "vol": 0.100399,
        "nombre": "Salud"
@@ -4490,7 +4108,7 @@
       {
        "senal": "GOOG",
        "pos": 26,
-       "score": 1.245196,
+       "score": 1.245195,
        "mom": 0.344038,
        "vol": 0.276293,
        "nombre": "Alphabet"
@@ -4514,7 +4132,7 @@
       {
        "senal": "ORCL",
        "pos": 29,
-       "score": 0.662261,
+       "score": 0.66226,
        "mom": 0.220305,
        "vol": 0.332656,
        "nombre": "Oracle"
@@ -4522,15 +4140,15 @@
       {
        "senal": "XLE",
        "pos": 30,
-       "score": 0.373486,
+       "score": 0.373487,
        "mom": 0.067014,
-       "vol": 0.179429,
+       "vol": 0.179428,
        "nombre": "Energía"
       },
       {
        "senal": "VNQ",
        "pos": 31,
-       "score": 0.342872,
+       "score": 0.342873,
        "mom": 0.06497,
        "vol": 0.189487,
        "nombre": "Inmobiliario"
@@ -4546,17 +4164,17 @@
       {
        "senal": "VLO",
        "pos": 33,
-       "score": 0.177071,
+       "score": 0.177072,
        "mom": 0.047127,
-       "vol": 0.266148,
+       "vol": 0.266149,
        "nombre": "Valero Energy"
       },
       {
        "senal": "XLP",
        "pos": 34,
-       "score": 0.156254,
+       "score": 0.156251,
        "mom": 0.018051,
-       "vol": 0.115522,
+       "vol": 0.115523,
        "nombre": "Consumo básico"
       },
       {
@@ -4572,7 +4190,7 @@
        "pos": 36,
        "score": -0.314791,
        "mom": -0.046627,
-       "vol": 0.148119,
+       "vol": 0.14812,
        "nombre": "Cisco"
       },
       {
@@ -4602,9 +4220,9 @@
       {
        "senal": "VRT",
        "pos": 1,
-       "score": 9.777838,
-       "mom": 4.47874,
-       "vol": 0.45805,
+       "score": 9.777856,
+       "mom": 4.478742,
+       "vol": 0.458049,
        "nombre": "Vertiv"
       },
       {
@@ -4626,7 +4244,7 @@
       {
        "senal": "NVDA",
        "pos": 4,
-       "score": 4.456852,
+       "score": 4.45685,
        "mom": 2.257234,
        "vol": 0.506464,
        "nombre": "Nvidia"
@@ -4634,7 +4252,7 @@
       {
        "senal": "LLY",
        "pos": 5,
-       "score": 3.786978,
+       "score": 3.786982,
        "mom": 0.981692,
        "vol": 0.259228,
        "nombre": "Eli Lilly"
@@ -4650,8 +4268,8 @@
       {
        "senal": "AVGO",
        "pos": 7,
-       "score": 2.972293,
-       "mom": 1.157416,
+       "score": 2.972285,
+       "mom": 1.157415,
        "vol": 0.389402,
        "nombre": "Broadcom"
       },
@@ -4706,7 +4324,7 @@
       {
        "senal": "DELL",
        "pos": 14,
-       "score": 2.256036,
+       "score": 2.256037,
        "mom": 1.668859,
        "vol": 0.739731,
        "nombre": "Dell Technologies"
@@ -4715,7 +4333,7 @@
        "senal": "IBM",
        "pos": 15,
        "score": 2.10969,
-       "mom": 0.580706,
+       "mom": 0.580707,
        "vol": 0.275257,
        "nombre": "IBM"
       },
@@ -4730,7 +4348,7 @@
       {
        "senal": "VLO",
        "pos": 17,
-       "score": 2.021823,
+       "score": 2.021817,
        "mom": 0.538188,
        "vol": 0.26619,
        "nombre": "Valero Energy"
@@ -4746,7 +4364,7 @@
       {
        "senal": "MSFT",
        "pos": 19,
-       "score": 1.990058,
+       "score": 1.990056,
        "mom": 0.380502,
        "vol": 0.191201,
        "nombre": "Microsoft"
@@ -4754,7 +4372,7 @@
       {
        "senal": "INTU",
        "pos": 20,
-       "score": 1.984427,
+       "score": 1.984428,
        "mom": 0.471431,
        "vol": 0.237565,
        "nombre": "Intuit"
@@ -4770,7 +4388,7 @@
       {
        "senal": "SAP",
        "pos": 22,
-       "score": 1.874221,
+       "score": 1.87422,
        "mom": 0.46575,
        "vol": 0.248503,
        "nombre": "SAP"
@@ -4778,7 +4396,7 @@
       {
        "senal": "RELX",
        "pos": 23,
-       "score": 1.784723,
+       "score": 1.784718,
        "mom": 0.316219,
        "vol": 0.177181,
        "nombre": "RELX"
@@ -4786,15 +4404,15 @@
       {
        "senal": "BAC",
        "pos": 24,
-       "score": 1.688203,
+       "score": 1.688199,
        "mom": 0.336147,
-       "vol": 0.199115,
+       "vol": 0.199116,
        "nombre": "Bank of America"
       },
       {
        "senal": "LOGI",
        "pos": 25,
-       "score": 1.490619,
+       "score": 1.490617,
        "mom": 0.528279,
        "vol": 0.354403,
        "nombre": "Logitech"
@@ -4804,13 +4422,13 @@
        "pos": 26,
        "score": 1.478982,
        "mom": 0.406949,
-       "vol": 0.275155,
+       "vol": 0.275154,
        "nombre": "Alphabet"
       },
       {
        "senal": "XLV",
        "pos": 27,
-       "score": 1.387714,
+       "score": 1.387718,
        "mom": 0.124494,
        "vol": 0.089712,
        "nombre": "Salud"
@@ -4818,7 +4436,7 @@
       {
        "senal": "ORCL",
        "pos": 28,
-       "score": 1.089586,
+       "score": 1.089584,
        "mom": 0.340818,
        "vol": 0.312796,
        "nombre": "Oracle"
@@ -4842,9 +4460,9 @@
       {
        "senal": "XLE",
        "pos": 31,
-       "score": 0.9146,
-       "mom": 0.147054,
-       "vol": 0.160786,
+       "score": 0.914603,
+       "mom": 0.147055,
+       "vol": 0.160785,
        "nombre": "Energía"
       },
       {
@@ -4859,7 +4477,7 @@
        "senal": "CSCO",
        "pos": 33,
        "score": 0.536149,
-       "mom": 0.080334,
+       "mom": 0.080335,
        "vol": 0.149836,
        "nombre": "Cisco"
       },
@@ -4922,7 +4540,7 @@
       {
        "senal": "VRT",
        "pos": 2,
-       "score": 7.071404,
+       "score": 7.071408,
        "mom": 3.822949,
        "vol": 0.540621,
        "nombre": "Vertiv"
@@ -4930,7 +4548,7 @@
       {
        "senal": "LLY",
        "pos": 3,
-       "score": 2.83189,
+       "score": 2.831897,
        "mom": 0.829263,
        "vol": 0.29283,
        "nombre": "Eli Lilly"
@@ -4946,7 +4564,7 @@
       {
        "senal": "NVDA",
        "pos": 5,
-       "score": 2.210965,
+       "score": 2.210964,
        "mom": 1.284446,
        "vol": 0.580944,
        "nombre": "Nvidia"
@@ -4962,23 +4580,23 @@
       {
        "senal": "INTU",
        "pos": 7,
-       "score": 2.061869,
+       "score": 2.061867,
        "mom": 0.502239,
-       "vol": 0.243584,
+       "vol": 0.243585,
        "nombre": "Intuit"
       },
       {
        "senal": "VLO",
        "pos": 8,
-       "score": 1.971803,
+       "score": 1.971802,
        "mom": 0.529229,
-       "vol": 0.268398,
+       "vol": 0.268399,
        "nombre": "Valero Energy"
       },
       {
        "senal": "RELX",
        "pos": 9,
-       "score": 1.901904,
+       "score": 1.901902,
        "mom": 0.32479,
        "vol": 0.170771,
        "nombre": "RELX"
@@ -4994,15 +4612,15 @@
       {
        "senal": "XLE",
        "pos": 11,
-       "score": 1.73485,
+       "score": 1.734857,
        "mom": 0.262935,
-       "vol": 0.151561,
+       "vol": 0.15156,
        "nombre": "Energía"
       },
       {
        "senal": "BAC",
        "pos": 12,
-       "score": 1.7085,
+       "score": 1.708499,
        "mom": 0.374002,
        "vol": 0.218907,
        "nombre": "Bank of America"
@@ -5010,7 +4628,7 @@
       {
        "senal": "SAP",
        "pos": 13,
-       "score": 1.613284,
+       "score": 1.613282,
        "mom": 0.389221,
        "vol": 0.24126,
        "nombre": "SAP"
@@ -5026,7 +4644,7 @@
       {
        "senal": "AVGO",
        "pos": 15,
-       "score": 1.563491,
+       "score": 1.563489,
        "mom": 0.64115,
        "vol": 0.410076,
        "nombre": "Broadcom"
@@ -5034,15 +4652,15 @@
       {
        "senal": "QQQ",
        "pos": 16,
-       "score": 1.333908,
-       "mom": 0.228274,
+       "score": 1.33391,
+       "mom": 0.228275,
        "vol": 0.171132,
        "nombre": "Nasdaq-100"
       },
       {
        "senal": "IBM",
        "pos": 17,
-       "score": 1.318655,
+       "score": 1.318654,
        "mom": 0.334235,
        "vol": 0.253466,
        "nombre": "IBM"
@@ -5074,7 +4692,7 @@
       {
        "senal": "XLV",
        "pos": 21,
-       "score": 1.112652,
+       "score": 1.112653,
        "mom": 0.115797,
        "vol": 0.104073,
        "nombre": "Salud"
@@ -5090,9 +4708,9 @@
       {
        "senal": "MSFT",
        "pos": 23,
-       "score": 0.89182,
+       "score": 0.891817,
        "mom": 0.192695,
-       "vol": 0.216069,
+       "vol": 0.21607,
        "nombre": "Microsoft"
       },
       {
@@ -5114,7 +4732,7 @@
       {
        "senal": "XLP",
        "pos": 26,
-       "score": 0.733029,
+       "score": 0.733028,
        "mom": 0.069205,
        "vol": 0.094409,
        "nombre": "Consumo básico"
@@ -5122,7 +4740,7 @@
       {
        "senal": "CRM",
        "pos": 27,
-       "score": 0.711572,
+       "score": 0.711573,
        "mom": 0.20553,
        "vol": 0.288839,
        "nombre": "Salesforce"
@@ -5172,21 +4790,21 @@
        "pos": 33,
        "score": 0.280779,
        "mom": 0.089126,
-       "vol": 0.317423,
+       "vol": 0.317424,
        "nombre": "Oracle"
       },
       {
        "senal": "VNQ",
        "pos": 34,
-       "score": 0.203299,
-       "mom": 0.037477,
+       "score": 0.203297,
+       "mom": 0.037476,
        "vol": 0.184343,
        "nombre": "Inmobiliario"
       },
       {
        "senal": "CSCO",
        "pos": 35,
-       "score": -0.14423,
+       "score": -0.144232,
        "mom": -0.024729,
        "vol": 0.171456,
        "nombre": "Cisco"
@@ -5226,8 +4844,8 @@
       {
        "senal": "VRT",
        "pos": 1,
-       "score": 5.478445,
-       "mom": 2.962755,
+       "score": 5.478447,
+       "mom": 2.962754,
        "vol": 0.540802,
        "nombre": "Vertiv"
       },
@@ -5242,8 +4860,8 @@
       {
        "senal": "NVDA",
        "pos": 3,
-       "score": 3.047691,
-       "mom": 1.592237,
+       "score": 3.047693,
+       "mom": 1.592238,
        "vol": 0.52244,
        "nombre": "Nvidia"
       },
@@ -5266,7 +4884,7 @@
       {
        "senal": "LOGI",
        "pos": 6,
-       "score": 2.317734,
+       "score": 2.317733,
        "mom": 0.711957,
        "vol": 0.307178,
        "nombre": "Logitech"
@@ -5274,7 +4892,7 @@
       {
        "senal": "RELX",
        "pos": 7,
-       "score": 2.232339,
+       "score": 2.232343,
        "mom": 0.340903,
        "vol": 0.152711,
        "nombre": "RELX"
@@ -5290,25 +4908,25 @@
       {
        "senal": "BAC",
        "pos": 9,
-       "score": 2.010116,
-       "mom": 0.426678,
+       "score": 2.010114,
+       "mom": 0.426679,
        "vol": 0.212266,
        "nombre": "Bank of America"
       },
       {
        "senal": "DELL",
        "pos": 10,
-       "score": 1.845635,
-       "mom": 1.633665,
+       "score": 1.845633,
+       "mom": 1.633664,
        "vol": 0.885151,
        "nombre": "Dell Technologies"
       },
       {
        "senal": "META",
        "pos": 11,
-       "score": 1.821194,
+       "score": 1.821195,
        "mom": 0.628424,
-       "vol": 0.345062,
+       "vol": 0.345061,
        "nombre": "Meta Platforms"
       },
       {
@@ -5323,14 +4941,14 @@
        "senal": "GOOG",
        "pos": 13,
        "score": 1.466557,
-       "mom": 0.438043,
+       "mom": 0.438042,
        "vol": 0.298688,
        "nombre": "Alphabet"
       },
       {
        "senal": "QQQ",
        "pos": 14,
-       "score": 1.456657,
+       "score": 1.456659,
        "mom": 0.226518,
        "vol": 0.155505,
        "nombre": "Nasdaq-100"
@@ -5346,7 +4964,7 @@
       {
        "senal": "SAP",
        "pos": 16,
-       "score": 1.443257,
+       "score": 1.443256,
        "mom": 0.350263,
        "vol": 0.242689,
        "nombre": "SAP"
@@ -5354,15 +4972,15 @@
       {
        "senal": "AVGO",
        "pos": 17,
-       "score": 1.335936,
-       "mom": 0.553605,
+       "score": 1.335932,
+       "mom": 0.553604,
        "vol": 0.414395,
        "nombre": "Broadcom"
       },
       {
        "senal": "VLO",
        "pos": 18,
-       "score": 1.316084,
+       "score": 1.316083,
        "mom": 0.381133,
        "vol": 0.289596,
        "nombre": "Valero Energy"
@@ -5378,7 +4996,7 @@
       {
        "senal": "IBM",
        "pos": 20,
-       "score": 1.254295,
+       "score": 1.254297,
        "mom": 0.299978,
        "vol": 0.23916,
        "nombre": "IBM"
@@ -5386,7 +5004,7 @@
       {
        "senal": "XLE",
        "pos": 21,
-       "score": 1.16429,
+       "score": 1.164292,
        "mom": 0.177228,
        "vol": 0.152219,
        "nombre": "Energía"
@@ -5394,8 +5012,8 @@
       {
        "senal": "MSFT",
        "pos": 22,
-       "score": 1.100154,
-       "mom": 0.228571,
+       "score": 1.100153,
+       "mom": 0.22857,
        "vol": 0.207762,
        "nombre": "Microsoft"
       },
@@ -5410,7 +5028,7 @@
       {
        "senal": "XLV",
        "pos": 24,
-       "score": 0.903301,
+       "score": 0.903306,
        "mom": 0.0959,
        "vol": 0.106166,
        "nombre": "Salud"
@@ -5420,7 +5038,7 @@
        "pos": 25,
        "score": 0.864404,
        "mom": 0.266121,
-       "vol": 0.307866,
+       "vol": 0.307867,
        "nombre": "Intuit"
       },
       {
@@ -5434,9 +5052,9 @@
       {
        "senal": "XLP",
        "pos": 27,
-       "score": 0.672349,
+       "score": 0.672346,
        "mom": 0.065552,
-       "vol": 0.097497,
+       "vol": 0.097498,
        "nombre": "Consumo básico"
       },
       {
@@ -5474,7 +5092,7 @@
       {
        "senal": "VNQ",
        "pos": 32,
-       "score": 0.150416,
+       "score": 0.150417,
        "mom": 0.02697,
        "vol": 0.179301,
        "nombre": "Inmobiliario"
@@ -5538,9 +5156,9 @@
       {
        "senal": "LLY",
        "pos": 1,
-       "score": 4.035093,
+       "score": 4.035098,
        "mom": 1.006694,
-       "vol": 0.249485,
+       "vol": 0.249484,
        "nombre": "Eli Lilly"
       },
       {
@@ -5554,8 +5172,8 @@
       {
        "senal": "VRT",
        "pos": 3,
-       "score": 3.86713,
-       "mom": 2.332214,
+       "score": 3.867128,
+       "mom": 2.332213,
        "vol": 0.603087,
        "nombre": "Vertiv"
       },
@@ -5570,23 +5188,23 @@
       {
        "senal": "NVDA",
        "pos": 5,
-       "score": 3.059403,
-       "mom": 1.644547,
+       "score": 3.059404,
+       "mom": 1.644546,
        "vol": 0.537538,
        "nombre": "Nvidia"
       },
       {
        "senal": "DELL",
        "pos": 6,
-       "score": 2.511554,
+       "score": 2.511552,
        "mom": 1.642667,
-       "vol": 0.654044,
+       "vol": 0.654045,
        "nombre": "Dell Technologies"
       },
       {
        "senal": "RELX",
        "pos": 7,
-       "score": 2.375347,
+       "score": 2.375348,
        "mom": 0.389905,
        "vol": 0.164147,
        "nombre": "RELX"
@@ -5602,7 +5220,7 @@
       {
        "senal": "SAP",
        "pos": 9,
-       "score": 1.879634,
+       "score": 1.879633,
        "mom": 0.497919,
        "vol": 0.264902,
        "nombre": "SAP"
@@ -5610,7 +5228,7 @@
       {
        "senal": "MSFT",
        "pos": 10,
-       "score": 1.803681,
+       "score": 1.803678,
        "mom": 0.340933,
        "vol": 0.189021,
        "nombre": "Microsoft"
@@ -5618,9 +5236,9 @@
       {
        "senal": "AVGO",
        "pos": 11,
-       "score": 1.78898,
+       "score": 1.788978,
        "mom": 0.818033,
-       "vol": 0.457262,
+       "vol": 0.457263,
        "nombre": "Broadcom"
       },
       {
@@ -5634,9 +5252,9 @@
       {
        "senal": "QQQ",
        "pos": 13,
-       "score": 1.73042,
+       "score": 1.730422,
        "mom": 0.25734,
-       "vol": 0.148716,
+       "vol": 0.148715,
        "nombre": "Nasdaq-100"
       },
       {
@@ -5658,7 +5276,7 @@
       {
        "senal": "LOGI",
        "pos": 16,
-       "score": 1.514684,
+       "score": 1.514683,
        "mom": 0.419828,
        "vol": 0.277172,
        "nombre": "Logitech"
@@ -5666,7 +5284,7 @@
       {
        "senal": "GOOG",
        "pos": 17,
-       "score": 1.348817,
+       "score": 1.348818,
        "mom": 0.379526,
        "vol": 0.281377,
        "nombre": "Alphabet"
@@ -5674,7 +5292,7 @@
       {
        "senal": "BAC",
        "pos": 18,
-       "score": 1.330816,
+       "score": 1.330814,
        "mom": 0.279806,
        "vol": 0.210252,
        "nombre": "Bank of America"
@@ -5690,7 +5308,7 @@
       {
        "senal": "IBM",
        "pos": 20,
-       "score": 1.139915,
+       "score": 1.139916,
        "mom": 0.250587,
        "vol": 0.219829,
        "nombre": "IBM"
@@ -5698,8 +5316,8 @@
       {
        "senal": "XLV",
        "pos": 21,
-       "score": 1.037776,
-       "mom": 0.104078,
+       "score": 1.037772,
+       "mom": 0.104077,
        "vol": 0.100289,
        "nombre": "Salud"
       },
@@ -5722,15 +5340,15 @@
       {
        "senal": "INTU",
        "pos": 24,
-       "score": 0.939114,
+       "score": 0.939111,
        "mom": 0.290341,
-       "vol": 0.309165,
+       "vol": 0.309166,
        "nombre": "Intuit"
       },
       {
        "senal": "VLO",
        "pos": 25,
-       "score": 0.919886,
+       "score": 0.919887,
        "mom": 0.253705,
        "vol": 0.2758,
        "nombre": "Valero Energy"
@@ -5746,7 +5364,7 @@
       {
        "senal": "ORCL",
        "pos": 27,
-       "score": 0.62554,
+       "score": 0.625541,
        "mom": 0.217478,
        "vol": 0.347664,
        "nombre": "Oracle"
@@ -5770,7 +5388,7 @@
       {
        "senal": "XLE",
        "pos": 30,
-       "score": 0.462744,
+       "score": 0.462743,
        "mom": 0.076866,
        "vol": 0.166109,
        "nombre": "Energía"
@@ -5778,7 +5396,7 @@
       {
        "senal": "XLP",
        "pos": 31,
-       "score": 0.410489,
+       "score": 0.41049,
        "mom": 0.040874,
        "vol": 0.099573,
        "nombre": "Consumo básico"
@@ -5786,7 +5404,7 @@
       {
        "senal": "CRM",
        "pos": 32,
-       "score": 0.282983,
+       "score": 0.282982,
        "mom": 0.144109,
        "vol": 0.509249,
        "nombre": "Salesforce"
@@ -5794,7 +5412,7 @@
       {
        "senal": "VNQ",
        "pos": 33,
-       "score": 0.151523,
+       "score": 0.151522,
        "mom": 0.025371,
        "vol": 0.167438,
        "nombre": "Inmobiliario"
@@ -5802,8 +5420,8 @@
       {
        "senal": "CSCO",
        "pos": 34,
-       "score": -0.374123,
-       "mom": -0.065728,
+       "score": -0.374124,
+       "mom": -0.065729,
        "vol": 0.175687,
        "nombre": "Cisco"
       },
@@ -5874,9 +5492,9 @@
       {
        "senal": "IBM",
        "pos": 4,
-       "score": 2.098455,
+       "score": 2.098457,
        "mom": 0.348752,
-       "vol": 0.166195,
+       "vol": 0.166194,
        "nombre": "IBM"
       },
       {
@@ -5898,7 +5516,7 @@
       {
        "senal": "BAC",
        "pos": 7,
-       "score": 2.067834,
+       "score": 2.067835,
        "mom": 0.435885,
        "vol": 0.210793,
        "nombre": "Bank of America"
@@ -5906,8 +5524,8 @@
       {
        "senal": "META",
        "pos": 8,
-       "score": 1.907853,
-       "mom": 0.60805,
+       "score": 1.907851,
+       "mom": 0.608049,
        "vol": 0.318709,
        "nombre": "Meta Platforms"
       },
@@ -5930,7 +5548,7 @@
       {
        "senal": "DELL",
        "pos": 11,
-       "score": 1.610175,
+       "score": 1.610174,
        "mom": 1.05688,
        "vol": 0.656376,
        "nombre": "Dell Technologies"
@@ -5946,7 +5564,7 @@
       {
        "senal": "VRT",
        "pos": 13,
-       "score": 1.543471,
+       "score": 1.543472,
        "mom": 1.000297,
        "vol": 0.648083,
        "nombre": "Vertiv"
@@ -5978,7 +5596,7 @@
       {
        "senal": "MSFT",
        "pos": 17,
-       "score": 1.460688,
+       "score": 1.460691,
        "mom": 0.283658,
        "vol": 0.194195,
        "nombre": "Microsoft"
@@ -5995,14 +5613,14 @@
        "senal": "AVGO",
        "pos": 19,
        "score": 1.416666,
-       "mom": 0.771681,
-       "vol": 0.544716,
+       "mom": 0.771682,
+       "vol": 0.544717,
        "nombre": "Broadcom"
       },
       {
        "senal": "LOGI",
        "pos": 20,
-       "score": 1.274416,
+       "score": 1.274417,
        "mom": 0.338152,
        "vol": 0.265339,
        "nombre": "Logitech"
@@ -6010,8 +5628,8 @@
       {
        "senal": "GOOG",
        "pos": 21,
-       "score": 1.212654,
-       "mom": 0.262083,
+       "score": 1.212653,
+       "mom": 0.262082,
        "vol": 0.216123,
        "nombre": "Alphabet"
       },
@@ -6026,7 +5644,7 @@
       {
        "senal": "VNQ",
        "pos": 23,
-       "score": 1.031942,
+       "score": 1.031941,
        "mom": 0.145471,
        "vol": 0.140969,
        "nombre": "Inmobiliario"
@@ -6036,14 +5654,14 @@
        "pos": 24,
        "score": 1.007298,
        "mom": 0.101619,
-       "vol": 0.100883,
+       "vol": 0.100882,
        "nombre": "Consumo básico"
       },
       {
        "senal": "VLO",
        "pos": 25,
-       "score": 0.943217,
-       "mom": 0.27335,
+       "score": 0.943216,
+       "mom": 0.273349,
        "vol": 0.289806,
        "nombre": "Valero Energy"
       },
@@ -6074,9 +5692,9 @@
       {
        "senal": "INTU",
        "pos": 29,
-       "score": 0.644389,
+       "score": 0.644387,
        "mom": 0.202013,
-       "vol": 0.313496,
+       "vol": 0.313497,
        "nombre": "Intuit"
       },
       {
@@ -6090,7 +5708,7 @@
       {
        "senal": "ORCL",
        "pos": 31,
-       "score": 0.490467,
+       "score": 0.490468,
        "mom": 0.174134,
        "vol": 0.355037,
        "nombre": "Oracle"
@@ -6106,7 +5724,7 @@
       {
        "senal": "CRM",
        "pos": 33,
-       "score": 0.348524,
+       "score": 0.348525,
        "mom": 0.171956,
        "vol": 0.493384,
        "nombre": "Salesforce"
@@ -6146,7 +5764,7 @@
       {
        "senal": "CSCO",
        "pos": 38,
-       "score": -0.78114,
+       "score": -0.781137,
        "mom": -0.128052,
        "vol": 0.16393,
        "nombre": "Cisco"
@@ -6178,7 +5796,7 @@
       {
        "senal": "IBM",
        "pos": 3,
-       "score": 2.8068,
+       "score": 2.806809,
        "mom": 0.497904,
        "vol": 0.177392,
        "nombre": "IBM"
@@ -6186,9 +5804,9 @@
       {
        "senal": "NVDA",
        "pos": 4,
-       "score": 2.763853,
-       "mom": 1.744796,
-       "vol": 0.631291,
+       "score": 2.763852,
+       "mom": 1.744797,
+       "vol": 0.631292,
        "nombre": "Nvidia"
       },
       {
@@ -6202,7 +5820,7 @@
       {
        "senal": "RELX",
        "pos": 6,
-       "score": 2.366422,
+       "score": 2.366427,
        "mom": 0.409583,
        "vol": 0.173081,
        "nombre": "RELX"
@@ -6210,7 +5828,7 @@
       {
        "senal": "LLY",
        "pos": 7,
-       "score": 2.234798,
+       "score": 2.2348,
        "mom": 0.799323,
        "vol": 0.357671,
        "nombre": "Eli Lilly"
@@ -6218,7 +5836,7 @@
       {
        "senal": "XLP",
        "pos": 8,
-       "score": 2.226227,
+       "score": 2.226231,
        "mom": 0.226273,
        "vol": 0.10164,
        "nombre": "Consumo básico"
@@ -6226,7 +5844,7 @@
       {
        "senal": "META",
        "pos": 9,
-       "score": 2.155616,
+       "score": 2.155615,
        "mom": 0.740053,
        "vol": 0.343314,
        "nombre": "Meta Platforms"
@@ -6234,7 +5852,7 @@
       {
        "senal": "BAC",
        "pos": 10,
-       "score": 2.150162,
+       "score": 2.150165,
        "mom": 0.519948,
        "vol": 0.241818,
        "nombre": "Bank of America"
@@ -6250,7 +5868,7 @@
       {
        "senal": "VNQ",
        "pos": 12,
-       "score": 2.104242,
+       "score": 2.10424,
        "mom": 0.299678,
        "vol": 0.142416,
        "nombre": "Inmobiliario"
@@ -6258,7 +5876,7 @@
       {
        "senal": "XLV",
        "pos": 13,
-       "score": 2.034418,
+       "score": 2.034413,
        "mom": 0.235785,
        "vol": 0.115898,
        "nombre": "Salud"
@@ -6298,15 +5916,15 @@
       {
        "senal": "AVGO",
        "pos": 18,
-       "score": 1.63163,
-       "mom": 0.983998,
+       "score": 1.631627,
+       "mom": 0.983997,
        "vol": 0.603077,
        "nombre": "Broadcom"
       },
       {
        "senal": "QQQ",
        "pos": 19,
-       "score": 1.579712,
+       "score": 1.57971,
        "mom": 0.3366,
        "vol": 0.213077,
        "nombre": "Nasdaq-100"
@@ -6346,7 +5964,7 @@
       {
        "senal": "DELL",
        "pos": 24,
-       "score": 1.133125,
+       "score": 1.133124,
        "mom": 0.70641,
        "vol": 0.623418,
        "nombre": "Dell Technologies"
@@ -6354,7 +5972,7 @@
       {
        "senal": "GOOG",
        "pos": 25,
-       "score": 1.052661,
+       "score": 1.05266,
        "mom": 0.253681,
        "vol": 0.240991,
        "nombre": "Alphabet"
@@ -6362,7 +5980,7 @@
       {
        "senal": "ORCL",
        "pos": 26,
-       "score": 1.000549,
+       "score": 1.00055,
        "mom": 0.352144,
        "vol": 0.351951,
        "nombre": "Oracle"
@@ -6378,15 +5996,15 @@
       {
        "senal": "INTU",
        "pos": 28,
-       "score": 0.841378,
+       "score": 0.841379,
        "mom": 0.240986,
-       "vol": 0.286418,
+       "vol": 0.286419,
        "nombre": "Intuit"
       },
       {
        "senal": "CRM",
        "pos": 29,
-       "score": 0.814299,
+       "score": 0.8143,
        "mom": 0.250737,
        "vol": 0.307918,
        "nombre": "Salesforce"
@@ -6410,7 +6028,7 @@
       {
        "senal": "VLO",
        "pos": 32,
-       "score": 0.217687,
+       "score": 0.217686,
        "mom": 0.066091,
        "vol": 0.303607,
        "nombre": "Valero Energy"
@@ -6482,9 +6100,9 @@
       {
        "senal": "IBM",
        "pos": 2,
-       "score": 3.189241,
+       "score": 3.189245,
        "mom": 0.589176,
-       "vol": 0.184739,
+       "vol": 0.184738,
        "nombre": "IBM"
       },
       {
@@ -6498,7 +6116,7 @@
       {
        "senal": "NVDA",
        "pos": 4,
-       "score": 3.053447,
+       "score": 3.053445,
        "mom": 1.978832,
        "vol": 0.648065,
        "nombre": "Nvidia"
@@ -6514,7 +6132,7 @@
       {
        "senal": "VNQ",
        "pos": 6,
-       "score": 2.82572,
+       "score": 2.825719,
        "mom": 0.392606,
        "vol": 0.13894,
        "nombre": "Inmobiliario"
@@ -6530,31 +6148,31 @@
       {
        "senal": "XLP",
        "pos": 8,
-       "score": 2.665512,
+       "score": 2.665522,
        "mom": 0.257471,
-       "vol": 0.096594,
+       "vol": 0.096593,
        "nombre": "Consumo básico"
       },
       {
        "senal": "META",
        "pos": 9,
-       "score": 2.625293,
+       "score": 2.625288,
        "mom": 0.90581,
-       "vol": 0.345032,
+       "vol": 0.345033,
        "nombre": "Meta Platforms"
       },
       {
        "senal": "VRT",
        "pos": 10,
-       "score": 2.388556,
-       "mom": 1.537168,
+       "score": 2.388555,
+       "mom": 1.537167,
        "vol": 0.643555,
        "nombre": "Vertiv"
       },
       {
        "senal": "BAC",
        "pos": 11,
-       "score": 2.247361,
+       "score": 2.247365,
        "mom": 0.548505,
        "vol": 0.244066,
        "nombre": "Bank of America"
@@ -6562,9 +6180,9 @@
       {
        "senal": "RELX",
        "pos": 12,
-       "score": 2.213933,
+       "score": 2.213935,
        "mom": 0.386439,
-       "vol": 0.174549,
+       "vol": 0.174548,
        "nombre": "RELX"
       },
       {
@@ -6578,7 +6196,7 @@
       {
        "senal": "XLV",
        "pos": 14,
-       "score": 2.098317,
+       "score": 2.098315,
        "mom": 0.256287,
        "vol": 0.122139,
        "nombre": "Salud"
@@ -6586,7 +6204,7 @@
       {
        "senal": "ORCL",
        "pos": 15,
-       "score": 1.960815,
+       "score": 1.960817,
        "mom": 0.66438,
        "vol": 0.338828,
        "nombre": "Oracle"
@@ -6594,7 +6212,7 @@
       {
        "senal": "AVGO",
        "pos": 16,
-       "score": 1.793183,
+       "score": 1.79318,
        "mom": 1.081819,
        "vol": 0.603296,
        "nombre": "Broadcom"
@@ -6602,7 +6220,7 @@
       {
        "senal": "QQQ",
        "pos": 17,
-       "score": 1.716004,
+       "score": 1.716002,
        "mom": 0.400568,
        "vol": 0.233431,
        "nombre": "Nasdaq-100"
@@ -6626,16 +6244,16 @@
       {
        "senal": "CRM",
        "pos": 20,
-       "score": 1.422949,
-       "mom": 0.368945,
+       "score": 1.422947,
+       "mom": 0.368944,
        "vol": 0.259282,
        "nombre": "Salesforce"
       },
       {
        "senal": "MSFT",
        "pos": 21,
-       "score": 1.403446,
-       "mom": 0.282216,
+       "score": 1.403444,
+       "mom": 0.282215,
        "vol": 0.201088,
        "nombre": "Microsoft"
       },
@@ -6650,8 +6268,8 @@
       {
        "senal": "GOOG",
        "pos": 23,
-       "score": 1.27438,
-       "mom": 0.337594,
+       "score": 1.274381,
+       "mom": 0.337595,
        "vol": 0.264909,
        "nombre": "Alphabet"
       },
@@ -6714,7 +6332,7 @@
       {
        "senal": "LOGI",
        "pos": 31,
-       "score": 0.649257,
+       "score": 0.649256,
        "mom": 0.1594,
        "vol": 0.245512,
        "nombre": "Logitech"
@@ -6730,7 +6348,7 @@
       {
        "senal": "XLE",
        "pos": 33,
-       "score": 0.338197,
+       "score": 0.338198,
        "mom": 0.066101,
        "vol": 0.195452,
        "nombre": "Energía"
@@ -6739,14 +6357,14 @@
        "senal": "VLO",
        "pos": 34,
        "score": 0.306481,
-       "mom": 0.094719,
+       "mom": 0.094718,
        "vol": 0.309052,
        "nombre": "Valero Energy"
       },
       {
        "senal": "CSCO",
        "pos": 35,
-       "score": 0.204959,
+       "score": 0.20496,
        "mom": 0.046145,
        "vol": 0.225143,
        "nombre": "Cisco"
@@ -6794,8 +6412,8 @@
       {
        "senal": "NVDA",
        "pos": 2,
-       "score": 3.389117,
-       "mom": 1.839431,
+       "score": 3.389115,
+       "mom": 1.83943,
        "vol": 0.542746,
        "nombre": "Nvidia"
       },
@@ -6810,9 +6428,9 @@
       {
        "senal": "META",
        "pos": 4,
-       "score": 2.726785,
+       "score": 2.726781,
        "mom": 0.740146,
-       "vol": 0.271435,
+       "vol": 0.271436,
        "nombre": "Meta Platforms"
       },
       {
@@ -6850,7 +6468,7 @@
       {
        "senal": "BAC",
        "pos": 9,
-       "score": 1.725462,
+       "score": 1.725467,
        "mom": 0.39872,
        "vol": 0.23108,
        "nombre": "Bank of America"
@@ -6858,17 +6476,17 @@
       {
        "senal": "XLP",
        "pos": 10,
-       "score": 1.695168,
-       "mom": 0.165738,
+       "score": 1.695172,
+       "mom": 0.165739,
        "vol": 0.097771,
        "nombre": "Consumo básico"
       },
       {
        "senal": "AVGO",
        "pos": 11,
-       "score": 1.685882,
+       "score": 1.685881,
        "mom": 0.862162,
-       "vol": 0.511401,
+       "vol": 0.511402,
        "nombre": "Broadcom"
       },
       {
@@ -6882,17 +6500,17 @@
       {
        "senal": "VNQ",
        "pos": 13,
-       "score": 1.444738,
+       "score": 1.444735,
        "mom": 0.200786,
-       "vol": 0.138977,
+       "vol": 0.138978,
        "nombre": "Inmobiliario"
       },
       {
        "senal": "ORCL",
        "pos": 14,
-       "score": 1.395434,
+       "score": 1.395435,
        "mom": 0.461944,
-       "vol": 0.33104,
+       "vol": 0.331039,
        "nombre": "Oracle"
       },
       {
@@ -6914,7 +6532,7 @@
       {
        "senal": "RELX",
        "pos": 17,
-       "score": 1.254508,
+       "score": 1.25451,
        "mom": 0.219673,
        "vol": 0.175107,
        "nombre": "RELX"
@@ -6930,7 +6548,7 @@
       {
        "senal": "QQQ",
        "pos": 19,
-       "score": 1.223374,
+       "score": 1.223376,
        "mom": 0.252909,
        "vol": 0.20673,
        "nombre": "Nasdaq-100"
@@ -6940,14 +6558,14 @@
        "pos": 20,
        "score": 1.185853,
        "mom": 0.136203,
-       "vol": 0.114857,
+       "vol": 0.114856,
        "nombre": "Salud"
       },
       {
        "senal": "LLY",
        "pos": 21,
-       "score": 1.176121,
-       "mom": 0.41069,
+       "score": 1.176122,
+       "mom": 0.410691,
        "vol": 0.349191,
        "nombre": "Eli Lilly"
       },
@@ -6970,7 +6588,7 @@
       {
        "senal": "CSCO",
        "pos": 24,
-       "score": 0.739876,
+       "score": 0.739877,
        "mom": 0.168929,
        "vol": 0.228321,
        "nombre": "Cisco"
@@ -6978,7 +6596,7 @@
       {
        "senal": "CRM",
        "pos": 25,
-       "score": 0.64906,
+       "score": 0.649058,
        "mom": 0.161824,
        "vol": 0.249321,
        "nombre": "Salesforce"
@@ -7002,7 +6620,7 @@
       {
        "senal": "XLE",
        "pos": 28,
-       "score": 0.40593,
+       "score": 0.405932,
        "mom": 0.083452,
        "vol": 0.205581,
        "nombre": "Energía"
@@ -7130,7 +6748,7 @@
       {
        "senal": "META",
        "pos": 5,
-       "score": 2.610522,
+       "score": 2.610517,
        "mom": 0.627442,
        "vol": 0.240351,
        "nombre": "Meta Platforms"
@@ -7146,7 +6764,7 @@
       {
        "senal": "SAP",
        "pos": 7,
-       "score": 2.48032,
+       "score": 2.480319,
        "mom": 0.556256,
        "vol": 0.224268,
        "nombre": "SAP"
@@ -7154,7 +6772,7 @@
       {
        "senal": "ORCL",
        "pos": 8,
-       "score": 2.247513,
+       "score": 2.247515,
        "mom": 0.774641,
        "vol": 0.344666,
        "nombre": "Oracle"
@@ -7162,7 +6780,7 @@
       {
        "senal": "IBM",
        "pos": 9,
-       "score": 1.941744,
+       "score": 1.941742,
        "mom": 0.440726,
        "vol": 0.226975,
        "nombre": "IBM"
@@ -7170,8 +6788,8 @@
       {
        "senal": "XLP",
        "pos": 10,
-       "score": 1.856444,
-       "mom": 0.178877,
+       "score": 1.856455,
+       "mom": 0.178876,
        "vol": 0.096354,
        "nombre": "Consumo básico"
       },
@@ -7194,15 +6812,15 @@
       {
        "senal": "BAC",
        "pos": 13,
-       "score": 1.709484,
-       "mom": 0.438951,
+       "score": 1.709485,
+       "mom": 0.438952,
        "vol": 0.256774,
        "nombre": "Bank of America"
       },
       {
        "senal": "QQQ",
        "pos": 14,
-       "score": 1.434286,
+       "score": 1.434287,
        "mom": 0.250107,
        "vol": 0.174377,
        "nombre": "Nasdaq-100"
@@ -7211,15 +6829,15 @@
        "senal": "DELL",
        "pos": 15,
        "score": 1.423383,
-       "mom": 0.69364,
+       "mom": 0.693641,
        "vol": 0.487318,
        "nombre": "Dell Technologies"
       },
       {
        "senal": "CSCO",
        "pos": 16,
-       "score": 1.276161,
-       "mom": 0.210161,
+       "score": 1.276162,
+       "mom": 0.21016,
        "vol": 0.164682,
        "nombre": "Cisco"
       },
@@ -7242,7 +6860,7 @@
       {
        "senal": "RELX",
        "pos": 19,
-       "score": 1.136583,
+       "score": 1.136584,
        "mom": 0.208536,
        "vol": 0.183476,
        "nombre": "RELX"
@@ -7258,15 +6876,15 @@
       {
        "senal": "AVGO",
        "pos": 21,
-       "score": 1.066938,
-       "mom": 0.46763,
+       "score": 1.066937,
+       "mom": 0.467629,
        "vol": 0.438292,
        "nombre": "Broadcom"
       },
       {
        "senal": "VNQ",
        "pos": 22,
-       "score": 1.049348,
+       "score": 1.049346,
        "mom": 0.143886,
        "vol": 0.137119,
        "nombre": "Inmobiliario"
@@ -7274,9 +6892,9 @@
       {
        "senal": "CRM",
        "pos": 23,
-       "score": 0.92679,
+       "score": 0.926788,
        "mom": 0.259614,
-       "vol": 0.280122,
+       "vol": 0.280123,
        "nombre": "Salesforce"
       },
       {
@@ -7306,7 +6924,7 @@
       {
        "senal": "GOOG",
        "pos": 27,
-       "score": 0.845129,
+       "score": 0.845128,
        "mom": 0.212721,
        "vol": 0.251702,
        "nombre": "Alphabet"
@@ -7330,7 +6948,7 @@
       {
        "senal": "BABA",
        "pos": 30,
-       "score": 0.336884,
+       "score": 0.336885,
        "mom": 0.151708,
        "vol": 0.450325,
        "nombre": "Alibaba"
@@ -7338,7 +6956,7 @@
       {
        "senal": "VLO",
        "pos": 31,
-       "score": 0.319503,
+       "score": 0.319502,
        "mom": 0.10096,
        "vol": 0.315992,
        "nombre": "Valero Energy"
@@ -7348,7 +6966,7 @@
        "pos": 32,
        "score": 0.115648,
        "mom": 0.032856,
-       "vol": 0.284106,
+       "vol": 0.284107,
        "nombre": "Intuit"
       },
       {
@@ -7426,15 +7044,15 @@
       {
        "senal": "NVDA",
        "pos": 3,
-       "score": 3.185855,
+       "score": 3.185853,
        "mom": 1.183238,
-       "vol": 0.371403,
+       "vol": 0.371404,
        "nombre": "Nvidia"
       },
       {
        "senal": "VRT",
        "pos": 4,
-       "score": 1.966302,
+       "score": 1.966303,
        "mom": 1.019281,
        "vol": 0.518374,
        "nombre": "Vertiv"
@@ -7450,9 +7068,9 @@
       {
        "senal": "META",
        "pos": 6,
-       "score": 1.944428,
+       "score": 1.944431,
        "mom": 0.506502,
-       "vol": 0.260489,
+       "vol": 0.260488,
        "nombre": "Meta Platforms"
       },
       {
@@ -7476,15 +7094,15 @@
        "pos": 9,
        "score": 1.717527,
        "mom": 0.504268,
-       "vol": 0.293601,
+       "vol": 0.293602,
        "nombre": "Oracle"
       },
       {
        "senal": "AVGO",
        "pos": 10,
-       "score": 1.487042,
+       "score": 1.487043,
        "mom": 0.99121,
-       "vol": 0.666565,
+       "vol": 0.666564,
        "nombre": "Broadcom"
       },
       {
@@ -7506,7 +7124,7 @@
       {
        "senal": "QQQ",
        "pos": 13,
-       "score": 1.353656,
+       "score": 1.353655,
        "mom": 0.233346,
        "vol": 0.172382,
        "nombre": "Nasdaq-100"
@@ -7522,7 +7140,7 @@
       {
        "senal": "CSCO",
        "pos": 15,
-       "score": 1.292834,
+       "score": 1.292835,
        "mom": 0.208749,
        "vol": 0.161466,
        "nombre": "Cisco"
@@ -7530,7 +7148,7 @@
       {
        "senal": "BAC",
        "pos": 16,
-       "score": 1.277198,
+       "score": 1.277199,
        "mom": 0.325152,
        "vol": 0.254582,
        "nombre": "Bank of America"
@@ -7546,7 +7164,7 @@
       {
        "senal": "XLP",
        "pos": 18,
-       "score": 1.099332,
+       "score": 1.099335,
        "mom": 0.108327,
        "vol": 0.098539,
        "nombre": "Consumo básico"
@@ -7562,7 +7180,7 @@
       {
        "senal": "DELL",
        "pos": 20,
-       "score": 0.884139,
+       "score": 0.884138,
        "mom": 0.405671,
        "vol": 0.458832,
        "nombre": "Dell Technologies"
@@ -7570,7 +7188,7 @@
       {
        "senal": "RELX",
        "pos": 21,
-       "score": 0.701114,
+       "score": 0.701116,
        "mom": 0.118272,
        "vol": 0.168691,
        "nombre": "RELX"
@@ -7578,15 +7196,15 @@
       {
        "senal": "LLY",
        "pos": 22,
-       "score": 0.67595,
+       "score": 0.675949,
        "mom": 0.203573,
-       "vol": 0.301165,
+       "vol": 0.301166,
        "nombre": "Eli Lilly"
       },
       {
        "senal": "VNQ",
        "pos": 23,
-       "score": 0.63405,
+       "score": 0.634048,
        "mom": 0.103965,
        "vol": 0.16397,
        "nombre": "Inmobiliario"
@@ -7594,9 +7212,9 @@
       {
        "senal": "CRM",
        "pos": 24,
-       "score": 0.556932,
+       "score": 0.556929,
        "mom": 0.196049,
-       "vol": 0.352016,
+       "vol": 0.352017,
        "nombre": "Salesforce"
       },
       {
@@ -7626,7 +7244,7 @@
       {
        "senal": "MSFT",
        "pos": 28,
-       "score": 0.319539,
+       "score": 0.31954,
        "mom": 0.068092,
        "vol": 0.213094,
        "nombre": "Microsoft"
@@ -7644,21 +7262,21 @@
        "pos": 30,
        "score": 0.010122,
        "mom": 0.003306,
-       "vol": 0.326637,
+       "vol": 0.326636,
        "nombre": "Logitech"
       },
       {
        "senal": "INTU",
        "pos": 31,
-       "score": -0.000127,
+       "score": -0.000126,
        "mom": -3.8e-05,
-       "vol": 0.299727,
+       "vol": 0.299728,
        "nombre": "Intuit"
       },
       {
        "senal": "XLV",
        "pos": 32,
-       "score": -0.03797,
+       "score": -0.037968,
        "mom": -0.004455,
        "vol": 0.117328,
        "nombre": "Salud"
@@ -7676,7 +7294,7 @@
        "pos": 34,
        "score": -0.322325,
        "mom": -0.098604,
-       "vol": 0.305915,
+       "vol": 0.305916,
        "nombre": "Valero Energy"
       },
       {
@@ -7762,7 +7380,7 @@
       {
        "senal": "CSCO",
        "pos": 6,
-       "score": 1.681655,
+       "score": 1.681654,
        "mom": 0.292382,
        "vol": 0.173866,
        "nombre": "Cisco"
@@ -7770,7 +7388,7 @@
       {
        "senal": "GOOG",
        "pos": 7,
-       "score": 1.547485,
+       "score": 1.547486,
        "mom": 0.476168,
        "vol": 0.307704,
        "nombre": "Alphabet"
@@ -7778,7 +7396,7 @@
       {
        "senal": "META",
        "pos": 8,
-       "score": 1.497954,
+       "score": 1.497955,
        "mom": 0.409992,
        "vol": 0.273701,
        "nombre": "Meta Platforms"
@@ -7786,7 +7404,7 @@
       {
        "senal": "BAC",
        "pos": 9,
-       "score": 1.47334,
+       "score": 1.473337,
        "mom": 0.365762,
        "vol": 0.248254,
        "nombre": "Bank of America"
@@ -7818,7 +7436,7 @@
       {
        "senal": "ORCL",
        "pos": 13,
-       "score": 1.133212,
+       "score": 1.133213,
        "mom": 0.53919,
        "vol": 0.475806,
        "nombre": "Oracle"
@@ -7826,9 +7444,9 @@
       {
        "senal": "QQQ",
        "pos": 14,
-       "score": 1.050057,
+       "score": 1.050056,
        "mom": 0.196797,
-       "vol": 0.187415,
+       "vol": 0.187416,
        "nombre": "Nasdaq-100"
       },
       {
@@ -7836,7 +7454,7 @@
        "pos": 15,
        "score": 0.9539,
        "mom": 0.724353,
-       "vol": 0.75936,
+       "vol": 0.759359,
        "nombre": "Broadcom"
       },
       {
@@ -7858,7 +7476,7 @@
       {
        "senal": "RELX",
        "pos": 18,
-       "score": 0.880813,
+       "score": 0.880815,
        "mom": 0.15645,
        "vol": 0.17762,
        "nombre": "RELX"
@@ -7882,9 +7500,9 @@
       {
        "senal": "XLP",
        "pos": 21,
-       "score": 0.762851,
-       "mom": 0.090659,
-       "vol": 0.118843,
+       "score": 0.762857,
+       "mom": 0.09066,
+       "vol": 0.118842,
        "nombre": "Consumo básico"
       },
       {
@@ -7898,7 +7516,7 @@
       {
        "senal": "VNQ",
        "pos": 23,
-       "score": 0.540299,
+       "score": 0.540298,
        "mom": 0.100408,
        "vol": 0.185838,
        "nombre": "Inmobiliario"
@@ -7922,9 +7540,9 @@
       {
        "senal": "CRM",
        "pos": 26,
-       "score": 0.302437,
+       "score": 0.302436,
        "mom": 0.11265,
-       "vol": 0.372474,
+       "vol": 0.372475,
        "nombre": "Salesforce"
       },
       {
@@ -7954,7 +7572,7 @@
       {
        "senal": "XLV",
        "pos": 30,
-       "score": 0.221534,
+       "score": 0.221533,
        "mom": 0.03026,
        "vol": 0.136594,
        "nombre": "Salud"
@@ -7970,9 +7588,9 @@
       {
        "senal": "VLO",
        "pos": 32,
-       "score": -0.111091,
+       "score": -0.11109,
        "mom": -0.031915,
-       "vol": 0.287289,
+       "vol": 0.28729,
        "nombre": "Valero Energy"
       },
       {
@@ -8058,7 +7676,7 @@
       {
        "senal": "CSCO",
        "pos": 4,
-       "score": 1.926388,
+       "score": 1.926386,
        "mom": 0.325051,
        "vol": 0.168736,
        "nombre": "Cisco"
@@ -8098,9 +7716,9 @@
       {
        "senal": "BAC",
        "pos": 9,
-       "score": 1.166366,
+       "score": 1.166369,
        "mom": 0.237934,
-       "vol": 0.203996,
+       "vol": 0.203995,
        "nombre": "Bank of America"
       },
       {
@@ -8130,15 +7748,15 @@
       {
        "senal": "XLP",
        "pos": 13,
-       "score": 0.855045,
+       "score": 0.855047,
        "mom": 0.110406,
-       "vol": 0.129123,
+       "vol": 0.129122,
        "nombre": "Consumo básico"
       },
       {
        "senal": "RELX",
        "pos": 14,
-       "score": 0.785094,
+       "score": 0.785095,
        "mom": 0.137534,
        "vol": 0.175181,
        "nombre": "RELX"
@@ -8146,7 +7764,7 @@
       {
        "senal": "QQQ",
        "pos": 15,
-       "score": 0.766728,
+       "score": 0.766727,
        "mom": 0.149782,
        "vol": 0.195353,
        "nombre": "Nasdaq-100"
@@ -8162,8 +7780,8 @@
       {
        "senal": "VNQ",
        "pos": 17,
-       "score": 0.687548,
-       "mom": 0.119281,
+       "score": 0.687549,
+       "mom": 0.119282,
        "vol": 0.173488,
        "nombre": "Inmobiliario"
       },
@@ -8178,15 +7796,15 @@
       {
        "senal": "LLY",
        "pos": 19,
-       "score": 0.659852,
+       "score": 0.659851,
        "mom": 0.191079,
-       "vol": 0.289578,
+       "vol": 0.289579,
        "nombre": "Eli Lilly"
       },
       {
        "senal": "AVGO",
        "pos": 20,
-       "score": 0.649097,
+       "score": 0.649098,
        "mom": 0.518466,
        "vol": 0.798749,
        "nombre": "Broadcom"
@@ -8195,7 +7813,7 @@
        "senal": "NVDA",
        "pos": 21,
        "score": 0.635413,
-       "mom": 0.382858,
+       "mom": 0.382859,
        "vol": 0.602535,
        "nombre": "Nvidia"
       },
@@ -8218,7 +7836,7 @@
       {
        "senal": "LOGI",
        "pos": 24,
-       "score": 0.467724,
+       "score": 0.467723,
        "mom": 0.124771,
        "vol": 0.266762,
        "nombre": "Logitech"
@@ -8226,17 +7844,17 @@
       {
        "senal": "GOOG",
        "pos": 25,
-       "score": 0.409542,
+       "score": 0.409543,
        "mom": 0.135156,
-       "vol": 0.330017,
+       "vol": 0.330016,
        "nombre": "Alphabet"
       },
       {
        "senal": "VRT",
        "pos": 26,
-       "score": 0.194325,
+       "score": 0.194324,
        "mom": 0.166302,
-       "vol": 0.855795,
+       "vol": 0.855794,
        "nombre": "Vertiv"
       },
       {
@@ -8260,7 +7878,7 @@
        "pos": 29,
        "score": -0.019376,
        "mom": -0.00683,
-       "vol": 0.352513,
+       "vol": 0.352514,
        "nombre": "Salesforce"
       },
       {
@@ -8268,7 +7886,7 @@
        "pos": 30,
        "score": -0.06185,
        "mom": -0.012136,
-       "vol": 0.196221,
+       "vol": 0.196222,
        "nombre": "Energía"
       },
       {
@@ -8362,7 +7980,7 @@
       {
        "senal": "CSCO",
        "pos": 3,
-       "score": 1.794926,
+       "score": 1.794924,
        "mom": 0.344012,
        "vol": 0.191658,
        "nombre": "Cisco"
@@ -8386,7 +8004,7 @@
       {
        "senal": "IBM",
        "pos": 6,
-       "score": 1.532433,
+       "score": 1.532434,
        "mom": 0.546464,
        "vol": 0.356599,
        "nombre": "IBM"
@@ -8418,9 +8036,9 @@
       {
        "senal": "META",
        "pos": 10,
-       "score": 1.022707,
+       "score": 1.022705,
        "mom": 0.34473,
-       "vol": 0.337076,
+       "vol": 0.337077,
        "nombre": "Meta Platforms"
       },
       {
@@ -8434,9 +8052,9 @@
       {
        "senal": "XLP",
        "pos": 12,
-       "score": 0.729295,
+       "score": 0.729298,
        "mom": 0.109842,
-       "vol": 0.150614,
+       "vol": 0.150613,
        "nombre": "Consumo básico"
       },
       {
@@ -8474,7 +8092,7 @@
       {
        "senal": "QQQ",
        "pos": 17,
-       "score": 0.495884,
+       "score": 0.495882,
        "mom": 0.111157,
        "vol": 0.22416,
        "nombre": "Nasdaq-100"
@@ -8484,15 +8102,15 @@
        "pos": 18,
        "score": 0.455249,
        "mom": 0.238377,
-       "vol": 0.523618,
+       "vol": 0.523619,
        "nombre": "Oracle"
       },
       {
        "senal": "XLV",
        "pos": 19,
-       "score": 0.452857,
+       "score": 0.452858,
        "mom": 0.05727,
-       "vol": 0.126465,
+       "vol": 0.126464,
        "nombre": "Salud"
       },
       {
@@ -8516,7 +8134,7 @@
        "pos": 22,
        "score": 0.381782,
        "mom": 0.254781,
-       "vol": 0.667348,
+       "vol": 0.667347,
        "nombre": "Nvidia"
       },
       {
@@ -8530,7 +8148,7 @@
       {
        "senal": "LOGI",
        "pos": 24,
-       "score": 0.315008,
+       "score": 0.315007,
        "mom": 0.094,
        "vol": 0.298404,
        "nombre": "Logitech"
@@ -8554,9 +8172,9 @@
       {
        "senal": "XLE",
        "pos": 27,
-       "score": 0.157198,
+       "score": 0.157197,
        "mom": 0.032102,
-       "vol": 0.204213,
+       "vol": 0.204214,
        "nombre": "Energía"
       },
       {
@@ -8595,7 +8213,7 @@
        "senal": "VRT",
        "pos": 32,
        "score": -0.233105,
-       "mom": -0.222656,
+       "mom": -0.222657,
        "vol": 0.955176,
        "nombre": "Vertiv"
       },
@@ -8603,7 +8221,7 @@
        "senal": "VLO",
        "pos": 33,
        "score": -0.427238,
-       "mom": -0.149386,
+       "mom": -0.149385,
        "vol": 0.349654,
        "nombre": "Valero Energy"
       },
@@ -8698,7 +8316,7 @@
       {
        "senal": "IBM",
        "pos": 6,
-       "score": 1.391202,
+       "score": 1.391201,
        "mom": 0.483341,
        "vol": 0.347427,
        "nombre": "IBM"
@@ -8738,9 +8356,9 @@
       {
        "senal": "AVGO",
        "pos": 11,
-       "score": 0.674603,
-       "mom": 0.466433,
-       "vol": 0.691418,
+       "score": 0.674604,
+       "mom": 0.466434,
+       "vol": 0.691419,
        "nombre": "Broadcom"
       },
       {
@@ -8780,13 +8398,13 @@
        "pos": 16,
        "score": 0.439385,
        "mom": 0.08556,
-       "vol": 0.194728,
+       "vol": 0.194727,
        "nombre": "Consumo básico"
       },
       {
        "senal": "VNQ",
        "pos": 17,
-       "score": 0.435889,
+       "score": 0.435888,
        "mom": 0.105106,
        "vol": 0.241131,
        "nombre": "Inmobiliario"
@@ -8794,15 +8412,15 @@
       {
        "senal": "ORCL",
        "pos": 18,
-       "score": 0.425511,
-       "mom": 0.214196,
+       "score": 0.42551,
+       "mom": 0.214195,
        "vol": 0.503385,
        "nombre": "Oracle"
       },
       {
        "senal": "CRM",
        "pos": 19,
-       "score": 0.384953,
+       "score": 0.384952,
        "mom": 0.152885,
        "vol": 0.397153,
        "nombre": "Salesforce"
@@ -8810,15 +8428,15 @@
       {
        "senal": "META",
        "pos": 20,
-       "score": 0.350443,
+       "score": 0.350444,
        "mom": 0.180307,
-       "vol": 0.514511,
+       "vol": 0.514512,
        "nombre": "Meta Platforms"
       },
       {
        "senal": "LLY",
        "pos": 21,
-       "score": 0.222586,
+       "score": 0.222587,
        "mom": 0.101069,
        "vol": 0.454066,
        "nombre": "Eli Lilly"
@@ -8834,7 +8452,7 @@
       {
        "senal": "QQQ",
        "pos": 23,
-       "score": 0.159019,
+       "score": 0.159018,
        "mom": 0.061384,
        "vol": 0.386016,
        "nombre": "Nasdaq-100"
@@ -8850,7 +8468,7 @@
       {
        "senal": "BAC",
        "pos": 25,
-       "score": 0.052938,
+       "score": 0.052937,
        "mom": 0.021882,
        "vol": 0.413352,
        "nombre": "Bank of America"
@@ -8874,7 +8492,7 @@
       {
        "senal": "MSFT",
        "pos": 28,
-       "score": -0.132038,
+       "score": -0.132039,
        "mom": -0.042323,
        "vol": 0.320532,
        "nombre": "Microsoft"
@@ -8882,7 +8500,7 @@
       {
        "senal": "VRT",
        "pos": 29,
-       "score": -0.143492,
+       "score": -0.143493,
        "mom": -0.128276,
        "vol": 0.893959,
        "nombre": "Vertiv"
@@ -8900,7 +8518,7 @@
        "pos": 31,
        "score": -0.276103,
        "mom": -0.107871,
-       "vol": 0.39069,
+       "vol": 0.390691,
        "nombre": "Energía"
       },
       {
@@ -8931,7 +8549,7 @@
        "senal": "DELL",
        "pos": 35,
        "score": -0.456612,
-       "mom": -0.330965,
+       "mom": -0.330964,
        "vol": 0.724827,
        "nombre": "Dell Technologies"
       },
@@ -8940,7 +8558,7 @@
        "pos": 36,
        "score": -0.46819,
        "mom": -0.244545,
-       "vol": 0.522321,
+       "vol": 0.52232,
        "nombre": "Valero Energy"
       },
       {
@@ -9018,7 +8636,7 @@
       {
        "senal": "CSCO",
        "pos": 7,
-       "score": 1.125043,
+       "score": 1.125044,
        "mom": 0.366727,
        "vol": 0.325967,
        "nombre": "Cisco"
@@ -9090,15 +8708,15 @@
       {
        "senal": "INTU",
        "pos": 16,
-       "score": 0.393941,
-       "mom": 0.153905,
-       "vol": 0.390682,
+       "score": 0.393942,
+       "mom": 0.153906,
+       "vol": 0.390681,
        "nombre": "Intuit"
       },
       {
        "senal": "VNQ",
        "pos": 17,
-       "score": 0.387256,
+       "score": 0.387257,
        "mom": 0.096919,
        "vol": 0.25027,
        "nombre": "Inmobiliario"
@@ -9106,7 +8724,7 @@
       {
        "senal": "ORCL",
        "pos": 18,
-       "score": 0.371947,
+       "score": 0.371946,
        "mom": 0.185401,
        "vol": 0.498462,
        "nombre": "Oracle"
@@ -9130,8 +8748,8 @@
       {
        "senal": "VRT",
        "pos": 21,
-       "score": 0.293336,
-       "mom": 0.248,
+       "score": 0.293337,
+       "mom": 0.248001,
        "vol": 0.845447,
        "nombre": "Vertiv"
       },
@@ -9146,7 +8764,7 @@
       {
        "senal": "QQQ",
        "pos": 23,
-       "score": 0.227861,
+       "score": 0.227862,
        "mom": 0.088381,
        "vol": 0.387871,
        "nombre": "Nasdaq-100"
@@ -9180,15 +8798,15 @@
        "pos": 27,
        "score": 0.095893,
        "mom": 0.038206,
-       "vol": 0.398425,
+       "vol": 0.398426,
        "nombre": "Salesforce"
       },
       {
        "senal": "GOOG",
        "pos": 28,
-       "score": -0.133551,
+       "score": -0.133552,
        "mom": -0.05424,
-       "vol": 0.406137,
+       "vol": 0.406136,
        "nombre": "Alphabet"
       },
       {
@@ -9235,7 +8853,7 @@
        "senal": "XLV",
        "pos": 34,
        "score": -0.324758,
-       "mom": -0.078869,
+       "mom": -0.078868,
        "vol": 0.242853,
        "nombre": "Salud"
       },
@@ -9306,7 +8924,7 @@
       {
        "senal": "IBM",
        "pos": 4,
-       "score": 1.827899,
+       "score": 1.8279,
        "mom": 0.58065,
        "vol": 0.31766,
        "nombre": "IBM"
@@ -9322,7 +8940,7 @@
       {
        "senal": "CSCO",
        "pos": 6,
-       "score": 1.426871,
+       "score": 1.426872,
        "mom": 0.462467,
        "vol": 0.324113,
        "nombre": "Cisco"
@@ -9354,9 +8972,9 @@
       {
        "senal": "AVGO",
        "pos": 10,
-       "score": 1.239079,
+       "score": 1.23908,
        "mom": 0.735072,
-       "vol": 0.593241,
+       "vol": 0.59324,
        "nombre": "Broadcom"
       },
       {
@@ -9370,7 +8988,7 @@
       {
        "senal": "ORCL",
        "pos": 12,
-       "score": 1.083938,
+       "score": 1.083937,
        "mom": 0.580848,
        "vol": 0.535869,
        "nombre": "Oracle"
@@ -9396,13 +9014,13 @@
        "pos": 15,
        "score": 0.616672,
        "mom": 0.222898,
-       "vol": 0.361454,
+       "vol": 0.361453,
        "nombre": "Intuit"
       },
       {
        "senal": "MSFT",
        "pos": 16,
-       "score": 0.60896,
+       "score": 0.608959,
        "mom": 0.198096,
        "vol": 0.325303,
        "nombre": "Microsoft"
@@ -9426,7 +9044,7 @@
       {
        "senal": "RELX",
        "pos": 19,
-       "score": 0.588062,
+       "score": 0.588061,
        "mom": 0.168464,
        "vol": 0.286474,
        "nombre": "RELX"
@@ -9434,7 +9052,7 @@
       {
        "senal": "BAC",
        "pos": 20,
-       "score": 0.533499,
+       "score": 0.533498,
        "mom": 0.202672,
        "vol": 0.379892,
        "nombre": "Bank of America"
@@ -9450,7 +9068,7 @@
       {
        "senal": "QQQ",
        "pos": 22,
-       "score": 0.490938,
+       "score": 0.490939,
        "mom": 0.177645,
        "vol": 0.361849,
        "nombre": "Nasdaq-100"
@@ -9498,7 +9116,7 @@
       {
        "senal": "VNQ",
        "pos": 28,
-       "score": 0.097826,
+       "score": 0.097827,
        "mom": 0.023233,
        "vol": 0.23749,
        "nombre": "Inmobiliario"
@@ -9530,7 +9148,7 @@
       {
        "senal": "LLY",
        "pos": 32,
-       "score": -0.045738,
+       "score": -0.045739,
        "mom": -0.024127,
        "vol": 0.527504,
        "nombre": "Eli Lilly"
@@ -9539,7 +9157,7 @@
        "senal": "XLE",
        "pos": 33,
        "score": -0.158091,
-       "mom": -0.06011,
+       "mom": -0.060109,
        "vol": 0.38022,
        "nombre": "Energía"
       },
@@ -9570,7 +9188,7 @@
       {
        "senal": "XLV",
        "pos": 37,
-       "score": -0.345202,
+       "score": -0.345204,
        "mom": -0.083858,
        "vol": 0.242923,
        "nombre": "Salud"
@@ -9618,23 +9236,23 @@
       {
        "senal": "AVGO",
        "pos": 4,
-       "score": 2.562355,
-       "mom": 0.824389,
+       "score": 2.562356,
+       "mom": 0.82439,
        "vol": 0.321731,
        "nombre": "Broadcom"
       },
       {
        "senal": "CSCO",
        "pos": 5,
-       "score": 2.14317,
+       "score": 2.143168,
        "mom": 0.383993,
-       "vol": 0.17917,
+       "vol": 0.179171,
        "nombre": "Cisco"
       },
       {
        "senal": "ORCL",
        "pos": 6,
-       "score": 1.98483,
+       "score": 1.984829,
        "mom": 0.814887,
        "vol": 0.410558,
        "nombre": "Oracle"
@@ -9650,7 +9268,7 @@
       {
        "senal": "VRT",
        "pos": 8,
-       "score": 1.711821,
+       "score": 1.711819,
        "mom": 0.755962,
        "vol": 0.441613,
        "nombre": "Vertiv"
@@ -9658,7 +9276,7 @@
       {
        "senal": "NVDA",
        "pos": 9,
-       "score": 1.638387,
+       "score": 1.638389,
        "mom": 0.490544,
        "vol": 0.299406,
        "nombre": "Nvidia"
@@ -9683,7 +9301,7 @@
        "senal": "QQQ",
        "pos": 12,
        "score": 1.382012,
-       "mom": 0.193019,
+       "mom": 0.193018,
        "vol": 0.139665,
        "nombre": "Nasdaq-100"
       },
@@ -9706,7 +9324,7 @@
       {
        "senal": "META",
        "pos": 15,
-       "score": 1.343784,
+       "score": 1.343783,
        "mom": 0.488727,
        "vol": 0.363695,
        "nombre": "Meta Platforms"
@@ -9730,23 +9348,23 @@
       {
        "senal": "IBM",
        "pos": 18,
-       "score": 1.106443,
-       "mom": 0.279148,
+       "score": 1.106442,
+       "mom": 0.279147,
        "vol": 0.252293,
        "nombre": "IBM"
       },
       {
        "senal": "INTU",
        "pos": 19,
-       "score": 1.026505,
+       "score": 1.026508,
        "mom": 0.253765,
-       "vol": 0.247213,
+       "vol": 0.247212,
        "nombre": "Intuit"
       },
       {
        "senal": "BAC",
        "pos": 20,
-       "score": 0.987987,
+       "score": 0.987989,
        "mom": 0.188429,
        "vol": 0.19072,
        "nombre": "Bank of America"
@@ -9778,7 +9396,7 @@
       {
        "senal": "DELL",
        "pos": 24,
-       "score": 0.507002,
+       "score": 0.507001,
        "mom": 0.169312,
        "vol": 0.333947,
        "nombre": "Dell Technologies"
@@ -9811,8 +9429,8 @@
        "senal": "LOGI",
        "pos": 28,
        "score": 0.132102,
-       "mom": 0.036853,
-       "vol": 0.27897,
+       "mom": 0.036852,
+       "vol": 0.278969,
        "nombre": "Logitech"
       },
       {
@@ -9826,7 +9444,7 @@
       {
        "senal": "XLE",
        "pos": 30,
-       "score": -0.070233,
+       "score": -0.070234,
        "mom": -0.013077,
        "vol": 0.186189,
        "nombre": "Energía"
@@ -9834,9 +9452,9 @@
       {
        "senal": "XLP",
        "pos": 31,
-       "score": -0.076861,
+       "score": -0.076862,
        "mom": -0.008631,
-       "vol": 0.112288,
+       "vol": 0.112289,
        "nombre": "Consumo básico"
       },
       {
@@ -9866,7 +9484,7 @@
       {
        "senal": "VNQ",
        "pos": 35,
-       "score": -0.184848,
+       "score": -0.184847,
        "mom": -0.026663,
        "vol": 0.144242,
        "nombre": "Inmobiliario"
@@ -9884,15 +9502,15 @@
        "pos": 37,
        "score": -0.55792,
        "mom": -0.224917,
-       "vol": 0.403134,
+       "vol": 0.403135,
        "nombre": "Eli Lilly"
       },
       {
        "senal": "XLV",
        "pos": 38,
-       "score": -0.804991,
+       "score": -0.804992,
        "mom": -0.156182,
-       "vol": 0.194017,
+       "vol": 0.194016,
        "nombre": "Salud"
       }
      ]
@@ -9922,9 +9540,9 @@
       {
        "senal": "AVGO",
        "pos": 3,
-       "score": 2.353018,
+       "score": 2.353013,
        "mom": 0.737931,
-       "vol": 0.31361,
+       "vol": 0.313611,
        "nombre": "Broadcom"
       },
       {
@@ -9962,7 +9580,7 @@
       {
        "senal": "NVDA",
        "pos": 8,
-       "score": 1.638242,
+       "score": 1.63824,
        "mom": 0.434619,
        "vol": 0.265296,
        "nombre": "Nvidia"
@@ -9970,7 +9588,7 @@
       {
        "senal": "BAC",
        "pos": 9,
-       "score": 1.582009,
+       "score": 1.582011,
        "mom": 0.301583,
        "vol": 0.190633,
        "nombre": "Bank of America"
@@ -9986,8 +9604,8 @@
       {
        "senal": "QQQ",
        "pos": 11,
-       "score": 1.448501,
-       "mom": 0.173631,
+       "score": 1.448504,
+       "mom": 0.173632,
        "vol": 0.11987,
        "nombre": "Nasdaq-100"
       },
@@ -10002,7 +9620,7 @@
       {
        "senal": "MSFT",
        "pos": 13,
-       "score": 1.237549,
+       "score": 1.237552,
        "mom": 0.186368,
        "vol": 0.150594,
        "nombre": "Microsoft"
@@ -10011,7 +9629,7 @@
        "senal": "META",
        "pos": 14,
        "score": 0.887632,
-       "mom": 0.293625,
+       "mom": 0.293626,
        "vol": 0.330796,
        "nombre": "Meta Platforms"
       },
@@ -10044,7 +9662,7 @@
        "pos": 18,
        "score": 0.689318,
        "mom": 0.283409,
-       "vol": 0.411143,
+       "vol": 0.411144,
        "nombre": "Vertiv"
       },
       {
@@ -10058,7 +9676,7 @@
       {
        "senal": "LOGI",
        "pos": 20,
-       "score": 0.614671,
+       "score": 0.614672,
        "mom": 0.153906,
        "vol": 0.250388,
        "nombre": "Logitech"
@@ -10074,7 +9692,7 @@
       {
        "senal": "VLO",
        "pos": 22,
-       "score": 0.540257,
+       "score": 0.540258,
        "mom": 0.162689,
        "vol": 0.301133,
        "nombre": "Valero Energy"
@@ -10106,9 +9724,9 @@
       {
        "senal": "XLE",
        "pos": 26,
-       "score": 0.319877,
+       "score": 0.319876,
        "mom": 0.054743,
-       "vol": 0.171139,
+       "vol": 0.171138,
        "nombre": "Energía"
       },
       {
@@ -10154,7 +9772,7 @@
       {
        "senal": "RELX",
        "pos": 32,
-       "score": -0.006073,
+       "score": -0.006072,
        "mom": -0.001044,
        "vol": 0.171944,
        "nombre": "RELX"
@@ -10170,7 +9788,7 @@
       {
        "senal": "XLP",
        "pos": 34,
-       "score": -0.068528,
+       "score": -0.068529,
        "mom": -0.007405,
        "vol": 0.108056,
        "nombre": "Consumo básico"
@@ -10178,7 +9796,7 @@
       {
        "senal": "VNQ",
        "pos": 35,
-       "score": -0.18893,
+       "score": -0.188929,
        "mom": -0.024702,
        "vol": 0.130749,
        "nombre": "Inmobiliario"
@@ -10202,9 +9820,9 @@
       {
        "senal": "XLV",
        "pos": 38,
-       "score": -0.647399,
+       "score": -0.647401,
        "mom": -0.09591,
-       "vol": 0.148147,
+       "vol": 0.148146,
        "nombre": "Salud"
       }
      ]
@@ -10234,7 +9852,7 @@
       {
        "senal": "AVGO",
        "pos": 3,
-       "score": 2.454208,
+       "score": 2.454204,
        "mom": 0.962336,
        "vol": 0.392117,
        "nombre": "Broadcom"
@@ -10258,7 +9876,7 @@
       {
        "senal": "QQQ",
        "pos": 6,
-       "score": 2.267277,
+       "score": 2.267282,
        "mom": 0.247515,
        "vol": 0.109168,
        "nombre": "Nasdaq-100"
@@ -10298,7 +9916,7 @@
       {
        "senal": "GOOG",
        "pos": 11,
-       "score": 1.600426,
+       "score": 1.600424,
        "mom": 0.416503,
        "vol": 0.260245,
        "nombre": "Alphabet"
@@ -10306,7 +9924,7 @@
       {
        "senal": "IBM",
        "pos": 12,
-       "score": 1.526634,
+       "score": 1.526633,
        "mom": 0.403502,
        "vol": 0.264308,
        "nombre": "IBM"
@@ -10314,7 +9932,7 @@
       {
        "senal": "LOGI",
        "pos": 13,
-       "score": 1.525261,
+       "score": 1.525262,
        "mom": 0.361791,
        "vol": 0.237199,
        "nombre": "Logitech"
@@ -10322,7 +9940,7 @@
       {
        "senal": "NVDA",
        "pos": 14,
-       "score": 1.435776,
+       "score": 1.435777,
        "mom": 0.405796,
        "vol": 0.282632,
        "nombre": "Nvidia"
@@ -10330,7 +9948,7 @@
       {
        "senal": "CSCO",
        "pos": 15,
-       "score": 1.43274,
+       "score": 1.432741,
        "mom": 0.273747,
        "vol": 0.191066,
        "nombre": "Cisco"
@@ -10338,17 +9956,17 @@
       {
        "senal": "BAC",
        "pos": 16,
-       "score": 1.387908,
-       "mom": 0.262652,
+       "score": 1.387907,
+       "mom": 0.262651,
        "vol": 0.189243,
        "nombre": "Bank of America"
       },
       {
        "senal": "VLO",
        "pos": 17,
-       "score": 1.225511,
+       "score": 1.225509,
        "mom": 0.355169,
-       "vol": 0.289813,
+       "vol": 0.289814,
        "nombre": "Valero Energy"
       },
       {
@@ -10380,7 +9998,7 @@
        "pos": 21,
        "score": 0.828466,
        "mom": 0.382229,
-       "vol": 0.461369,
+       "vol": 0.46137,
        "nombre": "Vertiv"
       },
       {
@@ -10410,7 +10028,7 @@
       {
        "senal": "INTU",
        "pos": 25,
-       "score": 0.5212,
+       "score": 0.521201,
        "mom": 0.124313,
        "vol": 0.238513,
        "nombre": "Intuit"
@@ -10450,7 +10068,7 @@
       {
        "senal": "XLE",
        "pos": 30,
-       "score": 0.251398,
+       "score": 0.251397,
        "mom": 0.042011,
        "vol": 0.167111,
        "nombre": "Energía"
@@ -10482,7 +10100,7 @@
       {
        "senal": "XLP",
        "pos": 34,
-       "score": 0.042649,
+       "score": 0.042648,
        "mom": 0.004443,
        "vol": 0.104169,
        "nombre": "Consumo básico"
@@ -10506,9 +10124,9 @@
       {
        "senal": "XLV",
        "pos": 37,
-       "score": -0.223244,
+       "score": -0.223245,
        "mom": -0.035502,
-       "vol": 0.159027,
+       "vol": 0.159026,
        "nombre": "Salud"
       },
       {
@@ -10538,7 +10156,7 @@
       {
        "senal": "AVGO",
        "pos": 2,
-       "score": 2.885643,
+       "score": 2.885641,
        "mom": 1.302908,
        "vol": 0.451514,
        "nombre": "Broadcom"
@@ -10586,7 +10204,7 @@
       {
        "senal": "QQQ",
        "pos": 8,
-       "score": 1.630172,
+       "score": 1.630171,
        "mom": 0.24076,
        "vol": 0.14769,
        "nombre": "Nasdaq-100"
@@ -10594,9 +10212,9 @@
       {
        "senal": "NVDA",
        "pos": 9,
-       "score": 1.472557,
+       "score": 1.472556,
        "mom": 0.465086,
-       "vol": 0.315835,
+       "vol": 0.315836,
        "nombre": "Nvidia"
       },
       {
@@ -10610,7 +10228,7 @@
       {
        "senal": "IBM",
        "pos": 11,
-       "score": 1.377463,
+       "score": 1.37746,
        "mom": 0.379111,
        "vol": 0.275224,
        "nombre": "IBM"
@@ -10618,16 +10236,16 @@
       {
        "senal": "MSFT",
        "pos": 12,
-       "score": 1.364875,
-       "mom": 0.229527,
+       "score": 1.364872,
+       "mom": 0.229526,
        "vol": 0.168167,
        "nombre": "Microsoft"
       },
       {
        "senal": "CSCO",
        "pos": 13,
-       "score": 1.261413,
-       "mom": 0.266599,
+       "score": 1.261415,
+       "mom": 0.2666,
        "vol": 0.21135,
        "nombre": "Cisco"
       },
@@ -10690,9 +10308,9 @@
       {
        "senal": "BAC",
        "pos": 21,
-       "score": 0.69587,
+       "score": 0.695871,
        "mom": 0.151502,
-       "vol": 0.217716,
+       "vol": 0.217715,
        "nombre": "Bank of America"
       },
       {
@@ -10714,7 +10332,7 @@
       {
        "senal": "ORCL",
        "pos": 24,
-       "score": 0.508037,
+       "score": 0.508038,
        "mom": 0.434873,
        "vol": 0.855987,
        "nombre": "Oracle"
@@ -10818,7 +10436,7 @@
       {
        "senal": "XLP",
        "pos": 37,
-       "score": -0.521767,
+       "score": -0.521766,
        "mom": -0.058762,
        "vol": 0.112622,
        "nombre": "Consumo básico"
@@ -10858,7 +10476,7 @@
       {
        "senal": "GOOG",
        "pos": 3,
-       "score": 2.079929,
+       "score": 2.079926,
        "mom": 0.686393,
        "vol": 0.330008,
        "nombre": "Alphabet"
@@ -10882,7 +10500,7 @@
       {
        "senal": "CSCO",
        "pos": 6,
-       "score": 1.515526,
+       "score": 1.515529,
        "mom": 0.333178,
        "vol": 0.219843,
        "nombre": "Cisco"
@@ -10890,7 +10508,7 @@
       {
        "senal": "IBM",
        "pos": 7,
-       "score": 1.500731,
+       "score": 1.500729,
        "mom": 0.43999,
        "vol": 0.293184,
        "nombre": "IBM"
@@ -10898,9 +10516,9 @@
       {
        "senal": "AVGO",
        "pos": 8,
-       "score": 1.457287,
+       "score": 1.457285,
        "mom": 0.750452,
-       "vol": 0.514965,
+       "vol": 0.514966,
        "nombre": "Broadcom"
       },
       {
@@ -10914,7 +10532,7 @@
       {
        "senal": "LLY",
        "pos": 10,
-       "score": 1.289442,
+       "score": 1.289443,
        "mom": 0.403487,
        "vol": 0.312916,
        "nombre": "Eli Lilly"
@@ -10922,9 +10540,9 @@
       {
        "senal": "QQQ",
        "pos": 11,
-       "score": 1.260123,
+       "score": 1.260121,
        "mom": 0.215871,
-       "vol": 0.171309,
+       "vol": 0.17131,
        "nombre": "Nasdaq-100"
       },
       {
@@ -10954,7 +10572,7 @@
       {
        "senal": "XLV",
        "pos": 15,
-       "score": 1.139665,
+       "score": 1.139664,
        "mom": 0.161174,
        "vol": 0.141422,
        "nombre": "Salud"
@@ -10986,9 +10604,9 @@
       {
        "senal": "MSFT",
        "pos": 19,
-       "score": 0.958791,
+       "score": 0.95879,
        "mom": 0.175894,
-       "vol": 0.183454,
+       "vol": 0.183455,
        "nombre": "Microsoft"
       },
       {
@@ -11058,7 +10676,7 @@
       {
        "senal": "XLP",
        "pos": 28,
-       "score": 0.245235,
+       "score": 0.245236,
        "mom": 0.028992,
        "vol": 0.118221,
        "nombre": "Consumo básico"
@@ -11108,7 +10726,7 @@
        "pos": 34,
        "score": 0.06957,
        "mom": 0.015545,
-       "vol": 0.223441,
+       "vol": 0.22344,
        "nombre": "Intuit"
       },
       {
@@ -11138,9 +10756,9 @@
       {
        "senal": "CRM",
        "pos": 38,
-       "score": -0.932432,
+       "score": -0.932431,
        "mom": -0.307059,
-       "vol": 0.329309,
+       "vol": 0.32931,
        "nombre": "Salesforce"
       }
      ]
@@ -11170,23 +10788,23 @@
       {
        "senal": "GOOG",
        "pos": 3,
-       "score": 1.8283,
+       "score": 1.828299,
        "mom": 0.532206,
-       "vol": 0.291093,
+       "vol": 0.291094,
        "nombre": "Alphabet"
       },
       {
        "senal": "NVDA",
        "pos": 4,
-       "score": 1.516761,
-       "mom": 0.553685,
+       "score": 1.516762,
+       "mom": 0.553686,
        "vol": 0.365045,
        "nombre": "Nvidia"
       },
       {
        "senal": "CSCO",
        "pos": 5,
-       "score": 1.329064,
+       "score": 1.329066,
        "mom": 0.295077,
        "vol": 0.222018,
        "nombre": "Cisco"
@@ -11202,7 +10820,7 @@
       {
        "senal": "AVGO",
        "pos": 7,
-       "score": 1.120205,
+       "score": 1.120204,
        "mom": 0.578287,
        "vol": 0.516233,
        "nombre": "Broadcom"
@@ -11226,7 +10844,7 @@
       {
        "senal": "BAC",
        "pos": 10,
-       "score": 1.057716,
+       "score": 1.057718,
        "mom": 0.215418,
        "vol": 0.203663,
        "nombre": "Bank of America"
@@ -11234,9 +10852,9 @@
       {
        "senal": "QQQ",
        "pos": 11,
-       "score": 1.017374,
+       "score": 1.017371,
        "mom": 0.182151,
-       "vol": 0.17904,
+       "vol": 0.179041,
        "nombre": "Nasdaq-100"
       },
       {
@@ -11266,7 +10884,7 @@
       {
        "senal": "VLO",
        "pos": 15,
-       "score": 0.826264,
+       "score": 0.826263,
        "mom": 0.252306,
        "vol": 0.305358,
        "nombre": "Valero Energy"
@@ -11274,9 +10892,9 @@
       {
        "senal": "IBM",
        "pos": 16,
-       "score": 0.706654,
+       "score": 0.706652,
        "mom": 0.188359,
-       "vol": 0.26655,
+       "vol": 0.266551,
        "nombre": "IBM"
       },
       {
@@ -11314,7 +10932,7 @@
       {
        "senal": "INTU",
        "pos": 21,
-       "score": 0.459681,
+       "score": 0.459682,
        "mom": 0.106697,
        "vol": 0.232111,
        "nombre": "Intuit"
@@ -11322,7 +10940,7 @@
       {
        "senal": "XLE",
        "pos": 22,
-       "score": 0.310465,
+       "score": 0.310466,
        "mom": 0.054391,
        "vol": 0.175192,
        "nombre": "Energía"
@@ -11331,7 +10949,7 @@
        "senal": "ORCL",
        "pos": 23,
        "score": 0.305872,
-       "mom": 0.154687,
+       "mom": 0.154686,
        "vol": 0.505723,
        "nombre": "Oracle"
       },
@@ -11354,7 +10972,7 @@
       {
        "senal": "VNQ",
        "pos": 26,
-       "score": 0.129357,
+       "score": 0.129356,
        "mom": 0.015694,
        "vol": 0.121327,
        "nombre": "Inmobiliario"
@@ -11370,7 +10988,7 @@
       {
        "senal": "XLP",
        "pos": 28,
-       "score": 0.091532,
+       "score": 0.09153,
        "mom": 0.010406,
        "vol": 0.113685,
        "nombre": "Consumo básico"
@@ -11466,7 +11084,7 @@
       {
        "senal": "GOOG",
        "pos": 1,
-       "score": 3.609345,
+       "score": 3.609341,
        "mom": 0.973336,
        "vol": 0.269671,
        "nombre": "Alphabet"
@@ -11490,7 +11108,7 @@
       {
        "senal": "VRT",
        "pos": 4,
-       "score": 1.742221,
+       "score": 1.742222,
        "mom": 0.959077,
        "vol": 0.550491,
        "nombre": "Vertiv"
@@ -11498,7 +11116,7 @@
       {
        "senal": "NVDA",
        "pos": 5,
-       "score": 1.598158,
+       "score": 1.598157,
        "mom": 0.530438,
        "vol": 0.331906,
        "nombre": "Nvidia"
@@ -11514,15 +11132,15 @@
       {
        "senal": "QQQ",
        "pos": 7,
-       "score": 1.428172,
+       "score": 1.428168,
        "mom": 0.22995,
-       "vol": 0.16101,
+       "vol": 0.161011,
        "nombre": "Nasdaq-100"
       },
       {
        "senal": "AVGO",
        "pos": 8,
-       "score": 1.411429,
+       "score": 1.411427,
        "mom": 0.676246,
        "vol": 0.479122,
        "nombre": "Broadcom"
@@ -11530,7 +11148,7 @@
       {
        "senal": "VLO",
        "pos": 9,
-       "score": 1.243754,
+       "score": 1.243753,
        "mom": 0.419934,
        "vol": 0.337634,
        "nombre": "Valero Energy"
@@ -11538,7 +11156,7 @@
       {
        "senal": "CSCO",
        "pos": 10,
-       "score": 1.12338,
+       "score": 1.123382,
        "mom": 0.251333,
        "vol": 0.223729,
        "nombre": "Cisco"
@@ -11554,15 +11172,15 @@
       {
        "senal": "BAC",
        "pos": 12,
-       "score": 0.940733,
+       "score": 0.940735,
        "mom": 0.180741,
-       "vol": 0.192128,
+       "vol": 0.192127,
        "nombre": "Bank of America"
       },
       {
        "senal": "IBM",
        "pos": 13,
-       "score": 0.852255,
+       "score": 0.852256,
        "mom": 0.238085,
        "vol": 0.279359,
        "nombre": "IBM"
@@ -11570,7 +11188,7 @@
       {
        "senal": "XLE",
        "pos": 14,
-       "score": 0.797382,
+       "score": 0.797381,
        "mom": 0.159455,
        "vol": 0.199973,
        "nombre": "Energía"
@@ -11618,7 +11236,7 @@
       {
        "senal": "XLV",
        "pos": 20,
-       "score": 0.405729,
+       "score": 0.405727,
        "mom": 0.057287,
        "vol": 0.141195,
        "nombre": "Salud"
@@ -11644,21 +11262,21 @@
        "pos": 23,
        "score": 0.312126,
        "mom": 0.134337,
-       "vol": 0.430393,
+       "vol": 0.430394,
        "nombre": "Dell Technologies"
       },
       {
        "senal": "XLP",
        "pos": 24,
        "score": 0.274836,
-       "mom": 0.032632,
-       "vol": 0.118734,
+       "mom": 0.032633,
+       "vol": 0.118735,
        "nombre": "Consumo básico"
       },
       {
        "senal": "META",
        "pos": 25,
-       "score": 0.218347,
+       "score": 0.218346,
        "mom": 0.075665,
        "vol": 0.346537,
        "nombre": "Meta Platforms"
@@ -11684,7 +11302,7 @@
        "pos": 28,
        "score": 0.00232,
        "mom": 0.00113,
-       "vol": 0.487235,
+       "vol": 0.487234,
        "nombre": "Oracle"
       },
       {
@@ -11724,7 +11342,7 @@
        "pos": 33,
        "score": -0.530608,
        "mom": -0.181699,
-       "vol": 0.342436,
+       "vol": 0.342435,
        "nombre": "Intuit"
       },
       {
@@ -11762,7 +11380,7 @@
       {
        "senal": "RELX",
        "pos": 38,
-       "score": -1.057419,
+       "score": -1.057417,
        "mom": -0.248129,
        "vol": 0.234656,
        "nombre": "RELX"
@@ -11778,8 +11396,8 @@
       {
        "senal": "GOOG",
        "pos": 1,
-       "score": 4.522798,
-       "mom": 0.99889,
+       "score": 4.522799,
+       "mom": 0.998891,
        "vol": 0.220857,
        "nombre": "Alphabet"
       },
@@ -11795,8 +11413,8 @@
        "senal": "AVGO",
        "pos": 3,
        "score": 2.090744,
-       "mom": 0.919995,
-       "vol": 0.440032,
+       "mom": 0.919996,
+       "vol": 0.440033,
        "nombre": "Broadcom"
       },
       {
@@ -11826,7 +11444,7 @@
       {
        "senal": "VLO",
        "pos": 7,
-       "score": 1.709751,
+       "score": 1.70975,
        "mom": 0.595029,
        "vol": 0.348021,
        "nombre": "Valero Energy"
@@ -11874,7 +11492,7 @@
       {
        "senal": "XLE",
        "pos": 13,
-       "score": 1.032896,
+       "score": 1.032897,
        "mom": 0.227194,
        "vol": 0.219958,
        "nombre": "Energía"
@@ -11890,7 +11508,7 @@
       {
        "senal": "XLP",
        "pos": 15,
-       "score": 1.005966,
+       "score": 1.005965,
        "mom": 0.126257,
        "vol": 0.125508,
        "nombre": "Consumo básico"
@@ -11898,7 +11516,7 @@
       {
        "senal": "CSCO",
        "pos": 16,
-       "score": 0.950249,
+       "score": 0.95025,
        "mom": 0.318922,
        "vol": 0.335619,
        "nombre": "Cisco"
@@ -11906,7 +11524,7 @@
       {
        "senal": "BAC",
        "pos": 17,
-       "score": 0.878785,
+       "score": 0.878786,
        "mom": 0.2141,
        "vol": 0.243631,
        "nombre": "Bank of America"
@@ -11946,7 +11564,7 @@
       {
        "senal": "META",
        "pos": 22,
-       "score": 0.371585,
+       "score": 0.371584,
        "mom": 0.127153,
        "vol": 0.342191,
        "nombre": "Meta Platforms"
@@ -12058,7 +11676,7 @@
       {
        "senal": "CRM",
        "pos": 36,
-       "score": -0.665246,
+       "score": -0.665245,
        "mom": -0.269408,
        "vol": 0.404975,
        "nombre": "Salesforce"
@@ -12098,7 +11716,7 @@
       {
        "senal": "VLO",
        "pos": 2,
-       "score": 2.899293,
+       "score": 2.899292,
        "mom": 1.190913,
        "vol": 0.41076,
        "nombre": "Valero Energy"
@@ -12106,7 +11724,7 @@
       {
        "senal": "XLE",
        "pos": 3,
-       "score": 2.694595,
+       "score": 2.694601,
        "mom": 0.57085,
        "vol": 0.21185,
        "nombre": "Energía"
@@ -12114,7 +11732,7 @@
       {
        "senal": "VRT",
        "pos": 4,
-       "score": 2.566572,
+       "score": 2.566573,
        "mom": 1.938507,
        "vol": 0.75529,
        "nombre": "Vertiv"
@@ -12130,7 +11748,7 @@
       {
        "senal": "NVDA",
        "pos": 6,
-       "score": 1.623524,
+       "score": 1.623523,
        "mom": 0.601553,
        "vol": 0.370523,
        "nombre": "Nvidia"
@@ -12146,7 +11764,7 @@
       {
        "senal": "DELL",
        "pos": 8,
-       "score": 1.20928,
+       "score": 1.209281,
        "mom": 0.810284,
        "vol": 0.670054,
        "nombre": "Dell Technologies"
@@ -12154,8 +11772,8 @@
       {
        "senal": "QQQ",
        "pos": 9,
-       "score": 1.196399,
-       "mom": 0.21979,
+       "score": 1.1964,
+       "mom": 0.219791,
        "vol": 0.18371,
        "nombre": "Nasdaq-100"
       },
@@ -12178,7 +11796,7 @@
       {
        "senal": "BAC",
        "pos": 12,
-       "score": 0.944485,
+       "score": 0.944486,
        "mom": 0.249912,
        "vol": 0.264601,
        "nombre": "Bank of America"
@@ -12226,7 +11844,7 @@
       {
        "senal": "XLV",
        "pos": 18,
-       "score": 0.411509,
+       "score": 0.411508,
        "mom": 0.062324,
        "vol": 0.151453,
        "nombre": "Salud"
@@ -12250,7 +11868,7 @@
       {
        "senal": "XLP",
        "pos": 21,
-       "score": 0.196522,
+       "score": 0.196523,
        "mom": 0.029538,
        "vol": 0.150304,
        "nombre": "Consumo básico"
@@ -12266,7 +11884,7 @@
       {
        "senal": "META",
        "pos": 23,
-       "score": 0.107988,
+       "score": 0.107987,
        "mom": 0.045382,
        "vol": 0.420255,
        "nombre": "Meta Platforms"
@@ -12362,7 +11980,7 @@
       {
        "senal": "RELX",
        "pos": 35,
-       "score": -0.821754,
+       "score": -0.821755,
        "mom": -0.383563,
        "vol": 0.466761,
        "nombre": "RELX"
@@ -12402,7 +12020,7 @@
       {
        "senal": "GOOG",
        "pos": 1,
-       "score": 3.569017,
+       "score": 3.569019,
        "mom": 1.217301,
        "vol": 0.341074,
        "nombre": "Alphabet"
@@ -12418,7 +12036,7 @@
       {
        "senal": "VRT",
        "pos": 3,
-       "score": 2.710914,
+       "score": 2.710915,
        "mom": 2.047309,
        "vol": 0.75521,
        "nombre": "Vertiv"
@@ -12426,7 +12044,7 @@
       {
        "senal": "VLO",
        "pos": 4,
-       "score": 2.432569,
+       "score": 2.432568,
        "mom": 0.999051,
        "vol": 0.410698,
        "nombre": "Valero Energy"
@@ -12434,7 +12052,7 @@
       {
        "senal": "XLE",
        "pos": 5,
-       "score": 2.21397,
+       "score": 2.213972,
        "mom": 0.510242,
        "vol": 0.230465,
        "nombre": "Energía"
@@ -12450,7 +12068,7 @@
       {
        "senal": "QQQ",
        "pos": 7,
-       "score": 1.478821,
+       "score": 1.478823,
        "mom": 0.292543,
        "vol": 0.197822,
        "nombre": "Nasdaq-100"
@@ -12466,7 +12084,7 @@
       {
        "senal": "CSCO",
        "pos": 9,
-       "score": 1.305969,
+       "score": 1.30597,
        "mom": 0.484868,
        "vol": 0.371271,
        "nombre": "Cisco"
@@ -12474,7 +12092,7 @@
       {
        "senal": "NVDA",
        "pos": 10,
-       "score": 1.210533,
+       "score": 1.210532,
        "mom": 0.477222,
        "vol": 0.394225,
        "nombre": "Nvidia"
@@ -12602,9 +12220,9 @@
       {
        "senal": "META",
        "pos": 26,
-       "score": -0.127371,
+       "score": -0.127372,
        "mom": -0.052002,
-       "vol": 0.408273,
+       "vol": 0.408274,
        "nombre": "Meta Platforms"
       },
       {
@@ -12659,7 +12277,7 @@
        "senal": "CRM",
        "pos": 33,
        "score": -0.744358,
-       "mom": -0.329814,
+       "mom": -0.329813,
        "vol": 0.443084,
        "nombre": "Salesforce"
       },
@@ -12690,7 +12308,7 @@
       {
        "senal": "INTU",
        "pos": 37,
-       "score": -0.88269,
+       "score": -0.882689,
        "mom": -0.48019,
        "vol": 0.544008,
        "nombre": "Intuit"
@@ -12722,7 +12340,7 @@
       {
        "senal": "GOOG",
        "pos": 2,
-       "score": 3.346659,
+       "score": 3.34666,
        "mom": 1.126827,
        "vol": 0.336702,
        "nombre": "Alphabet"
@@ -12730,7 +12348,7 @@
       {
        "senal": "DELL",
        "pos": 3,
-       "score": 2.696357,
+       "score": 2.696356,
        "mom": 2.4854,
        "vol": 0.921762,
        "nombre": "Dell Technologies"
@@ -12754,9 +12372,9 @@
       {
        "senal": "CSCO",
        "pos": 6,
-       "score": 2.013976,
+       "score": 2.013975,
        "mom": 0.775609,
-       "vol": 0.385113,
+       "vol": 0.385114,
        "nombre": "Cisco"
       },
       {
@@ -12812,7 +12430,7 @@
        "pos": 13,
        "score": 0.948183,
        "mom": 0.336636,
-       "vol": 0.355032,
+       "vol": 0.355033,
        "nombre": "Nvidia"
       },
       {
@@ -12851,7 +12469,7 @@
        "senal": "XLV",
        "pos": 18,
        "score": 0.794636,
-       "mom": 0.123324,
+       "mom": 0.123325,
        "vol": 0.155196,
        "nombre": "Salud"
       },
@@ -12882,8 +12500,8 @@
       {
        "senal": "BAC",
        "pos": 22,
-       "score": 0.509461,
-       "mom": 0.108442,
+       "score": 0.509462,
+       "mom": 0.108443,
        "vol": 0.212857,
        "nombre": "Bank of America"
       },
@@ -13042,7 +12660,7 @@
       {
        "senal": "VLO",
        "pos": 3,
-       "score": 2.33539,
+       "score": 2.335389,
        "mom": 0.929488,
        "vol": 0.398001,
        "nombre": "Valero Energy"
@@ -13098,7 +12716,7 @@
       {
        "senal": "QQQ",
        "pos": 10,
-       "score": 1.303094,
+       "score": 1.303095,
        "mom": 0.309617,
        "vol": 0.237601,
        "nombre": "Nasdaq-100"
@@ -13194,7 +12812,7 @@
       {
        "senal": "LOGI",
        "pos": 22,
-       "score": 0.063814,
+       "score": 0.063815,
        "mom": 0.027059,
        "vol": 0.424027,
        "nombre": "Logitech"
@@ -13282,9 +12900,9 @@
       {
        "senal": "CRM",
        "pos": 33,
-       "score": -0.79415,
+       "score": -0.794151,
        "mom": -0.388434,
-       "vol": 0.489119,
+       "vol": 0.489118,
        "nombre": "Salesforce"
       },
       {
@@ -13426,7 +13044,7 @@
       {
        "senal": "XLV",
        "pos": 12,
-       "score": 1.10768,
+       "score": 1.107679,
        "mom": 0.203443,
        "vol": 0.183666,
        "nombre": "Salud"
@@ -13434,7 +13052,7 @@
       {
        "senal": "QQQ",
        "pos": 13,
-       "score": 0.831005,
+       "score": 0.831004,
        "mom": 0.211963,
        "vol": 0.255068,
        "nombre": "Nasdaq-100"
@@ -13482,7 +13100,7 @@
       {
        "senal": "NVDA",
        "pos": 19,
-       "score": 0.372561,
+       "score": 0.372562,
        "mom": 0.154078,
        "vol": 0.413565,
        "nombre": "Nvidia"
@@ -13602,7 +13220,7 @@
       {
        "senal": "RELX",
        "pos": 34,
-       "score": -0.598475,
+       "score": -0.598476,
        "mom": -0.226194,
        "vol": 0.377951,
        "nombre": "RELX"
@@ -13627,7 +13245,7 @@
        "senal": "INTU",
        "pos": 37,
        "score": -0.78721,
-       "mom": -0.520809,
+       "mom": -0.520808,
        "vol": 0.661588,
        "nombre": "Intuit"
       },
@@ -13658,8 +13276,8 @@
       {
        "senal": "DELL",
        "pos": 2,
-       "score": 3.123415,
-       "mom": 2.257536,
+       "score": 3.123416,
+       "mom": 2.257537,
        "vol": 0.722778,
        "nombre": "Dell Technologies"
       },
@@ -13730,7 +13348,7 @@
       {
        "senal": "GOOG",
        "pos": 11,
-       "score": 1.023599,
+       "score": 1.0236,
        "mom": 0.37987,
        "vol": 0.371112,
        "nombre": "Alphabet"
@@ -13802,7 +13420,7 @@
       {
        "senal": "AVGO",
        "pos": 20,
-       "score": 0.239016,
+       "score": 0.239015,
        "mom": 0.128839,
        "vol": 0.539042,
        "nombre": "Broadcom"
@@ -13826,7 +13444,7 @@
       {
        "senal": "MSFT",
        "pos": 23,
-       "score": -0.027961,
+       "score": -0.02796,
        "mom": -0.012523,
        "vol": 0.447875,
        "nombre": "Microsoft"
@@ -13962,15 +13580,15 @@
       {
        "senal": "VLO",
        "pos": 1,
-       "score": 3.892416,
-       "mom": 1.334443,
+       "score": 3.892415,
+       "mom": 1.334442,
        "vol": 0.342831,
        "nombre": "Valero Energy"
       },
       {
        "senal": "DELL",
        "pos": 2,
-       "score": 2.9049,
+       "score": 2.904901,
        "mom": 2.350848,
        "vol": 0.80927,
        "nombre": "Dell Technologies"
@@ -14042,7 +13660,7 @@
       {
        "senal": "GOOG",
        "pos": 11,
-       "score": 0.641121,
+       "score": 0.64112,
        "mom": 0.212226,
        "vol": 0.331023,
        "nombre": "Alphabet"
@@ -14066,7 +13684,7 @@
       {
        "senal": "VNQ",
        "pos": 14,
-       "score": 0.342732,
+       "score": 0.342733,
        "mom": 0.043062,
        "vol": 0.125642,
        "nombre": "Inmobiliario"
@@ -14082,7 +13700,7 @@
       {
        "senal": "META",
        "pos": 16,
-       "score": 0.236141,
+       "score": 0.236142,
        "mom": 0.122295,
        "vol": 0.517888,
        "nombre": "Meta Platforms"
@@ -14115,7 +13733,7 @@
        "senal": "MSFT",
        "pos": 20,
        "score": -0.003369,
-       "mom": -0.001333,
+       "mom": -0.001332,
        "vol": 0.395535,
        "nombre": "Microsoft"
       },
@@ -14258,326 +13876,327 @@
       {
        "senal": "INTU",
        "pos": 38,
-       "score": -1.254857,
+       "score": -1.254856,
        "mom": -0.583104,
        "vol": 0.464678,
        "nombre": "Intuit"
       }
      ]
+    },
+    {
+     "mesSenal": "2026-10",
+     "fechaSenal": "2026-10-30",
+     "mesDecision": "2026-11",
+     "mesCartera": "2026-12",
+     "ranking": [
+      {
+       "senal": "VLO",
+       "pos": 1,
+       "score": 3.281438,
+       "mom": 1.294502,
+       "vol": 0.394492,
+       "nombre": "Valero Energy"
+      },
+      {
+       "senal": "DELL",
+       "pos": 2,
+       "score": 2.856347,
+       "mom": 2.215405,
+       "vol": 0.775608,
+       "nombre": "Dell Technologies"
+      },
+      {
+       "senal": "XLE",
+       "pos": 3,
+       "score": 2.749708,
+       "mom": 0.592403,
+       "vol": 0.215442,
+       "nombre": "Energía"
+      },
+      {
+       "senal": "AMD",
+       "pos": 4,
+       "score": 2.219725,
+       "mom": 1.320599,
+       "vol": 0.594938,
+       "nombre": "AMD"
+      },
+      {
+       "senal": "PANW",
+       "pos": 5,
+       "score": 1.485198,
+       "mom": 0.924315,
+       "vol": 0.622351,
+       "nombre": "Palo Alto Networks"
+      },
+      {
+       "senal": "CRWD",
+       "pos": 6,
+       "score": 1.342046,
+       "mom": 0.967397,
+       "vol": 0.720837,
+       "nombre": "CrowdStrike"
+      },
+      {
+       "senal": "XLV",
+       "pos": 7,
+       "score": 1.120192,
+       "mom": 0.192256,
+       "vol": 0.171628,
+       "nombre": "Salud"
+      },
+      {
+       "senal": "CSCO",
+       "pos": 8,
+       "score": 1.112074,
+       "mom": 0.383478,
+       "vol": 0.344832,
+       "nombre": "Cisco"
+      },
+      {
+       "senal": "LLY",
+       "pos": 9,
+       "score": 1.009395,
+       "mom": 0.324433,
+       "vol": 0.321414,
+       "nombre": "Eli Lilly"
+      },
+      {
+       "senal": "XLP",
+       "pos": 10,
+       "score": 1.007603,
+       "mom": 0.15754,
+       "vol": 0.156352,
+       "nombre": "Consumo básico"
+      },
+      {
+       "senal": "QQQ",
+       "pos": 11,
+       "score": 0.637747,
+       "mom": 0.120282,
+       "vol": 0.188604,
+       "nombre": "Nasdaq-100"
+      },
+      {
+       "senal": "VNQ",
+       "pos": 12,
+       "score": 0.519018,
+       "mom": 0.067367,
+       "vol": 0.129796,
+       "nombre": "Inmobiliario"
+      },
+      {
+       "senal": "VRT",
+       "pos": 13,
+       "score": 0.451208,
+       "mom": 0.294501,
+       "vol": 0.652695,
+       "nombre": "Vertiv"
+      },
+      {
+       "senal": "NVDA",
+       "pos": 14,
+       "score": 0.441748,
+       "mom": 0.158928,
+       "vol": 0.35977,
+       "nombre": "Nvidia"
+      },
+      {
+       "senal": "MSFT",
+       "pos": 15,
+       "score": 0.283236,
+       "mom": 0.067501,
+       "vol": 0.23832,
+       "nombre": "Microsoft"
+      },
+      {
+       "senal": "PLTR",
+       "pos": 16,
+       "score": 0.124152,
+       "mom": 0.092965,
+       "vol": 0.748801,
+       "nombre": "Palantir"
+      },
+      {
+       "senal": "RELX",
+       "pos": 17,
+       "score": 0.080266,
+       "mom": 0.024533,
+       "vol": 0.305642,
+       "nombre": "RELX"
+      },
+      {
+       "senal": "MDB",
+       "pos": 18,
+       "score": 0.079382,
+       "mom": 0.061949,
+       "vol": 0.78039,
+       "nombre": "MongoDB"
+      },
+      {
+       "senal": "AMZN",
+       "pos": 19,
+       "score": 0.07233,
+       "mom": 0.030572,
+       "vol": 0.422676,
+       "nombre": "Amazon"
+      },
+      {
+       "senal": "CRM",
+       "pos": 20,
+       "score": 0.004399,
+       "mom": 0.002489,
+       "vol": 0.565794,
+       "nombre": "Salesforce"
+      },
+      {
+       "senal": "SMCI",
+       "pos": 21,
+       "score": -0.03372,
+       "mom": -0.026588,
+       "vol": 0.788481,
+       "nombre": "Super Micro Computer"
+      },
+      {
+       "senal": "SAP",
+       "pos": 22,
+       "score": -0.039975,
+       "mom": -0.010939,
+       "vol": 0.273645,
+       "nombre": "SAP"
+      },
+      {
+       "senal": "ZS",
+       "pos": 23,
+       "score": -0.082235,
+       "mom": -0.054354,
+       "vol": 0.660961,
+       "nombre": "Zscaler"
+      },
+      {
+       "senal": "META",
+       "pos": 24,
+       "score": -0.106717,
+       "mom": -0.047649,
+       "vol": 0.446493,
+       "nombre": "Meta Platforms"
+      },
+      {
+       "senal": "TSLA",
+       "pos": 25,
+       "score": -0.178252,
+       "mom": -0.070577,
+       "vol": 0.395938,
+       "nombre": "Tesla"
+      },
+      {
+       "senal": "BAC",
+       "pos": 26,
+       "score": -0.230036,
+       "mom": -0.047978,
+       "vol": 0.208565,
+       "nombre": "Bank of America"
+      },
+      {
+       "senal": "LOGI",
+       "pos": 27,
+       "score": -0.323018,
+       "mom": -0.138497,
+       "vol": 0.428758,
+       "nombre": "Logitech"
+      },
+      {
+       "senal": "GLD",
+       "pos": 28,
+       "score": -0.338632,
+       "mom": -0.082758,
+       "vol": 0.244388,
+       "nombre": "Oro"
+      },
+      {
+       "senal": "GOOG",
+       "pos": 29,
+       "score": -0.349909,
+       "mom": -0.12862,
+       "vol": 0.36758,
+       "nombre": "Alphabet"
+      },
+      {
+       "senal": "AVGO",
+       "pos": 30,
+       "score": -0.469937,
+       "mom": -0.184771,
+       "vol": 0.393183,
+       "nombre": "Broadcom"
+      },
+      {
+       "senal": "NOW",
+       "pos": 31,
+       "score": -0.482138,
+       "mom": -0.353036,
+       "vol": 0.732229,
+       "nombre": "ServiceNow"
+      },
+      {
+       "senal": "IBM",
+       "pos": 32,
+       "score": -0.513275,
+       "mom": -0.147508,
+       "vol": 0.287387,
+       "nombre": "IBM"
+      },
+      {
+       "senal": "ORCL",
+       "pos": 33,
+       "score": -0.599897,
+       "mom": -0.344301,
+       "vol": 0.573934,
+       "nombre": "Oracle"
+      },
+      {
+       "senal": "ROOT",
+       "pos": 34,
+       "score": -0.649333,
+       "mom": -0.360119,
+       "vol": 0.554598,
+       "nombre": "Root"
+      },
+      {
+       "senal": "BABA",
+       "pos": 35,
+       "score": -0.992323,
+       "mom": -0.371008,
+       "vol": 0.373879,
+       "nombre": "Alibaba"
+      },
+      {
+       "senal": "LPL",
+       "pos": 36,
+       "score": -1.000775,
+       "mom": -0.401848,
+       "vol": 0.401536,
+       "nombre": "LG Display"
+      },
+      {
+       "senal": "INTU",
+       "pos": 37,
+       "score": -1.057712,
+       "mom": -0.454488,
+       "vol": 0.429689,
+       "nombre": "Intuit"
+      },
+      {
+       "senal": "NFLX",
+       "pos": 38,
+       "score": -1.221304,
+       "mom": -0.422941,
+       "vol": 0.346303,
+       "nombre": "Netflix"
+      }
+     ]
     }
    ],
-   "provisional": {
-    "mesSenal": "2026-10",
-    "fechaSenal": "2026-10-12",
-    "mesDecision": "2026-11",
-    "mesCartera": "2026-12",
-    "ranking": [
-     {
-      "senal": "VLO",
-      "pos": 1,
-      "score": 4.528635,
-      "mom": 1.512981,
-      "vol": 0.334092,
-      "nombre": "Valero Energy"
-     },
-     {
-      "senal": "DELL",
-      "pos": 2,
-      "score": 4.259103,
-      "mom": 3.354431,
-      "vol": 0.787591,
-      "nombre": "Dell Technologies"
-     },
-     {
-      "senal": "AMD",
-      "pos": 3,
-      "score": 2.715105,
-      "mom": 1.715506,
-      "vol": 0.631838,
-      "nombre": "AMD"
-     },
-     {
-      "senal": "XLE",
-      "pos": 4,
-      "score": 2.438546,
-      "mom": 0.50223,
-      "vol": 0.205955,
-      "nombre": "Energía"
-     },
-     {
-      "senal": "PANW",
-      "pos": 5,
-      "score": 1.889543,
-      "mom": 1.113962,
-      "vol": 0.589541,
-      "nombre": "Palo Alto Networks"
-     },
-     {
-      "senal": "CSCO",
-      "pos": 6,
-      "score": 1.570268,
-      "mom": 0.534124,
-      "vol": 0.340148,
-      "nombre": "Cisco"
-     },
-     {
-      "senal": "CRWD",
-      "pos": 7,
-      "score": 1.467867,
-      "mom": 1.063948,
-      "vol": 0.724826,
-      "nombre": "CrowdStrike"
-     },
-     {
-      "senal": "QQQ",
-      "pos": 8,
-      "score": 1.154441,
-      "mom": 0.209913,
-      "vol": 0.181831,
-      "nombre": "Nasdaq-100"
-     },
-     {
-      "senal": "NVDA",
-      "pos": 9,
-      "score": 0.76325,
-      "mom": 0.281708,
-      "vol": 0.369089,
-      "nombre": "Nvidia"
-     },
-     {
-      "senal": "XLV",
-      "pos": 10,
-      "score": 0.624713,
-      "mom": 0.105322,
-      "vol": 0.168592,
-      "nombre": "Salud"
-     },
-     {
-      "senal": "XLP",
-      "pos": 11,
-      "score": 0.574352,
-      "mom": 0.088544,
-      "vol": 0.154163,
-      "nombre": "Consumo básico"
-     },
-     {
-      "senal": "VRT",
-      "pos": 12,
-      "score": 0.537939,
-      "mom": 0.339934,
-      "vol": 0.63192,
-      "nombre": "Vertiv"
-     },
-     {
-      "senal": "META",
-      "pos": 13,
-      "score": 0.349339,
-      "mom": 0.160037,
-      "vol": 0.458114,
-      "nombre": "Meta Platforms"
-     },
-     {
-      "senal": "LLY",
-      "pos": 14,
-      "score": 0.347159,
-      "mom": 0.100772,
-      "vol": 0.290275,
-      "nombre": "Eli Lilly"
-     },
-     {
-      "senal": "PLTR",
-      "pos": 15,
-      "score": 0.305794,
-      "mom": 0.228881,
-      "vol": 0.748481,
-      "nombre": "Palantir"
-     },
-     {
-      "senal": "VNQ",
-      "pos": 16,
-      "score": 0.284691,
-      "mom": 0.035496,
-      "vol": 0.124682,
-      "nombre": "Inmobiliario"
-     },
-     {
-      "senal": "AMZN",
-      "pos": 17,
-      "score": 0.271186,
-      "mom": 0.113038,
-      "vol": 0.416828,
-      "nombre": "Amazon"
-     },
-     {
-      "senal": "GOOG",
-      "pos": 18,
-      "score": 0.267036,
-      "mom": 0.087863,
-      "vol": 0.329031,
-      "nombre": "Alphabet"
-     },
-     {
-      "senal": "MSFT",
-      "pos": 19,
-      "score": 0.267016,
-      "mom": 0.104829,
-      "vol": 0.392594,
-      "nombre": "Microsoft"
-     },
-     {
-      "senal": "SMCI",
-      "pos": 20,
-      "score": 0.201137,
-      "mom": 0.174594,
-      "vol": 0.868032,
-      "nombre": "Super Micro Computer"
-     },
-     {
-      "senal": "MDB",
-      "pos": 21,
-      "score": 0.192228,
-      "mom": 0.139904,
-      "vol": 0.727804,
-      "nombre": "MongoDB"
-     },
-     {
-      "senal": "BAC",
-      "pos": 22,
-      "score": 0.180724,
-      "mom": 0.03626,
-      "vol": 0.200636,
-      "nombre": "Bank of America"
-     },
-     {
-      "senal": "CRM",
-      "pos": 23,
-      "score": 0.033061,
-      "mom": 0.019764,
-      "vol": 0.597787,
-      "nombre": "Salesforce"
-     },
-     {
-      "senal": "GLD",
-      "pos": 24,
-      "score": -0.063244,
-      "mom": -0.015185,
-      "vol": 0.240103,
-      "nombre": "Oro"
-     },
-     {
-      "senal": "ZS",
-      "pos": 25,
-      "score": -0.151781,
-      "mom": -0.097058,
-      "vol": 0.639457,
-      "nombre": "Zscaler"
-     },
-     {
-      "senal": "RELX",
-      "pos": 26,
-      "score": -0.184131,
-      "mom": -0.064672,
-      "vol": 0.35123,
-      "nombre": "RELX"
-     },
-     {
-      "senal": "SAP",
-      "pos": 27,
-      "score": -0.214986,
-      "mom": -0.084544,
-      "vol": 0.393254,
-      "nombre": "SAP"
-     },
-     {
-      "senal": "NOW",
-      "pos": 28,
-      "score": -0.234299,
-      "mom": -0.130365,
-      "vol": 0.556406,
-      "nombre": "ServiceNow"
-     },
-     {
-      "senal": "TSLA",
-      "pos": 29,
-      "score": -0.246864,
-      "mom": -0.118721,
-      "vol": 0.480915,
-      "nombre": "Tesla"
-     },
-     {
-      "senal": "LOGI",
-      "pos": 30,
-      "score": -0.277366,
-      "mom": -0.103326,
-      "vol": 0.372525,
-      "nombre": "Logitech"
-     },
-     {
-      "senal": "AVGO",
-      "pos": 31,
-      "score": -0.286182,
-      "mom": -0.108894,
-      "vol": 0.380506,
-      "nombre": "Broadcom"
-     },
-     {
-      "senal": "IBM",
-      "pos": 32,
-      "score": -0.422123,
-      "mom": -0.25071,
-      "vol": 0.593926,
-      "nombre": "IBM"
-     },
-     {
-      "senal": "ORCL",
-      "pos": 33,
-      "score": -0.568636,
-      "mom": -0.311057,
-      "vol": 0.547023,
-      "nombre": "Oracle"
-     },
-     {
-      "senal": "ROOT",
-      "pos": 34,
-      "score": -0.655186,
-      "mom": -0.402768,
-      "vol": 0.614738,
-      "nombre": "Root"
-     },
-     {
-      "senal": "BABA",
-      "pos": 35,
-      "score": -0.729064,
-      "mom": -0.289433,
-      "vol": 0.396993,
-      "nombre": "Alibaba"
-     },
-     {
-      "senal": "LPL",
-      "pos": 36,
-      "score": -0.780772,
-      "mom": -0.364896,
-      "vol": 0.467353,
-      "nombre": "LG Display"
-     },
-     {
-      "senal": "NFLX",
-      "pos": 37,
-      "score": -0.974359,
-      "mom": -0.341838,
-      "vol": 0.350833,
-      "nombre": "Netflix"
-     },
-     {
-      "senal": "INTU",
-      "pos": 38,
-      "score": -1.127581,
-      "mom": -0.505362,
-      "vol": 0.448182,
-      "nombre": "Intuit"
-     }
-    ]
-   }
+   "provisional": null
   }
  }
 }
